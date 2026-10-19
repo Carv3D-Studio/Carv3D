@@ -12,7 +12,7 @@ Carv3D folgt einem kurzen Arbeitsablauf: Drucker einstellen, exakte Volumenkörp
 4. **Maker → Druckbarkeit prüfen** ausführen.
 5. Das bearbeitbare `.carv`-Projekt speichern und als 3MF, STL oder STEP exportieren.
 
-Die Anwendung enthält unter **Hilfe → Einführung** und **Hilfe → Benutzerhandbuch** drei vollständige Lernprojekte. Ein Beispiel ersetzt nach einer Sicherheitsabfrage das aktuelle Dokument.
+Unter **Hilfe → Einführung** führt eine interaktive Tour Klick für Klick durch einen Trainingsquader mit echtem M8-Innengewinde und anschließender Druckbarkeitsprüfung. Unter **Hilfe → Benutzerhandbuch** stehen vier vollständige Lernprojekte bereit. Ein Beispiel ersetzt nach einer Sicherheitsabfrage das aktuelle Dokument.
 
 ## Winkelhalter mit Senkbohrungen
 
@@ -46,6 +46,17 @@ Ein kompaktes Beispiel für fortgeschrittene Formgebung:
 - extrudiertes Polygon als formschlüssige Achsaufnahme
 
 Übung: Zahl der Griffnuten oder Achsmaße ändern und anschließend die Druckbarkeit prüfen.
+
+## M10-Bolzen mit Innengewinde
+
+Ein funktionales zweiteiliges Gewindepaar:
+
+- modelliertes M10-Außengewinde am Sechskantbolzen
+- passendes M10-Innengewinde im separaten Block
+- ISO-Regelsteigung von 1,5 mm
+- 0,25 mm radiales Passungsspiel für den 3D-Druck
+
+Übung: Ein weiteres Gewinde über das Bohrungswerkzeug erzeugen und das Passungsspiel an den eigenen Drucker anpassen. Unter M6 sind Gewindeeinsätze meist zuverlässiger.
 
 ## Speichern und Export
 
