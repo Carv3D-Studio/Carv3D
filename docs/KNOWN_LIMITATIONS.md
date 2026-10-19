@@ -1,11 +1,13 @@
-# Bekannte Einschränkungen
+# Known limitations
 
-Carv3D befindet sich in einer frühen Beta. Der aktuelle Schwerpunkt liegt auf den Grundlagen des direkten Modellierens und auf Bauteilen für den 3D-Druck.
+**English** · [Deutsch](KNOWN_LIMITATIONS.de.md)
 
-- Bedienung und Dateiformat können sich während der 0.x-Phase noch ändern.
-- Sehr große oder geometrisch komplizierte Modelle können langsam sein oder fehlschlagen.
-- Tablet- und Touch-Bedienung sind noch nicht vollständig optimiert.
-- Community-Erweiterungen sind noch nicht für den allgemeinen Einsatz freigegeben.
-- Die Desktop-Auslieferung und die Übergabe an lokale Slicer befinden sich noch in Vorbereitung.
+Carv3D is in early beta. The current focus is on direct modeling fundamentals and parts for 3D printing.
 
-Konkrete bestätigte Fehler werden zusätzlich in GitHub Issues geführt.
+- Interaction and the project format may still change during the 0.x phase.
+- Very large or geometrically complex models may be slow or fail.
+- Tablet and touch interaction are not fully optimized.
+- Community extensions are not approved for general use yet.
+- Desktop distribution and handoff to local slicers are still being prepared.
+
+Confirmed issues are tracked separately in GitHub Issues.

@@ -1,20 +1,22 @@
-# Sicherheitsrichtlinie
+# Security policy
 
-## Unterstützte Versionen
+**English** · [Deutsch](SECURITY.de.md)
 
-Carv3D befindet sich in einer frühen Beta. Sicherheitskorrekturen werden jeweils für die neueste veröffentlichte Testversion bereitgestellt.
+## Supported versions
 
-## Sicherheitsproblem melden
+Carv3D is in early beta. Security fixes are provided for the latest published test version.
 
-Bitte Sicherheitsprobleme nicht als öffentliches Issue veröffentlichen.
+## Reporting a vulnerability
 
-Nach Aktivierung der privaten Sicherheitsmeldungen kann ein Bericht über den Reiter **Security → Report a vulnerability** dieses Repositories eingereicht werden. Bis zur öffentlichen Freigabe des Repositories werden Sicherheitsmeldungen direkt mit eingeladenen Testern koordiniert.
+Do not report security vulnerabilities in a public issue.
 
-Ein hilfreicher Bericht enthält:
+After private vulnerability reporting is enabled, use **Security → Report a vulnerability** in this repository. Until the repository is released publicly, security reports are coordinated directly with invited testers.
 
-- betroffene Version
-- nachvollziehbare Schritte
-- mögliche Auswirkungen
-- Beispieldateien oder Bildschirmaufnahmen, sofern sie keine fremden oder persönlichen Daten enthalten
+A useful report includes:
 
-Bitte keine Daten anderer Nutzer abrufen, verändern oder veröffentlichen.
+- affected version
+- reproducible steps
+- potential impact
+- example files or recordings that contain no third-party or personal data
+
+Do not access, modify or publish data belonging to other users.

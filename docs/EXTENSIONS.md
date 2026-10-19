@@ -1,17 +1,19 @@
-# Erweiterungen und Community-Beiträge
+# Extensions and community contributions
 
-Carv3D erhält eine kontrollierte Erweiterungsschnittstelle. Der Anwendungskern bleibt geschlossen.
+**English** · [Deutsch](EXTENSIONS.de.md)
 
-## Grundsätze
+Carv3D is preparing a controlled extension interface. The application core remains closed.
 
-- Offizielle Community-Erweiterungen werden kostenlos angeboten.
-- Ihr Quellcode ist öffentlich einsehbar.
-- Jede Erweiterung benötigt eine klare Beschreibung ihrer Berechtigungen.
-- Aufnahme und Aktualisierung erfolgen erst nach automatischer und manueller Prüfung.
-- Das veröffentlichte Paket wird aus dem geprüften Quellcode erstellt und von Carv3D freigegeben.
+## Principles
 
-## Stand der frühen Beta
+- Official community extensions are provided free of charge.
+- Their source code is publicly visible.
+- Every extension declares its permissions clearly.
+- New extensions and updates pass automated and manual review.
+- Published packages are built from the reviewed source and approved by Carv3D.
 
-Das Erweiterungssystem wird noch technisch abgesichert. Deshalb werden momentan keine öffentlichen Erweiterungen angenommen und kein offizielles Erweiterungsverzeichnis betrieben.
+## Early beta status
 
-Vor der Öffnung müssen insbesondere Paketprüfung, Signaturen, eingeschränkte Berechtigungen und ein sicherer Aktualisierungsweg fertig sein. Der genaue Beitragsprozess und die Lizenz der Community-Erweiterungen werden vor dem Start veröffentlicht.
+The extension system is still being hardened. Public extension submissions are not accepted yet, and there is no official extension directory.
+
+Package validation, signatures, restricted permissions and a safe update path must be ready before submissions open. The contribution process and extension license will be published before launch.

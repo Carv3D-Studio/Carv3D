@@ -1,32 +1,32 @@
-name: Funktion vorschlagen
-description: Ein praktisches Problem oder eine Verbesserung beschreiben
-title: "[Idee] "
+name: Feature request
+description: Describe a practical problem or improvement
+title: "[Idea] "
 labels:
   - enhancement
 body:
   - type: textarea
     id: problem
     attributes:
-      label: Welches Problem möchtest du lösen?
-      description: Bitte den praktischen Anwendungsfall beschreiben.
+      label: What problem would you like to solve?
+      description: Describe the practical use case.
     validations:
       required: true
   - type: textarea
     id: workflow
     attributes:
-      label: Gewünschter Ablauf
-      description: Wie sollte sich die Lösung aus deiner Sicht bedienen lassen?
+      label: Preferred workflow
+      description: How should the solution work from your point of view?
     validations:
       required: true
   - type: textarea
     id: example
     attributes:
-      label: Beispiel
-      description: Optionales Beispiel aus einem 3D-Druck- oder Maker-Projekt
+      label: Example
+      description: Optional example from a 3D printing or maker project
   - type: checkboxes
     id: checks
     attributes:
-      label: Bestätigung
+      label: Confirmation
       options:
-        - label: Ich habe geprüft, ob eine ähnliche Idee bereits vorgeschlagen wurde.
+        - label: I checked whether a similar idea has already been suggested.
           required: true

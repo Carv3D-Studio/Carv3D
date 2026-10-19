@@ -1,46 +1,48 @@
 # Carv3D
 
-**Carv3D ist ein direkter CAD-Modellierer für 3D-Druck und Maker-Projekte.**
+**English** · [Deutsch](README.de.md)
 
-Das Ziel ist eine übersichtliche Modellierumgebung für Menschen, die präzise Bauteile erstellen möchten, ohne sich zuerst durch eine große industrielle CAD-Suite arbeiten zu müssen. Carv3D verwendet echte Volumenkörper und unterstützt den Austausch über gebräuchliche 3D-Formate.
+**Carv3D is a direct CAD modeler for 3D printing and maker projects.**
 
-## Aktueller Stand
+The goal is a focused modeling environment for people who want to create precise parts without first learning a large industrial CAD suite. Carv3D works with true solid bodies and supports common 3D exchange formats.
 
-Carv3D befindet sich in einer frühen **0.1-Beta**. In dieser Phase geht es um praktische Tests, Rückmeldungen zur Bedienung und das zuverlässige Speichern, Laden und Exportieren von Projekten.
+## Current status
 
-- Die Beta ist kostenlos.
-- Der Anwendungskern ist proprietär und bleibt Closed Source.
-- Es gibt kein Abonnement und keinen Kontozwang.
-- Projekte werden lokal verarbeitet.
-- Kauf und Lizenzierung sind erst für eine stabile Version 1.0 vorgesehen.
+Carv3D is in an early **0.1 beta**. This phase focuses on practical testing, clear interaction, and reliable project saving, loading and export.
 
-Der öffentliche Zugang zur Beta wird hier angekündigt, sobald das erste Testpaket bereitsteht.
+- The beta is free.
+- The application core is proprietary and will remain closed source.
+- There is no subscription or mandatory account.
+- Projects are processed locally.
+- Purchasing and licensing are planned for a stable version 1.0.
 
-## Wofür Carv3D gedacht ist
+Public beta access will be announced here when the first test build is ready.
 
-- technische Bauteile für den 3D-Druck
-- direktes Modellieren mit Flächen, Kanten und Volumenkörpern
-- Bohrungen, Schrauben, Muttern, Einsätze und Magnete
-- Druckprüfung, Materialabschätzung und Orientierungshilfen
-- Export als STL, 3MF und STEP
+## What Carv3D is for
 
-## Rückmeldungen
+- technical parts for 3D printing
+- direct modeling with faces, edges and solid bodies
+- holes, screws, nuts, inserts and magnets
+- print checks, material estimates and orientation guidance
+- STL, 3MF and STEP export
 
-- **Fehler:** Bitte das Formular [Fehler melden](https://github.com/stereodruid/Carv3D/issues/new?template=bug_report.yml) verwenden.
-- **Ideen:** Bitte das Formular [Funktion vorschlagen](https://github.com/stereodruid/Carv3D/issues/new?template=feature_request.yml) verwenden.
-- **Fragen und Austausch:** Dafür werden vor der öffentlichen Beta die GitHub Discussions aktiviert.
-- **Sicherheitsprobleme:** Bitte nicht öffentlich melden; Hinweise stehen in [SECURITY.md](SECURITY.md).
+## Feedback
 
-Vor einer Meldung bitte die [Hinweise für Betatests](docs/BETA_TESTING.md) und die [bekannten Einschränkungen](docs/KNOWN_LIMITATIONS.md) lesen.
+- **Bugs:** Use the [bug report](https://github.com/stereodruid/Carv3D/issues/new?template=bug_report.yml).
+- **Ideas:** Use the [feature request](https://github.com/stereodruid/Carv3D/issues/new?template=feature_request.yml).
+- **Questions and discussion:** GitHub Discussions will be enabled before the public beta.
+- **Security:** Do not report vulnerabilities publicly; see [SECURITY.md](SECURITY.md).
 
-## Erweiterungen
+Before reporting a problem, please read the [beta testing guide](docs/BETA_TESTING.md) and [known limitations](docs/KNOWN_LIMITATIONS.md).
 
-Der Erweiterungsbereich befindet sich noch in Entwicklung. Ein öffentliches Verzeichnis startet erst, wenn Prüfung, Paketfreigabe und technische Absicherung fertig sind. Offizielle Community-Erweiterungen sollen mit einsehbarem Quellcode entwickelt, vor der Aufnahme geprüft und kostenlos angeboten werden.
+## Extensions
 
-Mehr dazu steht unter [Erweiterungen und Beiträge](docs/EXTENSIONS.md).
+The extension system is still under development. A public directory will open only after review, package approval and technical hardening are ready. Official community extensions are intended to have visible source code, pass review before inclusion and remain free of charge.
 
-## Entwicklung und Lizenz
+See [Extensions and contributions](docs/EXTENSIONS.md) for the current policy.
 
-Dieses Repository enthält öffentliche Informationen, Dokumentation und Vorlagen. Der Quellcode der Carv3D-Anwendung befindet sich nicht in diesem Repository. Für die Inhalte dieses Repositories gilt [LICENSE](LICENSE).
+## Development and license
+
+This repository contains public information, documentation and contribution templates. The Carv3D application source code is not part of this repository. The contents of this repository are covered by [LICENSE](LICENSE).
 
 © 2026 stereodruid / Aura Tools

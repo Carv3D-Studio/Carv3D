@@ -1,29 +1,31 @@
-# Mitwirken
+# Contributing
 
-Danke für dein Interesse an Carv3D. Während der frühen Beta konzentrieren sich öffentliche Beiträge auf Rückmeldungen, nachvollziehbare Fehlerberichte und konkrete Verbesserungsvorschläge.
+**English** · [Deutsch](CONTRIBUTING.de.md)
 
-## Fehler melden
+Thank you for your interest in Carv3D. During the early beta, public contributions focus on feedback, reproducible bug reports and specific improvement proposals.
 
-Bitte verwende die Vorlage „Fehler melden“ und ergänze:
+## Reporting bugs
 
-- Carv3D-Version
-- Betriebssystem und Browser
-- genaue Schritte bis zum Fehler
-- erwartetes und tatsächliches Verhalten
-- wenn möglich eine kleine Beispieldatei ohne persönliche Inhalte
+Please use the bug report form and include:
 
-## Funktionen vorschlagen
+- Carv3D version
+- operating system and browser
+- exact steps that lead to the problem
+- expected and actual behavior
+- if possible, a small example file without private content
 
-Beschreibe zuerst das praktische Problem. Ein kleines Beispiel aus einem echten 3D-Druck- oder Maker-Projekt hilft mehr als eine lange Liste einzelner Bedienelemente.
+## Suggesting features
 
-## Dokumentationsänderungen
+Describe the practical problem first. A small example from a real 3D printing or maker project is more useful than a long list of interface elements.
 
-Kleine Korrekturen an der öffentlichen Dokumentation können als Pull Request vorgeschlagen werden. Bitte keine Änderungen einreichen, die Quellcode des geschlossenen Anwendungskerns voraussetzen oder interne Informationen enthalten.
+## Documentation changes
 
-## Erweiterungen
+Small corrections to the public documentation may be proposed through pull requests. Do not submit changes that require access to the closed application source or contain internal information.
 
-Erweiterungen werden in der frühen Beta noch nicht öffentlich angenommen. Der spätere Ablauf ist in [docs/EXTENSIONS.md](docs/EXTENSIONS.md) beschrieben.
+## Extensions
 
-## Umgang
+Extensions are not yet accepted during the early beta. The planned process is described in [docs/EXTENSIONS.md](docs/EXTENSIONS.md).
 
-Bitte sachlich, geduldig und respektvoll miteinander umgehen. Private Projektdaten, persönliche Informationen und nicht öffentlich gemeldete Sicherheitsprobleme gehören nicht in Issues oder Discussions.
+## Conduct
+
+Be constructive, patient and respectful. Private project data, personal information and unreported security vulnerabilities do not belong in issues or discussions.

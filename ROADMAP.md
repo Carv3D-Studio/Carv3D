@@ -1,23 +1,25 @@
-# Öffentliche Roadmap
+# Public roadmap
 
-Die Roadmap beschreibt Schwerpunkte und enthält keine festen Veröffentlichungstermine. Reihenfolge und Umfang können sich durch Erkenntnisse aus den Betatests ändern.
+**English** · [Deutsch](ROADMAP.de.md)
 
-## Frühe Beta 0.1
+This roadmap describes priorities and does not promise release dates. Order and scope may change based on beta feedback.
 
-- zuverlässiges Erstellen und Bearbeiten von Volumenkörpern
-- stabiles Speichern und Laden von Projekten
-- verlässlicher Export als STL, 3MF und STEP
-- verständliche Auswahl, Navigation und Maßeingabe
-- Fehlerberichte und Rückmeldungen aus praktischen Projekten
+## Early beta 0.1
 
-## Spätere Beta
+- reliable creation and editing of solid bodies
+- stable project saving and loading
+- dependable STL, 3MF and STEP export
+- clear selection, navigation and numeric input
+- feedback from practical projects
 
-- Verbesserung der Druckprüfung und Orientierungshilfen
-- Ausbau der Maker-Werkzeuge
-- bessere Bedienung auf großen Tablets
-- vorbereitete, geprüfte Community-Erweiterungen
-- Installationspaket für Desktop-Systeme
+## Later beta
+
+- improved print checks and orientation guidance
+- expanded maker tools
+- better support for large tablets
+- prepared and reviewed community extensions
+- desktop installation package
 
 ## Version 1.0
 
-Version 1.0 ist vorgesehen, wenn die Kernfunktionen stabil sind, Projekte zuverlässig erhalten bleiben und die Bedienung für neue Nutzer nachvollziehbar ist. Preis, Lizenzbedingungen und unterstützte Plattformen werden vor dem Verkaufsstart klar veröffentlicht.
+Version 1.0 is planned when the core features are stable, projects are preserved reliably and the workflow is understandable for new users. Pricing, license terms and supported platforms will be published clearly before sales begin.

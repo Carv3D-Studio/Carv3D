@@ -12,6 +12,7 @@ This repository is the public information and feedback hub for Carv3D.
 
 ## Changes
 
-- Use short, clear German text; add English documentation only when it is maintained at the same quality.
+- English is the primary public language. Every user-facing document also gets a maintained German version with the `.de.md` suffix.
+- Keep both language versions equivalent when product facts, links or plans change.
 - Check links and headings before committing.
 - Keep one subject per commit and update the visible roadmap or changelog when users are affected.

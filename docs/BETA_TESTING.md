@@ -1,19 +1,21 @@
-# Hinweise für Betatests
+# Beta testing guide
 
-Carv3D 0.1 ist eine frühe Testversion. Bitte wichtige Projekte zusätzlich in einem Austauschformat wie STEP oder 3MF sichern.
+**English** · [Deutsch](BETA_TESTING.de.md)
 
-## Besonders hilfreiche Tests
+Carv3D 0.1 is an early test version. Keep an additional copy of important work in an exchange format such as STEP or 3MF.
 
-1. Ein kleines reales Bauteil von Anfang bis Ende modellieren.
-2. Projekt speichern, die Anwendung neu starten und das Projekt wieder laden.
-3. Das Modell als STEP und 3MF oder STL exportieren.
-4. Den Export in einem Slicer oder einem zweiten CAD-Programm öffnen.
-5. Unklare Schritte, Fehler und unerwartete Ergebnisse melden.
+## Particularly useful tests
 
-## Gute Fehlermeldungen
+1. Model a small real part from start to finish.
+2. Save the project, restart the application and load the project again.
+3. Export the model as STEP and as 3MF or STL.
+4. Open the export in a slicer or another CAD application.
+5. Report unclear steps, errors and unexpected results.
 
-Eine gute Meldung beschreibt den kürzesten Weg, mit dem sich das Problem wiederholen lässt. Bitte Versionsnummer, Betriebssystem und Browser nennen. Projektdateien nur anhängen, wenn sie keine vertraulichen Inhalte enthalten.
+## Good bug reports
 
-## Datenschutz
+A good report describes the shortest path that reproduces the problem. Include the version, operating system and browser. Attach project files only when they contain no confidential information.
 
-Carv3D sendet nicht automatisch Projektdateien oder Fehlerberichte. Wer eine Datei an eine Meldung anhängt, entscheidet selbst, welche Inhalte veröffentlicht werden.
+## Privacy
+
+Carv3D does not automatically send project files or error reports. When attaching a file to a report, you decide which information becomes public.
