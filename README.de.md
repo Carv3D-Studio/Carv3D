@@ -44,6 +44,13 @@ Der vollständige Vorschlag steht unter [Preisgrundsätze](PRICING.de.md).
 
 Vor einer Meldung bitte die [Hinweise für Betatests](docs/BETA_TESTING.de.md) und die [bekannten Einschränkungen](docs/KNOWN_LIMITATIONS.de.md) lesen.
 
+## Dokumentation
+
+- [Benutzerhandbuch](docs/USER_MANUAL.de.md)
+- [Hinweise für Betatests](docs/BETA_TESTING.de.md)
+- [Öffentliche Roadmap](ROADMAP.de.md)
+- [Preisgrundsätze](PRICING.de.md)
+
 ## Erweiterungen
 
 Der Erweiterungsbereich befindet sich noch in Entwicklung. Ein öffentliches Verzeichnis startet erst, wenn Prüfung, Paketfreigabe und technische Absicherung fertig sind. Offizielle Community-Erweiterungen sollen mit einsehbarem Quellcode entwickelt, vor der Aufnahme geprüft und kostenlos angeboten werden.

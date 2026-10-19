@@ -44,6 +44,13 @@ See [Pricing principles](PRICING.md) for the full proposal.
 
 Before reporting a problem, please read the [beta testing guide](docs/BETA_TESTING.md) and [known limitations](docs/KNOWN_LIMITATIONS.md).
 
+## Documentation
+
+- [User manual](docs/USER_MANUAL.md)
+- [Beta testing guide](docs/BETA_TESTING.md)
+- [Public roadmap](ROADMAP.md)
+- [Pricing principles](PRICING.md)
+
 ## Extensions
 
 The extension system is still under development. A public directory will open only after review, package approval and technical hardening are ready. Official community extensions are intended to have visible source code, pass review before inclusion and remain free of charge.
