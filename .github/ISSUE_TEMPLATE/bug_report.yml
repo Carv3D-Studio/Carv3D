@@ -1,0 +1,61 @@
+name: Fehler melden
+description: Einen nachvollziehbaren Fehler in Carv3D melden
+title: "[Fehler] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Danke für die Meldung. Bitte keine vertraulichen Projektdateien oder Sicherheitslücken öffentlich anhängen.
+  - type: input
+    id: version
+    attributes:
+      label: Carv3D-Version
+      placeholder: z. B. 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: System
+      description: Betriebssystem und Browser beziehungsweise Desktop-Version
+      placeholder: z. B. Windows 11, Edge 140
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Fehler
+      description: Bitte möglichst kurz und nummeriert beschreiben.
+      placeholder: |
+        1. Neues Projekt öffnen
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Zusätzliche Informationen
+      description: Bildschirmaufnahme, Fehlermeldung oder kleine Beispieldatei ohne persönliche Inhalte
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Ich habe geprüft, ob der Fehler bereits gemeldet wurde.
+          required: true
+        - label: Diese Meldung enthält keine vertraulichen Daten und keine nicht öffentlich gemeldete Sicherheitslücke.
+          required: true
