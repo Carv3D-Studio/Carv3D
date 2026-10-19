@@ -11,12 +11,21 @@ The goal is a focused modeling environment for people who want to create precise
 Carv3D is in an early **0.1 beta**. This phase focuses on practical testing, clear interaction, and reliable project saving, loading and export.
 
 - The beta is free.
+- Beta builds are time limited; the current plan allows modeling through **31 March 2027**.
 - The application core is proprietary and will remain closed source.
 - There is no subscription or mandatory account.
 - Projects are processed locally.
 - Purchasing and licensing are planned for a stable version 1.0.
 
 Public beta access will be announced here when the first test build is ready.
+
+After a beta build expires, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues with a current beta or a licensed release.
+
+## Pricing direction
+
+The current target for version 1.0 is a perpetual license at about **€49**, free educational use for verified teachers, and a **€10–15** perpetual education license for students. There is no subscription or mandatory account planned. These are planning targets and will be finalized before sales begin.
+
+See [Pricing principles](PRICING.md) for the full proposal.
 
 ## What Carv3D is for
 

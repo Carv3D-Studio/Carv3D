@@ -27,7 +27,7 @@ Vor der ersten Veröffentlichung:
 1. Im `Carv3D-CORE` die vollständige Prüfung ausführen.
 2. Sicherstellen, dass der Produktions-Build keine Entwicklungsbrücke, Testdaten oder Source Maps enthält.
 3. Den richtigen Basispfad für `/Carv3D/` konfigurieren.
-4. Sichtbaren Beta-Hinweis, Versionsnummer und Feedback-Link ergänzen.
+4. Sichtbaren Beta-Hinweis, Versionsnummer, Ablaufdatum und den erhaltenen Zugriff zum Öffnen, Speichern und Exportieren prüfen.
 5. Speichern, Neuladen und Offline-Betrieb unter der veröffentlichten Adresse testen.
 6. Pages aktivieren und den geprüften Build veröffentlichen.
 

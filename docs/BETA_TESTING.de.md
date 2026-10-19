@@ -4,6 +4,8 @@
 
 Carv3D 0.1 ist eine frühe Testversion. Bitte wichtige Projekte zusätzlich in einem Austauschformat wie STEP oder 3MF sichern.
 
+Die derzeit geplante Beta kann bis einschließlich **31. März 2027** zum Modellieren verwendet werden. Danach kann dieser Build Projekte weiterhin öffnen und speichern sowie STEP-, STL- und 3MF-Dateien exportieren. Für die Bearbeitung ist eine aktuelle Beta oder eine lizenzierte Version erforderlich.
+
 ## Besonders hilfreiche Tests
 
 1. Ein kleines reales Bauteil von Anfang bis Ende modellieren.

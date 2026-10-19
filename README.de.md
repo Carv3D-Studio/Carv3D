@@ -11,12 +11,21 @@ Das Ziel ist eine übersichtliche Modellierumgebung für Menschen, die präzise 
 Carv3D befindet sich in einer frühen **0.1-Beta**. In dieser Phase geht es um praktische Tests, Rückmeldungen zur Bedienung und das zuverlässige Speichern, Laden und Exportieren von Projekten.
 
 - Die Beta ist kostenlos.
+- Betaversionen sind zeitlich befristet; der aktuelle Plan erlaubt das Modellieren bis einschließlich **31. März 2027**.
 - Der Anwendungskern ist proprietär und bleibt Closed Source.
 - Es gibt kein Abonnement und keinen Kontozwang.
 - Projekte werden lokal verarbeitet.
 - Kauf und Lizenzierung sind erst für eine stabile Version 1.0 vorgesehen.
 
 Der öffentliche Zugang zur Beta wird hier angekündigt, sobald das erste Testpaket bereitsteht.
+
+Nach Ablauf einer Betaversion lassen sich bestehende Projekte weiterhin öffnen, speichern und als STEP, STL oder 3MF exportieren. Die Bearbeitung wird mit einer aktuellen Beta oder einer lizenzierten Version fortgesetzt.
+
+## Preisliche Ausrichtung
+
+Für Version 1.0 ist derzeit eine dauerhafte Lizenz für ungefähr **49 €** vorgesehen, verifizierte Lehrkräfte sollen Carv3D für Bildungszwecke kostenlos nutzen können und Schüler sowie Studierende sollen eine dauerhafte Bildungslizenz für **10–15 €** erhalten. Ein Abonnement oder Kontozwang ist nicht geplant. Diese Angaben sind Planungsziele und werden vor dem Verkaufsstart endgültig festgelegt.
+
+Der vollständige Vorschlag steht unter [Preisgrundsätze](PRICING.de.md).
 
 ## Wofür Carv3D gedacht ist
 

@@ -11,6 +11,7 @@ This roadmap describes priorities and does not promise release dates. Order and 
 - dependable STL, 3MF and STEP export
 - clear selection, navigation and numeric input
 - feedback from practical projects
+- visible beta lifetime and preserved project open/save/export access after expiry
 
 ## Later beta
 
@@ -22,4 +23,4 @@ This roadmap describes priorities and does not promise release dates. Order and 
 
 ## Version 1.0
 
-Version 1.0 is planned when the core features are stable, projects are preserved reliably and the workflow is understandable for new users. Pricing, license terms and supported platforms will be published clearly before sales begin.
+Version 1.0 is planned when the core features are stable, projects are preserved reliably and the workflow is understandable for new users. The current pricing targets are about €49 for a perpetual regular license, free educational use for verified teachers, and €10–15 for students. Final prices, license terms and supported platforms will be published clearly before sales begin; see [Pricing principles](PRICING.md).

@@ -27,7 +27,7 @@ Before the first deployment:
 1. Run the complete verification suite in `Carv3D-CORE`.
 2. Confirm that the production build contains no development bridge, test data or source maps.
 3. Configure the correct base path for `/Carv3D/`.
-4. Add a visible beta warning, version number and feedback link.
+4. Confirm the visible beta warning, version number, expiry date and preserved open/save/export access.
 5. Test saving, reloading and offline behavior on the deployed URL.
 6. Enable Pages and publish the verified build.
 
