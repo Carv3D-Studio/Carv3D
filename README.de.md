@@ -17,7 +17,16 @@ Carv3D befindet sich in einer frühen **0.1-Beta**. In dieser Phase geht es um p
 - Projekte werden lokal verarbeitet.
 - Kauf und Lizenzierung sind erst für eine stabile Version 1.0 vorgesehen.
 
-Der öffentliche Zugang zur Beta wird hier angekündigt, sobald das erste Testpaket bereitsteht.
+Die Testversion wird derzeit ausschließlich an eingeladene Teilnehmer ausgegeben. Einen öffentlichen Beta-Download gibt es nicht.
+
+### Für die private Beta bewerben
+
+Beschreibe uns kurz, was du mit Carv3D bauen möchtest:
+
+- [Über die Carv3D-Webseite bewerben](https://carv3d.de/Beta.html#beta)
+- E-Mail: [beta@carv3d.de](mailto:beta@carv3d.de)
+
+Die Bewerbungen werden in kleinen Wellen geprüft. Eine Bewerbung bedeutet nicht automatisch Zugang; ausgewählte Tester erhalten eine persönliche Einladung per E-Mail.
 
 Nach Ablauf einer Betaversion lassen sich bestehende Projekte weiterhin öffnen, speichern und als STEP, STL oder 3MF exportieren. Die Bearbeitung wird mit einer aktuellen Beta oder einer lizenzierten Version fortgesetzt.
 
