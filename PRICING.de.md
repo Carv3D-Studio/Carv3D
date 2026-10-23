@@ -19,6 +19,10 @@ Carv3D soll bezahlbar bleiben, ohne Abonnement auskommen und gekaufte Versionen 
 | Verifizierte Lehrkräfte | **kostenlos** | für Bildungszwecke |
 | Schüler und Studierende | **10–15 €** | dauerhafte Bildungslizenz |
 
+### Belohnung für Frühunterstützer
+
+Die ersten **10 Tester**, die aktiv bestätigte, reproduzierbare Fehler melden, erhalten eine **kostenlose lebenslange Lizenz** für die erste stabile Version 1.0.
+
 Vorgesehen sind weder ein Abonnement noch ein Kontozwang. Eine gekaufte Version soll dauerhaft offline und ohne Lizenzserver funktionieren. Künftige Hauptversionen können als freiwillige kostenpflichtige Upgrades angeboten werden; die bereits gekaufte Version bleibt nutzbar.
 
 Diese Angaben sind Planungsziele und noch kein verbindliches Angebot. Endpreise, steuerliche Abwicklung, Nachweisregeln und Lizenzen für Klassensätze werden vor dem Verkaufsstart veröffentlicht. Die Rückmeldungen aus der Beta fließen in diese Einzelheiten ein.

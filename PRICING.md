@@ -19,6 +19,10 @@ Carv3D is intended to remain affordable, work without a subscription and keep pu
 | Verified teachers and educators | **free** | educational use |
 | Students | **€10–15** | perpetual education license |
 
+### Early supporter reward
+
+The first **10 testers** who actively report confirmed, reproducible bugs receive a **free lifetime license** for the first stable version 1.0.
+
 There is no subscription and no mandatory account planned. A purchased version should keep working offline without a license server. Future major versions may be offered as optional paid upgrades; the version already purchased remains usable.
 
 These figures are planning targets, not a binding offer. Final prices, tax handling, eligibility rules and classroom licensing will be published before sales begin. Beta feedback will inform those details.

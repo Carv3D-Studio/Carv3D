@@ -73,6 +73,9 @@ Carv3D is currently tested in small invitation waves. The beta is free, but ther
 
 The current beta plan allows modeling through **31 March 2027**. After a beta build expires, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues with a current beta or a licensed release.
 
+> [!TIP]
+> **Early supporter reward:** The first 10 testers who actively report confirmed, reproducible bugs will receive a free lifetime license for version 1.0.
+
 ## Product direction
 
 - application core remains closed source
