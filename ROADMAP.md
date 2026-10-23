@@ -2,25 +2,43 @@
 
 **English** · [Deutsch](ROADMAP.de.md)
 
-This roadmap describes priorities and does not promise release dates. Order and scope may change based on beta feedback.
+This roadmap describes priorities rather than fixed release dates. Order and scope may change through beta feedback.
 
-## Early beta 0.1
+## Available in the private early beta
 
-- reliable creation and editing of solid bodies
-- stable project saving and loading
-- dependable STL, 3MF and STEP export
-- clear selection, navigation and numeric input
-- feedback from practical projects
-- visible beta lifetime and preserved project open/save/export access after expiry
+- direct editing of precise solid bodies, including faces, edges and vertices
+- persistent sketches, construction planes, paths, revolve, sweep, loft and patterns
+- mesh sculpting alongside precise solid bodies
+- real ISO threads and guided hardware pockets for screws, inserts, nuts and magnets
+- colors, appearances, face colors, text and multi-color 3MF output
+- printer profiles, printability checks, orientation guidance, preview and material estimates
+- native projects; STEP, STL, OBJ, 3MF, DXF and SVG import workflows; STEP, STL and 3MF export
+- local MCP interface for headless and live agent workflows
+- English and German interface, mouse presets and customizable keyboard shortcuts
+- automatic project recovery and preserved open, save and export access after beta expiry
 
-## Later beta
+See [Current capabilities](docs/CAPABILITIES.md) for the detailed overview.
 
-- improved print checks and orientation guidance
-- expanded maker tools
-- better support for large tablets
-- prepared and reviewed community extensions
-- desktop installation package
+## Current beta priorities
+
+- validate project compatibility and recovery with real tester projects
+- improve performance and interaction on complex models
+- refine guided onboarding, task tutorials and contextual help
+- broaden print-profile and slicer validation
+- improve installation, updates and diagnostics for invited testers
+- expand accessibility, keyboard operation and large-screen tablet support
+- collect practical feedback through small invitation waves
+
+## Before wider availability
+
+- complete security and package review for the extension system
+- establish a reviewed directory for free, source-visible community extensions
+- publish stable installer, update and rollback procedures
+- finalize supported platforms, license activation and offline behavior
+- complete user documentation and migration guidance
 
 ## Version 1.0
 
-Version 1.0 is planned when the core features are stable, projects are preserved reliably and the workflow is understandable for new users. The current pricing targets are about €49 for a perpetual regular license, free educational use for verified teachers, and €10–15 for students. Final prices, license terms and supported platforms will be published clearly before sales begin; see [Pricing principles](PRICING.md).
+Version 1.0 is planned when core workflows are stable, projects remain reliably compatible and the application is understandable for new users. Current planning targets are about **€49** for a perpetual regular license, free educational use for verified teachers, and **€10–15** for students. No subscription or mandatory account is planned.
+
+Final prices, license terms and supported platforms will be published before sales begin. See [Pricing principles](PRICING.md).
