@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/Carv3D-Studio"><img src="docs/assets/carv3d-studio-lockup.svg" alt="Carv3D Studio" width="360" /></a>
+</p>
+
 # Carv3D
 
 [English](README.md) · **Deutsch**
@@ -20,6 +24,8 @@
 
 > [!IMPORTANT]
 > Carv3D ist eine **Closed-Source-Anwendung in einer privaten frühen Beta**. Dieses öffentliche Repository enthält Produktinformationen, Dokumentation, Vorlagen für Meldungen und die öffentliche Roadmap. Der Anwendungskern und ein öffentlicher Download sind nicht enthalten.
+
+Carv3D wird von **[Carv3D Studio](https://github.com/Carv3D-Studio)** entwickelt und gepflegt. Das öffentliche Repository und der private Anwendungskern liegen in derselben Organisation, bleiben aber klar voneinander getrennt.
 
 ## Gebaut für Teile, die funktionieren müssen
 
@@ -84,12 +90,17 @@ Preise, unterstützte Plattformen und Lizenzbedingungen bleiben bis zur stabilen
 - [Hinweise für Betatests](docs/BETA_TESTING.de.md)
 - [Bekannte Einschränkungen](docs/KNOWN_LIMITATIONS.de.md)
 - [Öffentliche Roadmap](ROADMAP.de.md)
-- [Fehler melden](https://github.com/stereodruid/Carv3D/issues/new?template=bug_report_de.yml)
-- [Funktion vorschlagen](https://github.com/stereodruid/Carv3D/issues/new?template=feature_request_de.yml)
+- [Fehler melden](https://github.com/Carv3D-Studio/Carv3D/issues/new?template=bug_report_de.yml)
+- [Funktion vorschlagen](https://github.com/Carv3D-Studio/Carv3D/issues/new?template=feature_request_de.yml)
 - [Sicherheitsproblem melden](SECURITY.de.md)
 
 ## Repository und Lizenz
 
 Dieses Repository ist die öffentliche Informations- und Feedback-Zentrale von Carv3D. Der proprietäre Anwendungscode, private Builds, Signiermaterial, Testerdaten und interne Entwicklungsunterlagen werden bewusst außerhalb davon aufbewahrt. Für die öffentlichen Inhalte gilt [LICENSE](LICENSE).
 
-© 2026 stereodruid / Aura Tools
+<p align="center">
+  <img src="docs/assets/carv3d-maker-fox.png" alt="Maker Fox, das Maskottchen von Carv3D" width="220" /><br />
+  <strong>Maker Fox</strong> · Maskottchen von Carv3D Studio
+</p>
+
+© 2026 Carv3D Studio

@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/Carv3D-Studio"><img src="docs/assets/carv3d-studio-lockup.svg" alt="Carv3D Studio" width="360" /></a>
+</p>
+
 # Carv3D
 
 **English** · [Deutsch](README.de.md)
@@ -20,6 +24,8 @@
 
 > [!IMPORTANT]
 > Carv3D is a **closed-source application currently in private early beta**. This public repository contains product information, documentation, issue templates and the public roadmap. It does not contain the application core or a public download.
+
+Carv3D is developed and maintained by **[Carv3D Studio](https://github.com/Carv3D-Studio)**. The public repository and the private application core live in the same organization while remaining clearly separated.
 
 ## Built for parts that need to work
 
@@ -84,12 +90,17 @@ Prices, supported platforms and license terms remain planning targets until the 
 - [Beta testing guide](docs/BETA_TESTING.md)
 - [Known limitations](docs/KNOWN_LIMITATIONS.md)
 - [Public roadmap](ROADMAP.md)
-- [Report a bug](https://github.com/stereodruid/Carv3D/issues/new?template=bug_report.yml)
-- [Request a feature](https://github.com/stereodruid/Carv3D/issues/new?template=feature_request.yml)
+- [Report a bug](https://github.com/Carv3D-Studio/Carv3D/issues/new?template=bug_report.yml)
+- [Request a feature](https://github.com/Carv3D-Studio/Carv3D/issues/new?template=feature_request.yml)
 - [Security reporting](SECURITY.md)
 
 ## Repository and license
 
 This repository is the public information and feedback hub for Carv3D. The proprietary application source, private builds, signing material, tester data and internal development documents are intentionally kept outside it. The public repository contents are covered by [LICENSE](LICENSE).
 
-© 2026 stereodruid / Aura Tools
+<p align="center">
+  <img src="docs/assets/carv3d-maker-fox.png" alt="Maker Fox, the Carv3D mascot" width="220" /><br />
+  <strong>Maker Fox</strong> · Carv3D Studio mascot
+</p>
+
+© 2026 Carv3D Studio

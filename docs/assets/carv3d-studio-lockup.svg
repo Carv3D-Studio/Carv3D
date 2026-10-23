@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+  <title id="title">Carv3D Studio</title>
+  <desc id="desc">Carv3D Studio organization logo with the open cube symbol.</desc>
+  <g transform="translate(14 17) scale(1.14)">
+    <g fill="none" stroke="#21D3F4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M64 14 108 39 64 64 20 39 64 14Z"/>
+      <path d="M20 39v50l44 25V64L20 39Z"/>
+      <path d="M64 64 108 39v21"/>
+      <path d="M108 83v6l-44 25"/>
+    </g>
+  </g>
+  <text x="185" y="103" fill="#F3F7F8" font-family="Aptos Display, Segoe UI Variable Display, Segoe UI, sans-serif" font-size="82" font-weight="750" letter-spacing="-4">Carv3D</text>
+  <text x="188" y="145" fill="#74E9FF" font-family="Aptos, Segoe UI Variable Text, Segoe UI, sans-serif" font-size="28" font-weight="650" letter-spacing="9">STUDIO</text>
+</svg>

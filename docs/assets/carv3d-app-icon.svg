@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Carv3D app icon</title>
+  <desc id="desc">The cyan Carv3D open cube symbol on a dark rounded square.</desc>
+  <rect width="512" height="512" rx="104" fill="#071014"/>
+  <g fill="none" stroke="#21D3F4" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 72 424 168 256 264 88 168 256 72Z"/>
+    <path d="M88 168v190l168 96V264L88 168Z"/>
+    <path d="M256 264 424 168v78"/>
+    <path d="M424 332v26l-168 96"/>
+  </g>
+  <circle cx="424" cy="289" r="15" fill="#FF9B51"/>
+</svg>
