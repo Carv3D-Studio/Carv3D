@@ -78,7 +78,7 @@ Der aktuelle Beta-Plan erlaubt das Modellieren bis einschließlich **31. März 2
 - der Anwendungskern bleibt Closed Source
 - lokale Modellierung ohne Pflichtkonto oder Cloud-Dienst
 - dauerhafte Lizenz für Version 1.0 geplant; kein Abonnement vorgesehen
-- aktuelles Ziel: ungefähr **49 €** regulär, kostenlose Bildungsnutzung für verifizierte Lehrkräfte und **10–15 €** für Schüler und Studierende
+- aktuelles Ziel: ungefähr **53 €** regulär (lebenslange Lizenz für die erworbene Version), kostenlose Bildungsnutzung für verifizierte Lehrkräfte und **10–15 €** für Schüler und Studierende
 - geprüfte Community-Erweiterungen sollen einsehbaren Quellcode haben und kostenlos bleiben
 
 Preise, unterstützte Plattformen und Lizenzbedingungen bleiben bis zur stabilen Veröffentlichung Planungsziele. Siehe [Preisgrundsätze](PRICING.de.md), [öffentliche Roadmap](ROADMAP.de.md) und [Erweiterungen](docs/EXTENSIONS.de.md).

@@ -78,7 +78,7 @@ The current beta plan allows modeling through **31 March 2027**. After a beta bu
 - application core remains closed source
 - local modeling without a mandatory account or cloud service
 - perpetual license planned for version 1.0; no subscription planned
-- current target: about **€49** regular, free educational use for verified teachers and **€10–15** for students
+- current target: about **€53** regular (lifetime license for the purchased version), free educational use for verified teachers and **€10–15** for students
 - reviewed community extensions are planned to use visible source code and remain free of charge
 
 Prices, supported platforms and license terms remain planning targets until the stable release. See [Pricing principles](PRICING.md), [Public roadmap](ROADMAP.md) and [Extensions](docs/EXTENSIONS.md).

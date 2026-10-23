@@ -39,6 +39,6 @@ See [Current capabilities](docs/CAPABILITIES.md) for the detailed overview.
 
 ## Version 1.0
 
-Version 1.0 is planned when core workflows are stable, projects remain reliably compatible and the application is understandable for new users. Current planning targets are about **€49** for a perpetual regular license, free educational use for verified teachers, and **€10–15** for students. No subscription or mandatory account is planned.
+Version 1.0 is planned when core workflows are stable, projects remain reliably compatible and the application is understandable for new users. Current planning targets are about **€53** for a lifetime regular license for the purchased version, free educational use for verified teachers, and **€10–15** for students. No subscription or mandatory account is planned.
 
 Final prices, license terms and supported platforms will be published before sales begin. See [Pricing principles](PRICING.md).

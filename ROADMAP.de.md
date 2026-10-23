@@ -39,6 +39,6 @@ Die ausführliche Übersicht steht unter [Aktuelle Funktionen](docs/CAPABILITIES
 
 ## Version 1.0
 
-Version 1.0 ist vorgesehen, wenn die Kernabläufe stabil sind, Projekte zuverlässig kompatibel bleiben und die Anwendung für neue Nutzer verständlich ist. Die derzeitigen Planungsziele sind ungefähr **49 €** für eine dauerhafte reguläre Lizenz, kostenlose Bildungsnutzung für verifizierte Lehrkräfte und **10–15 €** für Schüler und Studierende. Ein Abonnement oder Pflichtkonto ist nicht vorgesehen.
+Version 1.0 ist vorgesehen, wenn die Kernabläufe stabil sind, Projekte zuverlässig kompatibel bleiben und die Anwendung für neue Nutzer verständlich ist. Die derzeitigen Planungsziele sind ungefähr **53 €** für eine lebenslange reguläre Lizenz für die erworbene Version, kostenlose Bildungsnutzung für verifizierte Lehrkräfte und **10–15 €** für Schüler und Studierende. Ein Abonnement oder Pflichtkonto ist nicht vorgesehen.
 
 Endpreise, Lizenzbedingungen und unterstützte Plattformen werden vor dem Verkaufsstart veröffentlicht. Siehe [Preisgrundsätze](PRICING.de.md).

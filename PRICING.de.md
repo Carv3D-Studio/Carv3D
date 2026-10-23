@@ -15,7 +15,7 @@ Carv3D soll bezahlbar bleiben, ohne Abonnement auskommen und gekaufte Versionen 
 
 | Gruppe | Derzeitiges Ziel | Vorgesehene Lizenz |
 | --- | ---: | --- |
-| Reguläre Nutzer | ungefähr **49 €** | dauerhafte Lizenz für private und gewerbliche Nutzung |
+| Reguläre Nutzer | ungefähr **53 €** | lebenslange Lizenz für die erworbene Version (private und gewerbliche Nutzung) |
 | Verifizierte Lehrkräfte | **kostenlos** | für Bildungszwecke |
 | Schüler und Studierende | **10–15 €** | dauerhafte Bildungslizenz |
 

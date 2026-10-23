@@ -15,7 +15,7 @@ Carv3D is intended to remain affordable, work without a subscription and keep pu
 
 | Group | Current target | Intended license |
 | --- | ---: | --- |
-| Regular users | about **€49** | perpetual license for personal and commercial use |
+| Regular users | about **€53** | lifetime license for the purchased version (personal and commercial use) |
 | Verified teachers and educators | **free** | educational use |
 | Students | **€10–15** | perpetual education license |
 
