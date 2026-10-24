@@ -6,6 +6,20 @@
 
 **English** · [Deutsch](README.de.md)
 
+## Watch the film
+
+From a box to a printable part, recorded in the real application, with subtitles: a screw hole on a slanted face, face colours, offset edge, split face, dragging a radius, the box-with-lid generator and the 3MF export.
+
+**English**
+
+https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
+
+**Deutsch**
+
+https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
+
+Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version (MP4)](docs/media/carv3d-showcase.de.mp4) · [Subtitles (WebVTT)](docs/media/carv3d-showcase.en.vtt) · [Example model with face colours (3MF)](docs/media/carv3d-showcase-example.3mf)
+
 <p align="center">
   <img src="docs/assets/carv3d-workspace.webp" alt="Carv3D workspace showing the Maker Fox, dimensions and a section view" width="960" />
 </p>
@@ -48,14 +62,6 @@ The examples below are editable Carv3D projects shown on the application's basep
 | ![Maker Fox made from sculpted mesh and solid bodies](docs/assets/maker-fox.webp) **Maker Fox** — a 25-body character combining a sculpted head, swept tail and dimensioned solid details. | ![Planetary drive on the Carv3D baseplate](docs/assets/planetary-drive.webp) **Planetary drive** — ring gear, sun, three planets, bearings and an exploded carrier across 92 bodies. |
 | ![Robot gripper on the Carv3D baseplate](docs/assets/robot-gripper.webp) **Robot gripper** — synchronized links, pivot bearings, replaceable jaws and a threaded center stop. | ![Precision desk clamp on the Carv3D baseplate](docs/assets/desk-clamp.webp) **Precision desk clamp** — a one-piece C-frame, M16 spindle, guide rails, thrust bearing and sliding handle. |
 | ![Mechanical iris on the Carv3D baseplate](docs/assets/mechanical-iris.webp) **Mechanical iris** — twelve overlapping blades, individual pivots, an actuator gear and mounting bezel. | ![Printability analysis in Carv3D](docs/assets/printability.webp) **Printability analysis** — thin walls, bridges, overhangs and build-volume problems are checked before export. |
-
-### Watch the two-minute film
-
-From a box to a printable part, recorded in the real application: a screw hole on a slanted face, face colours, offset edge, split face, dragging a radius, the box-with-lid generator and the 3MF export.
-
-https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
-
-Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version](docs/media/carv3d-showcase.de.mp4) · [WebVTT subtitles](docs/media/carv3d-showcase.en.vtt) · [Example model with face colours (3MF)](docs/media/carv3d-showcase-example.3mf)
 
 More examples and short videos are available on the [Carv3D website](https://carv3d.de/Beta.html#showcase).
 

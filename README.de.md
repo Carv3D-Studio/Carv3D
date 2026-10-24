@@ -6,6 +6,20 @@
 
 [English](README.md) · **Deutsch**
 
+## Der Film
+
+Vom Quader zum druckfertigen Teil, aufgenommen in der echten Anwendung, mit Untertiteln: Schraubenbohrung auf einer schrägen Fläche, Flächenfarben, Kante versetzen, Fläche teilen, Radius per Ziehen, Generator „Box mit Deckel“ und der 3MF-Export.
+
+**Deutsch**
+
+https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
+
+**English**
+
+https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
+
+Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassung (MP4)](docs/media/carv3d-showcase.en.mp4) · [Untertitel (WebVTT)](docs/media/carv3d-showcase.de.vtt) · [Beispielmodell mit Flächenfarben (3MF)](docs/media/carv3d-showcase-example.3mf)
+
 <p align="center">
   <img src="docs/assets/carv3d-workspace.webp" alt="Carv3D-Arbeitsumgebung mit Maker Fox, Maßen und Schnittansicht" width="960" />
 </p>
@@ -48,14 +62,6 @@ Die Beispiele sind editierbare Carv3D-Projekte auf der Bauplatte der Anwendung. 
 | ![Maker Fox aus geformtem Mesh und Volumenkörpern](docs/assets/maker-fox.webp) **Maker Fox** — eine Figur aus 25 Körpern mit geformtem Kopf, Sweep-Schwanz und maßhaltigen Volumendetails. | ![Planetengetriebe auf der Carv3D-Bauplatte](docs/assets/planetary-drive.webp) **Planetengetriebe** — Hohlrad, Sonne, drei Planeten, Lager und ein auseinandergezogener Träger aus insgesamt 92 Körpern. |
 | ![Robotergreifer auf der Carv3D-Bauplatte](docs/assets/robot-gripper.webp) **Robotergreifer** — gekoppelte Gelenke, Drehlager, austauschbare Backen und ein Anschlag mit Gewinde. | ![Präzisionsklemme auf der Carv3D-Bauplatte](docs/assets/desk-clamp.webp) **Präzisionsklemme** — einteiliger C-Rahmen, M16-Spindel, Führungen, Drucklager und verschiebbarer Griff. |
 | ![Mechanische Iris auf der Carv3D-Bauplatte](docs/assets/mechanical-iris.webp) **Mechanische Iris** — zwölf überlappende Lamellen, einzelne Drehpunkte, Stellring und verstärkter Montagerahmen. | ![Druckbarkeitsanalyse in Carv3D](docs/assets/printability.webp) **Druckbarkeitsanalyse** — dünne Wände, Brücken, Überhänge und Bauraumprobleme werden vor dem Export geprüft. |
-
-### Der Film in zwei Minuten
-
-Vom Quader zum druckfertigen Teil, aufgenommen in der echten Anwendung: Schraubenbohrung auf einer schrägen Fläche, Flächenfarben, Kante versetzen, Fläche teilen, Radius per Ziehen, Generator „Box mit Deckel“ und der 3MF-Export.
-
-https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
-
-Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassung](docs/media/carv3d-showcase.en.mp4) · [WebVTT-Untertitel](docs/media/carv3d-showcase.de.vtt) · [Beispielmodell mit Flächenfarben (3MF)](docs/media/carv3d-showcase-example.3mf)
 
 Weitere Beispiele und kurze Videos gibt es auf der [Carv3D-Webseite](https://carv3d.de/Beta.html#showcase).
 
