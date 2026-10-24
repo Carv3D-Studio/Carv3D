@@ -6,6 +6,18 @@
 
 [English](README.md) · **Deutsch**
 
+## Gebaut für Teile, die funktionieren müssen
+
+Carv3D verbindet die direkte Bearbeitung echter Volumenkörper mit Werkzeugen für Werkstatt und 3D-Druck. Fläche oder Kante auswählen, direkt verändern, einen exakten Wert eingeben und weiterarbeiten, ohne dafür einen langen Konstruktionsbaum aufzubauen.
+
+| Modellieren | Konstruieren | Drucken |
+| --- | --- | --- |
+| Flächen ziehen und drücken, Kanten und Ecken bearbeiten, abrunden, fasen, aushöhlen, Formschräge, ausrichten, spiegeln und mustern | Persistente Skizzen, Drehen, Sweep, Loft, Pfade, Federn, Boolesche Operationen und Konstruktionsebenen | Prüfung von Wandstärke, Überhängen, Brücken und Bauraum; Ausrichtungshilfe, Schichtvorschau und Materialschätzung |
+| Echte B-Rep-Volumenkörper für präzise Teile | Mesh-Formen mit Ziehen, Aufblasen, Kneifen, Abflachen, Glätten, Symmetrie und lokaler Verfeinerung | Teile mit Passstiften trennen und als STL, 3MF oder STEP exportieren |
+| Arbeitsabläufe für STEP-, STL-, OBJ-, 3MF-, DXF- und SVG-Import | Echte Innen- und Außengewinde nach ISO, Bohrungen, Einsätze, Mutterfallen, Magnete und Hardware-Platzhalter | Druckerprofile mit Düse, Schichthöhe, Materialschrumpfung und Passungstoleranzen |
+
+[Alle aktuell dokumentierten Funktionen ansehen →](docs/CAPABILITIES.de.md)
+
 ## Der Film
 
 Vom Quader zum druckfertigen Teil, aufgenommen in der echten Anwendung, mit Untertiteln: Schraubenbohrung auf einer schrägen Fläche, Flächenfarben, Kante versetzen, Fläche teilen, Radius per Ziehen, Generator „Box mit Deckel“ und der 3MF-Export.
@@ -40,18 +52,6 @@ Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassu
 > Carv3D ist eine **Closed-Source-Anwendung in einer privaten frühen Beta**. Dieses öffentliche Repository enthält Produktinformationen, Dokumentation, Vorlagen für Meldungen und die öffentliche Roadmap. Der Anwendungskern und ein öffentlicher Download sind nicht enthalten.
 
 Carv3D wird von **[Carv3D Studio](https://github.com/Carv3D-Studio)** entwickelt und gepflegt. Das öffentliche Repository und der private Anwendungskern liegen in derselben Organisation, bleiben aber klar voneinander getrennt.
-
-## Gebaut für Teile, die funktionieren müssen
-
-Carv3D verbindet die direkte Bearbeitung echter Volumenkörper mit Werkzeugen für Werkstatt und 3D-Druck. Fläche oder Kante auswählen, direkt verändern, einen exakten Wert eingeben und weiterarbeiten, ohne dafür einen langen Konstruktionsbaum aufzubauen.
-
-| Modellieren | Konstruieren | Drucken |
-| --- | --- | --- |
-| Flächen ziehen und drücken, Kanten und Ecken bearbeiten, abrunden, fasen, aushöhlen, Formschräge, ausrichten, spiegeln und mustern | Persistente Skizzen, Drehen, Sweep, Loft, Pfade, Federn, Boolesche Operationen und Konstruktionsebenen | Prüfung von Wandstärke, Überhängen, Brücken und Bauraum; Ausrichtungshilfe, Schichtvorschau und Materialschätzung |
-| Echte B-Rep-Volumenkörper für präzise Teile | Mesh-Formen mit Ziehen, Aufblasen, Kneifen, Abflachen, Glätten, Symmetrie und lokaler Verfeinerung | Teile mit Passstiften trennen und als STL, 3MF oder STEP exportieren |
-| Arbeitsabläufe für STEP-, STL-, OBJ-, 3MF-, DXF- und SVG-Import | Echte Innen- und Außengewinde nach ISO, Bohrungen, Einsätze, Mutterfallen, Magnete und Hardware-Platzhalter | Druckerprofile mit Düse, Schichthöhe, Materialschrumpfung und Passungstoleranzen |
-
-[Alle aktuell dokumentierten Funktionen ansehen →](docs/CAPABILITIES.de.md)
 
 ## In Carv3D erstellt
 
