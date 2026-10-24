@@ -6,6 +6,8 @@
 
 Carv3D is a modeler for parts that will be 3D printed. You work directly on the model: click a face, pull it, type an exact value in millimetres and continue. There is no feature tree to maintain. Everything below is written so that you can start without CAD experience; words you may not know are explained in the [glossary](#b-glossary).
 
+> **Try before you apply:** the restricted [live demo](https://carv3d-studio.github.io/Carv3D/) runs in your browser (no download, no account). It covers modeling, but saving, opening, importing and exporting are disabled there.
+
 ![The Carv3D work area with a selected face, the context bar and the selection panel](media/showcase-2-face-color.en.png)
 
 ## Contents

@@ -30,6 +30,8 @@ https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
 
 https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
 
+**Try it yourself:** the restricted [live demo](https://carv3d-studio.github.io/Carv3D/) runs in your browser, with no download and no account. Saving, opening, importing and exporting are disabled there, and nothing is stored; see the [demo terms](docs/DEMO_TERMS.md) and the [privacy notice](docs/DEMO_PRIVACY.md).
+
 Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version (MP4)](docs/media/carv3d-showcase.de.mp4) · [Subtitles (WebVTT)](docs/media/carv3d-showcase.en.vtt) · [Example model with face colours (3MF)](docs/media/carv3d-showcase-example.3mf)
 
 <p align="center">
@@ -45,7 +47,8 @@ Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version 
   <a href="https://carv3d.de/Beta.html">Website</a> ·
   <a href="https://carv3d.de/Beta.html#beta"><strong>Apply for the private beta</strong></a> ·
   <a href="docs/USER_MANUAL.md">User manual</a> ·
-  <a href="docs/CAPABILITIES.md">Current capabilities</a>
+  <a href="docs/CAPABILITIES.md">Current capabilities</a> ·
+  <a href="https://carv3d-studio.github.io/Carv3D/"><strong>Try the live demo</strong></a>
 </p>
 
 > [!IMPORTANT]

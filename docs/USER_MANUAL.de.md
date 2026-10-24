@@ -6,6 +6,8 @@
 
 Carv3D ist ein Modellierer für Teile, die 3D-gedruckt werden. Du arbeitest direkt am Modell: Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Einen Konstruktionsbaum, den man pflegen muss, gibt es nicht. Alles Folgende ist so geschrieben, dass du ohne CAD-Erfahrung anfangen kannst; unbekannte Wörter stehen im [Glossar](#b-glossar).
 
+> **Erst ausprobieren, dann bewerben:** Die eingeschränkte [Live-Demo](https://carv3d-studio.github.io/Carv3D/) läuft im Browser (ohne Download, ohne Konto). Sie umfasst das Modellieren; Speichern, Öffnen, Importieren und Exportieren sind dort gesperrt.
+
 ![Der Arbeitsbereich von Carv3D mit gewählter Fläche, Kontextleiste und Auswahl-Feld](media/showcase-2-face-color.de.png)
 
 ## Inhalt
