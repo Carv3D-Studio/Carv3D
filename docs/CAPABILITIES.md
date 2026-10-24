@@ -91,9 +91,9 @@ This page summarizes the functions available in the current private early-beta b
 
 ## Local MCP interface
 
-The local MCP server exposes the modeling command layer for compatible agents. It supports reading the document and selection, creating and editing geometry, working with sketches and paths, placing hardware, measuring, running print checks, and importing, saving or exporting models.
+The local MCP server, developed by stereodruid, exposes the modeling command layer for compatible clients and automation tools. It supports reading the document and selection, creating and editing geometry, working with sketches and paths, placing hardware, measuring, running print checks, and importing, saving or exporting models.
 
-The MCP server can run headlessly or connect through a live bridge to the open application. No model-provider API connection is required inside Carv3D.
+The MCP server can run headlessly or connect through a live bridge to the open application. No external cloud API connection is required inside Carv3D.
 
 ## Availability
 

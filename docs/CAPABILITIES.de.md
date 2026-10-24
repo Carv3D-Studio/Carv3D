@@ -91,9 +91,9 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 
 ## Lokale MCP-Schnittstelle
 
-Der lokale MCP-Server stellt die Modellierbefehle für kompatible Agenten bereit. Er kann Dokument und Auswahl lesen, Geometrie erzeugen und bearbeiten, mit Skizzen und Pfaden arbeiten, Hardware platzieren, messen, Druckprüfungen ausführen sowie Modelle importieren, speichern und exportieren.
+Der von stereodruid entwickelte lokale MCP-Server stellt die Modellierbefehle für kompatible Clients und Automatisierungswerkzeuge bereit. Er kann Dokument und Auswahl lesen, Geometrie erzeugen und bearbeiten, mit Skizzen und Pfaden arbeiten, Hardware platzieren, messen, Druckprüfungen ausführen sowie Modelle importieren, speichern und exportieren.
 
-Der MCP-Server kann ohne Oberfläche laufen oder über eine Live-Brücke die geöffnete Anwendung steuern. In Carv3D ist dafür keine API-Verbindung zu einem KI-Anbieter erforderlich.
+Der MCP-Server kann ohne Oberfläche laufen oder über eine Live-Brücke die geöffnete Anwendung steuern. In Carv3D ist dafür keine API-Verbindung zu einem externen Cloud-Anbieter erforderlich.
 
 ## Verfügbarkeit
 
