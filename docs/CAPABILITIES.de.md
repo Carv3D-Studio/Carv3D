@@ -7,10 +7,11 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 ## Direkte Volumenmodellierung
 
 - echte B-Rep-Volumenkörper und gekrümmte Flächen
-- Flächen mit direkter Zahleneingabe und Einrasten ziehen und drücken
-- Kanten und Ecken verschieben; Kanten versetzen, um eine Fläche für Erhöhungen oder Vertiefungen zu teilen
+- Flächen mit direkter Zahleneingabe und Einrasten ziehen und drücken, auch Hineindrücken an Körpern mit Rundungen, Fasen und schrägen Wänden
+- Radius von Bohrungen, Zapfen, Zylindern und Rundungen durch Ziehen an ihrer runden Fläche ändern
+- Kanten und Ecken verschieben; Kanten versetzen oder eine Fläche an einer Linie teilen, um Flächen für Erhöhungen oder Vertiefungen zu erzeugen
 - Rundungen, Rundungen mit Verlauf sowie gleiche und ungleiche Fasen
-- Aushöhlen, Flächenversatz, Flächen löschen und Formschrägen
+- Aushöhlen, Flächenversatz, Flächen löschen (heilt Bohrungen, Zapfen, Rundungen und gerade Fasen) und Formschrägen
 - Körper verschieben, drehen, skalieren, spiegeln, duplizieren, ausrichten und auf ein Maß bringen
 - geführtes Vereinigen, Abziehen und Schneiden von Körpern
 - lineare, kreisförmige und pfadgebundene Muster
@@ -46,10 +47,11 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 - echte Innen- und Außengewinde nach ISO mit Steigung, Tiefe, Drehrichtung und Druckspiel
 - geführte Schraubenbohrungen und Senkungen
 - Taschen für Gewindeeinsätze, Sechskantmuttern, Einschubmuttern und Magnete
+- Bohrungen und Taschen auf ebenen, schrägen und gekrümmten Flächen
 - Platzhalterkörper für Schrauben, Muttern und Scheiben zur Montage- und Kollisionsprüfung
 - benannte Vorgaben aus gepflegten Hardware-Datensätzen
 - anpassbare Passungen aus dem aktiven Druckerprofil
-- spezielle Maker-Generatoren wie ein druckbarer Lampenschirm aus Geflecht
+- Generatoren (Maker → Generatoren): eine Box mit Deckel, die ohne Stützen druckt, und ein druckbarer Lampenschirm aus Geflecht
 
 ## Farben, Materialien und Text
 
@@ -81,9 +83,10 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 ## Bedienoberfläche
 
 - deutsche und englische Oberfläche
-- Kontextleiste mit passenden Aktionen für ausgewählte Flächen, Kanten, Körper oder Gruppen
+- Kontextleiste und Auswahlrad mit passenden Aktionen für ausgewählte Flächen, Kanten, Körper oder Gruppen
+- Befehlssuche (Strg + K)
 - Listen für Körper, Skizzen, Pfade und Verlauf
-- Mehrfachauswahl von Körpern, Flächen und Kanten
+- Mehrfachauswahl von Körpern, Flächen und Kanten, auch mit Auswahlrahmen
 - Rückgängig und Wiederholen für Modellieroperationen
 - wählbare Maussteuerung nach Vorbildern verbreiteter CAD- und 3D-Anwendungen
 - anpassbare Tastenkürzel und per Tastatur bedienbare Menüs

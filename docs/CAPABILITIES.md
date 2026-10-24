@@ -7,10 +7,11 @@ This page summarizes the functions available in the current private early-beta b
 ## Direct solid modeling
 
 - true B-Rep solid bodies and curved surfaces
-- push/pull faces with direct numeric input and snapping
-- move edges and vertices; offset edges to split a face for raised or recessed details
+- push/pull faces with direct numeric input and snapping, also pushing in on bodies with fillets, chamfers and slanted walls
+- change the radius of holes, posts, cylinders and fillets by dragging their round face
+- move edges and vertices; offset edges or split a face along a line to create faces for raised or recessed details
 - fillets, variable fillets, symmetric and asymmetric chamfers
-- shell, face offset, face deletion and draft angles
+- shell, face offset, face deletion (heals holes, posts, fillets and straight chamfers) and draft angles
 - move, rotate, resize, scale, mirror, duplicate and align bodies
 - union, subtract and intersect operations with guided body selection
 - linear, circular and path patterns
@@ -46,10 +47,11 @@ This page summarizes the functions available in the current private early-beta b
 - real internal and external ISO thread geometry with pitch, depth, handedness and print allowance
 - guided screw holes and countersinks
 - pockets for heat-set inserts, hex nuts, slide-in nuts and magnets
+- holes and pockets on flat, slanted and curved faces
 - screw, nut and washer placeholder bodies for assembly and collision checks
 - named presets backed by maintained hardware data
 - adjustable clearances based on the active printer profile
-- specialized maker generators such as a printable woven lampshade
+- generators (Maker → Generators): a box with lid that prints without supports and a printable woven lampshade
 
 ## Colors, materials and text
 
@@ -81,9 +83,10 @@ This page summarizes the functions available in the current private early-beta b
 ## Interface
 
 - English and German interface
-- context bar with actions for the selected face, edge, body or group
+- context bar and radial selection wheel with actions for the selected face, edge, body or group
+- command search (Ctrl + K)
 - body, sketch, path and history lists
-- multiple selection for bodies, faces and edges
+- multiple selection for bodies, faces and edges, including a selection box
 - undo and redo across modeling operations
 - selectable mouse-navigation presets for common CAD and 3D applications
 - customizable keyboard shortcuts and keyboard-accessible menus
