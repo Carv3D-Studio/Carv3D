@@ -8,7 +8,7 @@ Die derzeit geplante Beta kann bis einschließlich **31. März 2027** zum Modell
 
 ## Belohnung für Frühunterstützer
 
-Die ersten **10 Tester**, die aktiv bestätigte, reproduzierbare Fehler melden, erhalten eine **kostenlose lebenslange Lizenz** für die erste stabile Version 1.0.
+Planungsziel, keine verbindliche Zusage: Wir möchten bis zu 10 frühen Testern, die aktiv bestätigte, reproduzierbare Fehler melden, eine kostenlose lebenslange Lizenz für Version 1.0 geben. Was als „aktiv“ und „bestätigt“ gilt, entscheidet Carv3D; es besteht kein Rechtsanspruch, und die Bedingungen können sich vor 1.0 ändern.
 
 ## Besonders hilfreiche Tests
 

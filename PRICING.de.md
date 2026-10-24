@@ -21,7 +21,7 @@ Carv3D soll bezahlbar bleiben, ohne Abonnement auskommen und gekaufte Versionen 
 
 ### Belohnung für Frühunterstützer
 
-Die ersten **10 Tester**, die aktiv bestätigte, reproduzierbare Fehler melden, erhalten eine **kostenlose lebenslange Lizenz** für die erste stabile Version 1.0.
+Planungsziel, keine verbindliche Zusage: Wir möchten bis zu 10 frühen Testern, die aktiv bestätigte, reproduzierbare Fehler melden, eine kostenlose lebenslange Lizenz für Version 1.0 geben. Was als „aktiv“ und „bestätigt“ gilt, entscheidet Carv3D; es besteht kein Rechtsanspruch, und die Bedingungen können sich vor 1.0 ändern.
 
 Vorgesehen sind weder ein Abonnement noch ein Kontozwang. Eine gekaufte Version soll dauerhaft offline und ohne Lizenzserver funktionieren. Künftige Hauptversionen können als freiwillige kostenpflichtige Upgrades angeboten werden; die bereits gekaufte Version bleibt nutzbar.
 

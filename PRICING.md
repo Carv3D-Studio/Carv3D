@@ -21,7 +21,7 @@ Carv3D is intended to remain affordable, work without a subscription and keep pu
 
 ### Early supporter reward
 
-The first **10 testers** who actively report confirmed, reproducible bugs receive a **free lifetime license** for the first stable version 1.0.
+Planning goal, not a binding promise: we intend to give a free lifetime license for version 1.0 to up to 10 early testers who actively report confirmed, reproducible bugs. What counts as "active" and "confirmed" is decided by Carv3D; there is no legal entitlement, and the terms may change before 1.0.
 
 There is no subscription and no mandatory account planned. A purchased version should keep working offline without a license server. Future major versions may be offered as optional paid upgrades; the version already purchased remains usable.
 

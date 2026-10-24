@@ -8,7 +8,7 @@ The currently planned beta can be used for modeling through **31 March 2027**. A
 
 ## Early supporter reward
 
-The first **10 testers** who actively report confirmed, reproducible bugs will receive a **free lifetime license** for the first stable 1.0 release.
+Planning goal, not a binding promise: we intend to give a free lifetime license for version 1.0 to up to 10 early testers who actively report confirmed, reproducible bugs. What counts as "active" and "confirmed" is decided by Carv3D; there is no legal entitlement, and the terms may change before 1.0.
 
 ## Particularly useful tests
 
