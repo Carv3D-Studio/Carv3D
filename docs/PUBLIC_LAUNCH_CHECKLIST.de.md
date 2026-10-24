@@ -13,7 +13,7 @@ Diese Checkliste ist die Freigabe für die Veröffentlichung der öffentlichen C
 
 ## Vor der Sichtbarkeitsänderung
 
-- [ ] Öffentliche Prüfung abschließen: kein Quellcode, keine Geheimnisse, Signierschlüssel, Testerdaten, internen Notizen oder unveröffentlichten Builds.
+- [ ] Öffentliche Prüfung abschließen: keine proprietären Anwendungsquellen, Geheimnisse, Signierschlüssel, Testerdaten, internen Notizen oder unveröffentlichten Builds. Erforderliche Open-Source-Bibliotheksquellen und deren Lizenzen gehören ausdrücklich zur Demo-Auslieferung.
 - [ ] Prüfen, dass die dokumentierten Funktionen zur Demo und zum aktuellen Verhalten passen; geplante Punkte als geplant kennzeichnen.
 - [ ] Prüfen, dass englische und deutsche Dokumente, Links und Überschriften gleichwertig sind.
 - [ ] Lizenz und Drittlizenzhinweise für die tatsächlich enthaltenen Inhalte finalisieren.
@@ -25,6 +25,7 @@ Diese Checkliste ist die Freigabe für die Veröffentlichung der öffentlichen C
 - [ ] Prüfen, dass keine Source Maps, Entwicklungsbrücke, Testdaten, Zugangsdaten oder privaten Endpunkte enthalten sind.
 - [ ] Grenzen prüfen: kein Speichern, Öffnen, Import, Export, MCP oder Erweiterungen; Körper- und Sitzungsgrenzen sind sichtbar.
 - [ ] Beta-Hinweis, Version und Ablaufdatum im Build prüfen.
+- [ ] Vollständige LGPL-/OCCT-Ausnahmetexte, Quellenarchive vom selben Host, Herkunft und austauschbares Loader-/WASM-Paar prüfen. [Bedingungen](DEMO_TERMS.de.md), [Datenschutz](DEMO_PRIVACY.de.md) und [Austauschanleitung](OCCT_REPLACEMENT.de.md) prüfen; offene Zuordnung von Quellen zu Binärdateien und Neubau einer geänderten Bibliothek abschließen.
 - [ ] Chrome und Edge in einem sauberen Profil testen, einschließlich Neuladen, Offline-Verhalten und neuer Sitzung nach Ablauf.
 - [ ] Build-Hash dokumentieren und das exakt verwendete Artefakt archivieren.
 

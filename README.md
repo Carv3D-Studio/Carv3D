@@ -74,7 +74,7 @@ Carv3D is currently tested in small invitation waves. The beta is free, but ther
 The current beta plan allows modeling through **31 March 2027**. After a beta build expires, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues with a current beta or a licensed release.
 
 > [!TIP]
-> **Early supporter reward:** The first 10 testers who actively report confirmed, reproducible bugs will receive a free lifetime license for version 1.0.
+> **Early supporter reward:** Planning goal, not a binding promise: we intend to give a free lifetime license for version 1.0 to up to 10 early testers who actively report confirmed, reproducible bugs. What counts as "active" and "confirmed" is decided by Carv3D; there is no legal entitlement, and the terms may change before 1.0.
 
 ## Product direction
 
@@ -96,6 +96,7 @@ Prices, supported platforms and license terms remain planning targets until the 
 - [Report a bug](https://github.com/Carv3D-Studio/Carv3D/issues/new?template=bug_report.yml)
 - [Request a feature](https://github.com/Carv3D-Studio/Carv3D/issues/new?template=feature_request.yml)
 - [Security reporting](SECURITY.md)
+- Preview preparation: [terms](docs/DEMO_TERMS.md), [privacy](docs/DEMO_PRIVACY.md), [open-source library replacement](docs/OCCT_REPLACEMENT.md). These are prepared for the planned live preview; they do not announce a live deployment.
 
 ## Repository and license
 

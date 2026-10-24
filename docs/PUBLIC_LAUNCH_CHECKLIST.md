@@ -13,7 +13,7 @@ This checklist is the release gate for making the public Carv3D pages and the re
 
 ## Before changing visibility
 
-- [ ] Confirm the final public repository review: no source, secrets, signing keys, tester data, internal notes or unpublished builds.
+- [ ] Confirm the final public repository review: no proprietary application source, secrets, signing keys, tester data, internal notes or unpublished builds. Required open-source library sources and their licenses are intentionally included in the demo distribution.
 - [ ] Confirm every documented capability matches the shipped demo and current application behavior; mark planned items as planned.
 - [ ] Confirm English and German documents, links and headings are equivalent.
 - [ ] Confirm the public repository license and third-party notices are final for the material actually included.
@@ -25,6 +25,7 @@ This checklist is the release gate for making the public Carv3D pages and the re
 - [ ] Verify that the preview contains no source maps, development bridge, test data, credentials or private endpoints.
 - [ ] Verify preview limits: no save, open, import, export, MCP bridge or extensions; body and session limits are visible.
 - [ ] Verify the beta warning, version and expiry text in the build.
+- [ ] Verify full LGPL/OCCT-exception texts, same-origin library source archives, provenance and the replaceable loader/WASM pair. Review [demo terms](DEMO_TERMS.md), [privacy](DEMO_PRIVACY.md) and [replacement instructions](OCCT_REPLACEMENT.md); resolve the remaining source/binary correspondence and modified-library rebuild checks.
 - [ ] Test Chrome and Edge on a clean profile, including reload, offline behavior and a new session after expiry.
 - [ ] Record the build hash and archive the exact artifact used for deployment.
 

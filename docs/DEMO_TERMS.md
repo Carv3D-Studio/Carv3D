@@ -1,0 +1,52 @@
+# Carv3D live demo — terms of use
+
+**English** · [Deutsch](DEMO_TERMS.de.md)
+
+Prepared 24 October 2026. This text is prepared for review, not a legal sign-off. Outstanding release checks are recorded in the private legal review report.
+
+## Provider
+
+Jan Gina, trading as Carv3D Studio / Carv3D, c/o Autorenglück #53589, Albert-Einstein-Str. 47, 02977 Hoyerswerda, Germany. Contact: info@carv3d.de. [Legal notice](https://carv3d.de/impressum.html).
+
+## What the demo is
+
+The Carv3D live demo is a **limited preview** running in your web browser. It is free for evaluation, including evaluation for business purposes. Loading it creates no subscription, payment obligation or beta invitation. Your browser downloads the compiled software and libraries needed to run it. Full beta access requires a separate invitation.
+
+## What you may do
+
+- Open the demo, try its functions and look at the result on screen.
+- Link to the demo and show it in a screen recording or a talk.
+- Make the downloads and browser copies necessary for this evaluation. You retain your rights in your own models; using the demo transfers no rights in them to us. Supplied examples and branding retain their respective rights.
+
+## What you may not do
+
+- Copy, modify, redistribute, sublicense, rehost or reverse engineer the **proprietary Carv3D application**, except as permitted here, by mandatory law or by an applicable third-party license.
+- Circumvent the proprietary application's preview limits, subject to the same exceptions.
+- Use the proprietary preview as a production tool or offer it as your own service without separate permission.
+- Disrupt the service or attempt unauthorized access through automated requests. Ordinary browser use and accessibility tools are permitted.
+
+## Mandatory exceptions and open-source rights
+
+The restrictions above **do not override LGPL or other third-party license rights**. You may obtain, copy, modify, rebuild and redistribute the LGPL-covered library under its license and run the demo with a compatible modified library. Modifications of the combined work for your own use and reverse engineering for debugging such modifications are permitted to the extent required by LGPL 2.1 section 6. Mandatory rights to observe, study and test software, make necessary backup copies and decompile for interoperability remain unaffected, including sections 69d, 69e and 69g of the German Copyright Act.
+
+The OCCT exception applies to OCCT; it does not automatically extend to the LGPL-2.1-only wrapper. Third-party licenses prevail for the relevant components. These terms do not restrict their redistribution or require disclosure of independent proprietary Carv3D source code.
+
+## Limits and no warranty
+
+This is experimental software and may contain errors. It offers no save, open, model import, export, slicer handoff, MCP or extensions, and permits up to 8 bodies, 150,000 scene triangles and 30 minutes of editing per session, then view-only access. Reloading starts a new session and discards the work. Editing also ends after 31 March 2027.
+
+Your work is **not saved** and cannot be recovered after tab closure, reload or a crash. Use only work you can discard. Do not rely on the preview for safety-critical design or on measurements and printability results without independent checks. Future sessions may be changed or discontinued; uninterrupted availability or fitness for a particular task is not promised.
+
+Statutory defect rights and mandatory liability remain unaffected. Liability follows applicable law. In particular, liability for intent, gross negligence, injury to life, body or health, and any other liability that cannot legally be excluded is not excluded or limited.
+
+## Your data
+
+Geometry calculations run in your browser; the demo has no model-upload service or built-in advertising or analytics. Library modules, fonts, help videos, examples and legal documents may be downloaded on demand **after startup**. GitHub Pages processes technical access data when resources are requested. Interface settings, including language, navigation, keyboard configuration, recent commands and help state, may be stored locally; they are not a project backup. See the [demo privacy notice](DEMO_PRIVACY.md), [website privacy notice](https://carv3d.de/datenschutz.html) and [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## Rights
+
+The independent proprietary application is copyright Jan Gina, Carv3D. Third-party components retain their licenses and copyright notices. The demo uses **Open CASCADE Technology** under LGPL 2.1 with the OCCT exception and **replicad-opencascadejs** under LGPL-2.1-only. Full license texts, source archives, provenance and replacement instructions accompany the demo under `legal/index.html`; notices are also accessible in About. The public documentation repository's proprietary license does not apply to third-party components or their source archives.
+
+## Statutory protections
+
+Mandatory consumer protections remain unaffected. No exclusive court venue or waiver of statutory rights is agreed here. Later terms do not retroactively change open-source permissions already received.

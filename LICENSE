@@ -5,3 +5,10 @@ This repository contains the public documentation, issue templates and community
 The Carv3D application is proprietary software and is distributed separately under its applicable terms of use. The application source code is not part of this repository.
 
 Third-party names and trademarks remain the property of their respective owners.
+
+This reservation of rights does not apply to third-party software, license texts,
+library source archives or interface declarations supplied with the live demo.
+Those materials remain under their respective licenses, including LGPL 2.1,
+the OCCT exception where applicable, MIT, Apache-2.0 and font licenses.
+Those licenses take precedence for the components concerned. See the demo's
+legal/index.html and corresponding source/provenance records.

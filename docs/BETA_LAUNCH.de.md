@@ -18,17 +18,17 @@ Das Wiki wird zum Start der öffentlichen Beta aktiviert. Englisch ist die Haupt
 
 Zu Beginn dürfen nur Maintainer das Wiki bearbeiten. Eine Bearbeitung durch die Community kann später freigegeben werden, wenn der Moderationsaufwand bekannt ist.
 
-## Live-Beta über GitHub Pages
+## Eingeschränkte Live-Vorschau über GitHub Pages
 
-GitHub Pages wird erst zur öffentlichen Beta aktiviert. Das private Kern-Repository erstellt den Produktions-Build. Nur die kompilierten Webdateien werden an Pages übergeben; Quellcode und interne Dokumentation bleiben privat.
+GitHub Pages wird nach der Startfreigabe aktiviert. Das private Kern-Repository baut die eingeschränkte Demo. Pages erhält die kompilierte Anwendung und die erforderlichen Quellen, Lizenzen und Austauschanleitungen der Drittbibliotheken. Proprietäre Anwendungsquellen und interne Doku bleiben privat. Die vollständige Beta bleibt auf Einladungen beschränkt.
 
 Vor der ersten Veröffentlichung:
 
 1. Im `Carv3D-CORE` die vollständige Prüfung ausführen.
 2. Sicherstellen, dass der Produktions-Build keine Entwicklungsbrücke, Testdaten oder Source Maps enthält.
 3. Den richtigen Basispfad für `/Carv3D/` konfigurieren.
-4. Sichtbaren Beta-Hinweis, Versionsnummer, Ablaufdatum und den erhaltenen Zugriff zum Öffnen, Speichern und Exportieren prüfen.
-5. Speichern, Neuladen und Offline-Betrieb unter der veröffentlichten Adresse testen.
+4. Demo-Grenzen, Version, Ablaufdatum und Warnung vor ungespeicherter Arbeit prüfen. Öffnen, Speichern, Import und Export bleiben in der Vorschau gesperrt.
+5. Neuladen und Offline-Verhalten testen; separaten LGPL-Loader/WASM, Quellenarchive vom selben Host und vollständige Lizenzen unter `legal/index.html` prüfen.
 6. Pages aktivieren und den geprüften Build veröffentlichen.
 
-Im Repository liegt bewusst noch kein Deployment-Workflow. Dadurch kann während der Vorbereitung nicht versehentlich eine Live-Beta veröffentlicht werden.
+Im Repository liegt kein Deployment-Workflow; im privaten Kern liegt ein Entwurf. Vor dem Start die in der [Austauschanleitung](OCCT_REPLACEMENT.de.md) genannten Prüfungen zu Quellen-/Binärzuordnung und Neubau einer geänderten Bibliothek abschließen sowie [Demo-Bedingungen](DEMO_TERMS.de.md) und [Demo-Datenschutz](DEMO_PRIVACY.de.md) prüfen. Die Vorbereitung ist keine anwaltliche Freigabe.
