@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Carv3D: from a block to a print-ready part – directly on the model, no feature tree
+
+00:00:03.000 --> 00:00:14.100
+Click a face and sketch: a circle on the top face
+
+00:00:14.100 --> 00:00:20.800
+Pull: the circle becomes a post, and you type the height as a number
+
+00:00:20.800 --> 00:00:28.700
+Click an edge, choose "Chamfer": a 10 mm bevel
+
+00:00:28.700 --> 00:00:36.500
+Add a fillet of 5 mm
+
+00:00:36.500 --> 00:00:47.700
+Holes work on slanted faces too: the screw stands square to the face
+
+00:00:47.700 --> 00:00:54.400
+Colour a face: the colour goes into the 3MF export
+
+00:00:54.400 --> 00:01:04.000
+"Offset edge": a line 10 mm from the edge splits the face
+
+00:01:04.000 --> 00:01:09.700
+Press the new strip in by 2 mm
+
+00:01:09.700 --> 00:01:20.700
+"Split face": two clicks set the dividing line
+
+00:01:20.700 --> 00:01:25.200
+Pull the split face: a rib appears
+
+00:01:25.200 --> 00:01:34.400
+Click a round face and drag the arrow: the radius changes
+
+00:01:34.400 --> 00:01:41.300
+Generator "Box with lid": check the sizes, one click
+
+00:01:41.300 --> 00:01:46.200
+Box and lid lie on the bed, ready to print
+
+00:01:46.200 --> 00:01:51.300
+Export as 3MF: with colours, straight to your slicer
+
+00:01:51.300 --> 00:01:57.000
+Carv3D – local 3D modelling for 3D printing and makers · carv3d.de

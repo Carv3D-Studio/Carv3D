@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Carv3D: vom Quader zum druckfertigen Teil – direkt am Modell, ohne Konstruktionsbaum
+
+00:00:03.000 --> 00:00:14.100
+Fläche anklicken, skizzieren: ein Kreis auf der Oberseite
+
+00:00:14.100 --> 00:00:20.800
+Ziehen: aus dem Kreis wird ein Zapfen, die Höhe tippst du als Maß ein
+
+00:00:20.800 --> 00:00:28.700
+Kante anklicken, „Abschrägen“: eine Fase von 10 mm
+
+00:00:28.700 --> 00:00:36.500
+Dazu eine Rundung von 5 mm
+
+00:00:36.500 --> 00:00:47.700
+Bohrungen auch auf schrägen Flächen: die Schraube steht senkrecht zur Fläche
+
+00:00:47.700 --> 00:00:54.400
+Fläche färben: die Farbe geht in den 3MF-Export mit
+
+00:00:54.400 --> 00:01:04.000
+„Kante versetzen“: eine Linie im Abstand von 10 mm teilt die Fläche
+
+00:01:04.000 --> 00:01:09.700
+Den neuen Streifen 2 mm eindrücken
+
+00:01:09.700 --> 00:01:20.700
+„Fläche teilen“: zwei Klicks legen die Trennlinie fest
+
+00:01:20.700 --> 00:01:25.200
+Die Teilfläche ziehen: eine Rippe entsteht
+
+00:01:25.200 --> 00:01:34.400
+Runde Fläche anklicken und am Pfeil ziehen: der Radius ändert sich
+
+00:01:34.400 --> 00:01:41.300
+Generator „Box mit Deckel“: Maße prüfen, ein Klick
+
+00:01:41.300 --> 00:01:46.200
+Box und Deckel liegen druckfertig auf dem Bett
+
+00:01:46.200 --> 00:01:51.300
+Export als 3MF: mit Farben, direkt für den Slicer
+
+00:01:51.300 --> 00:01:57.000
+Carv3D – lokale 3D-Modellierung für 3D-Druck und Maker · carv3d.de

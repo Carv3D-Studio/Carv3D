@@ -49,19 +49,25 @@ Die Beispiele sind editierbare Carv3D-Projekte auf der Bauplatte der Anwendung. 
 | ![Robotergreifer auf der Carv3D-Bauplatte](docs/assets/robot-gripper.webp) **Robotergreifer** — gekoppelte Gelenke, Drehlager, austauschbare Backen und ein Anschlag mit Gewinde. | ![Präzisionsklemme auf der Carv3D-Bauplatte](docs/assets/desk-clamp.webp) **Präzisionsklemme** — einteiliger C-Rahmen, M16-Spindel, Führungen, Drucklager und verschiebbarer Griff. |
 | ![Mechanische Iris auf der Carv3D-Bauplatte](docs/assets/mechanical-iris.webp) **Mechanische Iris** — zwölf überlappende Lamellen, einzelne Drehpunkte, Stellring und verstärkter Montagerahmen. | ![Druckbarkeitsanalyse in Carv3D](docs/assets/printability.webp) **Druckbarkeitsanalyse** — dünne Wände, Brücken, Überhänge und Bauraumprobleme werden vor dem Export geprüft. |
 
+### Der Film in zwei Minuten
+
+Vom Quader zum druckfertigen Teil, aufgenommen in der echten Anwendung: Schraubenbohrung auf einer schrägen Fläche, Flächenfarben, Kante versetzen, Fläche teilen, Radius per Ziehen, Generator „Box mit Deckel“ und der 3MF-Export.
+
+[![Schräge Bohrung](docs/media/showcase-1-slanted-hole.de.png)](docs/media/carv3d-showcase.de.mp4)
+
+[Film mit deutschen Untertiteln (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Untertitel](docs/media/carv3d-showcase.en.mp4) · [WebVTT-Untertitel](docs/media/carv3d-showcase.de.vtt) · [Beispielmodell mit Flächenfarben (3MF)](docs/media/carv3d-showcase-example.3mf)
+
 Weitere Beispiele und kurze Videos gibt es auf der [Carv3D-Webseite](https://carv3d.de/Beta.html#showcase).
 
-## Lokale KI über MCP
+## Lokale Automatisierung & MCP-Schnittstelle
 
-Carv3D stellt seine Modellierbefehle über einen lokalen **Model Context Protocol (MCP)**-Server bereit. MCP-fähige lokale Agenten können Modelle über dieselbe Befehlsschicht wie die Oberfläche erstellen, untersuchen, verändern, messen, prüfen und exportieren.
+Carv3D stellt seine Modellierbefehle über einen lokalen **Model Context Protocol (MCP)**-Server bereit, entwickelt von stereodruid. MCP-fähige lokale Automatisierungswerkzeuge, Skripte und Clients können Modelle über dieselbe Befehlsschicht wie die Oberfläche erstellen, untersuchen, verändern, messen, prüfen und exportieren.
 
-- kein API-Schlüssel eines KI-Anbieters in Carv3D erforderlich
+- kein externer Cloud-API-Schlüssel in Carv3D erforderlich
 - Geometrie und Projekte bleiben auf dem lokalen Computer
 - Headless-Modus zum Erstellen von Modellen ohne geöffneten Browser
 - Live-Brücke zur Steuerung der geöffneten Carv3D-Arbeitsumgebung
-- ausgelegt für MCP-fähige Agenten wie OpenAI Codex, Claude und Google Gemini
-
-Die Produktnamen gehören ihren jeweiligen Inhabern; die Kompatibilität ist keine Empfehlung durch die Anbieter.
+- kompatibel mit standardkonformen MCP-Clients und lokalen Automatisierungswerkzeugen
 
 ## Private frühe Beta
 
