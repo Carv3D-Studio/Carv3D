@@ -53,9 +53,9 @@ The examples below are editable Carv3D projects shown on the application's basep
 
 From a box to a printable part, recorded in the real application: a screw hole on a slanted face, face colours, offset edge, split face, dragging a radius, the box-with-lid generator and the 3MF export.
 
-![Carv3D film preview: from a box to a printable part (three times speed, loops)](docs/media/carv3d-showcase-preview.en.webp)
+https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
 
-*Preview at three times speed. Full film with subtitles:* [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German subtitles](docs/media/carv3d-showcase.de.mp4) · [WebVTT subtitles](docs/media/carv3d-showcase.en.vtt) · [Example model with face colours (3MF)](docs/media/carv3d-showcase-example.3mf)
+Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version](docs/media/carv3d-showcase.de.mp4) · [WebVTT subtitles](docs/media/carv3d-showcase.en.vtt) · [Example model with face colours (3MF)](docs/media/carv3d-showcase-example.3mf)
 
 More examples and short videos are available on the [Carv3D website](https://carv3d.de/Beta.html#showcase).
 

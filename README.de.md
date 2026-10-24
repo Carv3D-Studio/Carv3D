@@ -53,9 +53,9 @@ Die Beispiele sind editierbare Carv3D-Projekte auf der Bauplatte der Anwendung. 
 
 Vom Quader zum druckfertigen Teil, aufgenommen in der echten Anwendung: Schraubenbohrung auf einer schrägen Fläche, Flächenfarben, Kante versetzen, Fläche teilen, Radius per Ziehen, Generator „Box mit Deckel“ und der 3MF-Export.
 
-![Carv3D-Film, Vorschau: vom Quader zum druckfertigen Teil (dreifache Geschwindigkeit, Endlosschleife)](docs/media/carv3d-showcase-preview.de.webp)
+https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
 
-*Vorschau in dreifacher Geschwindigkeit. Der ganze Film mit Untertiteln:* [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Untertitel](docs/media/carv3d-showcase.en.mp4) · [WebVTT-Untertitel](docs/media/carv3d-showcase.de.vtt) · [Beispielmodell mit Flächenfarben (3MF)](docs/media/carv3d-showcase-example.3mf)
+Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassung](docs/media/carv3d-showcase.en.mp4) · [WebVTT-Untertitel](docs/media/carv3d-showcase.de.vtt) · [Beispielmodell mit Flächenfarben (3MF)](docs/media/carv3d-showcase-example.3mf)
 
 Weitere Beispiele und kurze Videos gibt es auf der [Carv3D-Webseite](https://carv3d.de/Beta.html#showcase).
 
