@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "wrapperVersion": "1.1.0",
+  "occtVersion": "8.0.1 (declared by pinned upstream build metadata)",
+  "correspondence": "npm gitHead and upstream build metadata; no independent binary rebuild yet.",
+  "modifications": "No local Carv3D library patches. Upstream patches and generators are included in the archives.",
+  "binaries": {
+    "replicad_single.js": "018e57538fcb773f0124eae60aee4de693d3aae01c55b2b883a874911ab121c3",
+    "replicad_single.wasm": "4c9f22e9f3828dca6f3c95405934cdbe624e593c35266f47f392ab337478dbde"
+  },
+  "sources": [
+    {
+      "name": "replicad",
+      "repo": "sgenoud/replicad",
+      "ref": "e4b05f67dc4e2393a876ce8c5064a9c93db05bf1",
+      "url": "https://codeload.github.com/sgenoud/replicad/tar.gz/e4b05f67dc4e2393a876ce8c5064a9c93db05bf1",
+      "file": "sources/replicad-e4b05f67dc4e2393a876ce8c5064a9c93db05bf1.tar.gz",
+      "bytes": 17426998,
+      "sha256": "92180710da11a6e67ab75eaac8b494b29d32011415c22e29f7fecb1c796da783"
+    },
+    {
+      "name": "opencascade-js",
+      "repo": "taucad/opencascade.js",
+      "ref": "ebd263f15337b440b391492af073662707e86482",
+      "url": "https://codeload.github.com/taucad/opencascade.js/tar.gz/ebd263f15337b440b391492af073662707e86482",
+      "file": "sources/opencascade-js-ebd263f15337b440b391492af073662707e86482.tar.gz",
+      "bytes": 4449501,
+      "sha256": "1e0342c8dbdc04d1835c776d5e95ab25fcad56a5f4cafcbecad92a959b6b00b7"
+    },
+    {
+      "name": "occt",
+      "repo": "Open-Cascade-SAS/OCCT",
+      "ref": "b8f597c677811d1f9f4d8a97f5ae2825c0353a42",
+      "url": "https://codeload.github.com/Open-Cascade-SAS/OCCT/tar.gz/b8f597c677811d1f9f4d8a97f5ae2825c0353a42",
+      "file": "sources/occt-b8f597c677811d1f9f4d8a97f5ae2825c0353a42.tar.gz",
+      "bytes": 45131814,
+      "sha256": "dba62b81078dd43cec23feba89432be301582341001edad1b93342ad8bda35ea"
+    },
+    {
+      "name": "rapidjson",
+      "repo": "Tencent/rapidjson",
+      "ref": "24b5e7a8b27f42fa16b96fc70aade9106cf7102f",
+      "url": "https://codeload.github.com/Tencent/rapidjson/tar.gz/24b5e7a8b27f42fa16b96fc70aade9106cf7102f",
+      "file": "sources/rapidjson-24b5e7a8b27f42fa16b96fc70aade9106cf7102f.tar.gz",
+      "bytes": 1116703,
+      "sha256": "2d2601a82d2d3b7e143a3c8d43ef616671391034bc46891a9816b79cf2d3e7a8"
+    },
+    {
+      "name": "freetype",
+      "repo": "freetype/freetype",
+      "ref": "de8b92dd7ec634e9e2b25ef534c54a3537555c11",
+      "url": "https://codeload.github.com/freetype/freetype/tar.gz/de8b92dd7ec634e9e2b25ef534c54a3537555c11",
+      "file": "sources/freetype-de8b92dd7ec634e9e2b25ef534c54a3537555c11.tar.gz",
+      "bytes": 2496556,
+      "sha256": "14791d34053acf30394912a8b963277bee60b35fbb3038795d86555ba0415a44"
+    },
+    {
+      "name": "emscripten",
+      "repo": "emscripten-core/emscripten",
+      "ref": "5.0.1",
+      "url": "https://codeload.github.com/emscripten-core/emscripten/tar.gz/5.0.1",
+      "file": "sources/emscripten-5.0.1.tar.gz",
+      "bytes": 34695688,
+      "sha256": "4612f72f59b383d270ea17cc4b4e5b3837b83e42362733a127cc149298cbd77e"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "file": "OCCT_EXCEPTION.txt",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/b8f597c677811d1f9f4d8a97f5ae2825c0353a42/OCCT_LGPL_EXCEPTION.txt",
+      "sha256": "04580a884ea6cea294402649ff7b5cbb167d47462d1340a4ed33e550db10a81b"
+    },
+    {
+      "file": "OCCT_LGPL_21.txt",
+      "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/b8f597c677811d1f9f4d8a97f5ae2825c0353a42/LICENSE_LGPL_21.txt",
+      "sha256": "e237fa56668030e928551ddd60f05df5fe957f75eab874bbd017e085ed722e7c"
+    },
+    {
+      "file": "FREETYPE_FTL.txt",
+      "url": "https://raw.githubusercontent.com/freetype/freetype/de8b92dd7ec634e9e2b25ef534c54a3537555c11/docs/FTL.TXT",
+      "sha256": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1"
+    },
+    {
+      "file": "RAPIDJSON_LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/Tencent/rapidjson/24b5e7a8b27f42fa16b96fc70aade9106cf7102f/license.txt",
+      "sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32"
+    },
+    {
+      "file": "EMSCRIPTEN_LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/5.0.1/LICENSE",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    }
+  ]
+}

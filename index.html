@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carv3D — The 3D-Printing-First Direct Modeler</title>
+  <meta name="theme-color" content="#00d4ff" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/icon.svg" />
+  <style>:root{--bg:#101216;--panel:#171a20;--panel-raised:#1d2128;--border:#272c35;--border-strong:#353b47;--text:#d7dce4;--text-dim:#8b94a3;--text-faint:#5d6675;--accent:#38b6f0;--accent-soft:#38b6f024;--danger:#e5604f;--radius:5px;--rail-width:44px;--sidebar-width:264px;--menubar-height:34px}*{box-sizing:border-box;-webkit-user-select:none;user-select:none;margin:0;padding:0}body,html{background-color:var(--bg);width:100%;height:100%;color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;font-size:12px;overflow:hidden}button{color:inherit;font-family:inherit}svg.icon{fill:none;stroke:currentColor;stroke-width:1.6px;stroke-linecap:round;stroke-linejoin:round;flex:none;width:18px;height:18px}#app{flex-direction:column;width:100%;height:100%;display:flex}#workspace{flex:1;min-height:0;display:flex}#viewport-wrap{flex:1;min-width:0;position:relative;overflow:hidden}#viewport-container{z-index:1;position:absolute;inset:0}canvas{width:100%;height:100%;display:block}#menubar{height:var(--menubar-height);background:var(--panel);border-bottom:1px solid var(--border);z-index:40;flex:none;justify-content:space-between;align-items:center;gap:12px;padding:0 8px;display:flex}.mb-group{align-items:center;gap:4px;min-width:0;display:flex}.brand{color:var(--text);align-items:center;gap:7px;padding-right:10px;font-size:13px;font-weight:600;display:flex}.brand svg{width:18px;height:18px;color:var(--accent)}#menubar-menus{align-items:center;gap:1px;display:flex}.menu-root{position:relative}.menu-title{border-radius:var(--radius);height:24px;color:var(--text-dim);cursor:pointer;background:0 0;border:none;padding:0 9px;font-size:12px}.menu-title:hover,.menu-root.open>.menu-title{background:var(--panel-raised);color:var(--text)}.menu-dropdown{background:var(--panel-raised);border:1px solid var(--border-strong);border-radius:var(--radius);z-index:60;min-width:210px;margin-top:3px;padding:4px;display:none;position:absolute;top:100%;left:0;box-shadow:0 10px 28px #00000080}.menu-root.open>.menu-dropdown{display:block}.menu-item{cursor:pointer;height:26px;color:var(--text);white-space:nowrap;border-radius:3px;align-items:center;gap:10px;padding:0 10px 0 24px;display:flex;position:relative}.menu-item:hover{background:var(--accent-soft)}.menu-item.disabled{color:var(--text-faint);pointer-events:none}.menu-item .menu-check{color:var(--accent);position:absolute;left:8px}.menu-item .menu-label{flex:1}.menu-item .menu-shortcut{color:var(--text-faint);font-size:11px}.menu-item .menu-arrow{color:var(--text-faint)}.menu-separator{background:var(--border);height:1px;margin:4px 2px}.menu-item>.menu-dropdown{margin:0 0 0 2px;top:-5px;left:100%}.menu-item:hover>.menu-dropdown,.menu-item.open>.menu-dropdown{display:block}.menu-title:focus-visible,.menu-item:focus-visible{outline:1px solid var(--accent);outline-offset:-1px}.menu-item:focus-visible{background:var(--accent-soft)}.project-name{white-space:nowrap;text-overflow:ellipsis;max-width:180px;color:var(--text-dim);border-radius:var(--radius);cursor:default;padding:3px 10px;font-size:12px;overflow:hidden}.project-name:hover{background:var(--panel-raised);color:var(--text)}.icon-btn{border-radius:var(--radius);width:26px;height:26px;color:var(--text-dim);cursor:pointer;background:0 0;border:none;justify-content:center;align-items:center;display:inline-flex}.icon-btn:hover{background:var(--panel-raised);color:var(--text)}.icon-btn:disabled{opacity:.35;pointer-events:none}.mb-sep{background:var(--border);width:1px;height:16px;margin:0 6px}.bed-info{color:var(--text-faint);white-space:nowrap;padding-right:4px;font-size:11px}.text-btn{white-space:nowrap}#mode-switch .pill-btn{height:24px;padding:0 10px;font-weight:600}@media (width<=1180px){.bed-info{display:none}}.text-btn{border-radius:var(--radius);border:1px solid var(--border-strong);height:24px;color:var(--text);cursor:pointer;background:0 0;align-items:center;gap:6px;padding:0 10px;font-size:12px;display:inline-flex}.text-btn:hover{border-color:var(--accent);color:var(--accent)}.text-btn.primary{background:var(--accent);border-color:var(--accent);color:#07131b;font-weight:600}.text-btn.primary:hover{filter:brightness(1.08);color:#07131b}.text-btn:disabled{opacity:.4;pointer-events:none}.dock-left{width:var(--rail-width);background:var(--panel);border-right:1px solid var(--border);z-index:30;scrollbar-width:none;flex-direction:column;flex:none;align-items:center;gap:2px;padding:8px 0;display:flex;overflow:hidden auto}.dock-left::-webkit-scrollbar{display:none}.dock-group{flex-direction:column;align-items:center;gap:2px;width:100%;display:flex}.dock-sep{background:var(--border);flex:none;width:22px;height:1px;margin:5px 0}.tool-btn{border-radius:var(--radius);width:34px;height:34px;color:var(--text-dim);cursor:pointer;background:0 0;border:1px solid #0000;flex:none;justify-content:center;align-items:center;display:flex;position:relative}.tool-btn:hover{background:var(--panel-raised);color:var(--text)}.tool-btn.active{background:var(--accent-soft);color:var(--accent);border-color:#38b6f059}.tool-btn.danger{color:var(--danger)}.tool-btn.danger:hover{background:#e5604f24}.tool-btn .btn-icon{justify-content:center;align-items:center;display:flex}#context-bar{z-index:25;background:var(--panel-raised);border:1px solid var(--border-strong);border-radius:9px;flex-wrap:wrap;justify-content:center;gap:2px;max-width:calc(100% - 180px);padding:4px;display:none;position:absolute;top:84px;left:50%;transform:translate(-50%);box-shadow:0 6px 20px #00000073}.context-btn{height:30px;color:var(--text);cursor:pointer;white-space:nowrap;background:0 0;border:none;border-radius:6px;align-items:center;gap:6px;padding:0 10px;font-size:12px;display:flex}.context-btn:hover{background:var(--accent-soft);color:var(--accent)}.context-btn.danger{color:var(--danger)}.context-btn.danger:hover{color:var(--danger);background:#e5604f24}.context-btn.unavailable{opacity:.4;cursor:not-allowed}.context-btn.unavailable:hover{color:var(--text);background:0 0}.context-btn .btn-icon svg{width:15px;height:15px}.tool-group{flex:none;justify-content:center;width:100%;display:flex;position:relative}.tool-group-main:after{content:"";opacity:.55;border-bottom:4px solid;border-left:4px solid #0000;width:0;height:0;position:absolute;bottom:3px;right:3px}.tool-flyout{z-index:150;background:var(--panel-raised);border:1px solid var(--border-strong);border-radius:var(--radius);flex-direction:column;gap:2px;min-width:190px;margin-left:6px;padding:5px;display:none;position:fixed;box-shadow:0 8px 24px #00000080}.tool-flyout:before{content:"";width:8px;height:100%;position:absolute;top:0;left:-8px}.tool-flyout.open{display:flex}.tool-btn.tool-flyout-item{justify-content:flex-start;gap:9px;width:100%;height:30px;padding:0 8px}.tool-flyout-name{text-align:left;white-space:nowrap;flex:1;font-size:12.5px}.tool-flyout-key{color:var(--text-dim);opacity:.8;font-size:11px}#carv-tooltip{z-index:200;pointer-events:none;background:var(--panel-raised);border:1px solid var(--border-strong);border-radius:var(--radius);max-width:240px;padding:7px 9px;display:none;position:fixed;box-shadow:0 8px 24px #00000080}#carv-tooltip .tip-head{color:var(--text);align-items:center;gap:8px;font-weight:600;display:flex}#carv-tooltip .tip-key{color:var(--text-dim);border:1px solid var(--border-strong);border-radius:3px;padding:0 5px;font-size:10px;font-weight:500;line-height:15px}#carv-tooltip .tip-desc{color:var(--text-dim);margin-top:3px;font-size:11px;line-height:1.45}#top-helper-pill{z-index:22;max-width:min(70%,640px);color:var(--text-dim);border:1px solid var(--border);backdrop-filter:blur(6px);background:#171a20d9;border-radius:14px;align-items:center;gap:10px;padding:5px 12px;font-size:11.5px;display:flex;position:absolute;top:10px;left:50%;transform:translate(-50%)}#top-helper-text{align-items:center;gap:6px;display:flex}#btn-normal-to-sketch{border:1px solid var(--accent);height:20px;color:var(--accent);cursor:pointer;background:0 0;border-radius:10px;padding:0 9px;font-size:11px;display:none}#btn-normal-to-sketch:hover{background:var(--accent-soft)}#context-hud{z-index:20;border:1px solid var(--border-strong);border-radius:var(--radius);background:#171a20eb;width:max-content;max-width:94%;padding:6px 10px;font-size:12px;display:none;position:absolute;bottom:12px;left:50%;transform:translate(-50%);box-shadow:0 6px 20px #0006}#context-hud:has(>.hud-section[style*="display: flex"]){display:flex}.hud-section{flex-wrap:wrap;align-items:center;gap:10px;display:flex}.hud-title{color:var(--text);font-weight:600}.action-btn{border-radius:var(--radius);border:1px solid var(--border-strong);height:24px;color:var(--text);cursor:pointer;background:0 0;align-items:center;gap:6px;padding:0 10px;font-size:12px;display:inline-flex}.action-btn:hover{border-color:var(--accent);color:var(--accent)}.action-btn:disabled{opacity:.4;pointer-events:none}.action-btn.primary{background:var(--accent);border-color:var(--accent);color:#07131b;font-weight:600}.action-btn.primary:hover{filter:brightness(1.08);color:#07131b}.pill-group{border:1px solid var(--border-strong);border-radius:var(--radius);display:flex;overflow:hidden}.pill-btn{height:22px;color:var(--text-dim);cursor:pointer;background:0 0;border:none;padding:0 9px;font-size:11.5px}.pill-btn+.pill-btn{border-left:1px solid var(--border-strong)}.pill-btn:hover{color:var(--text)}.pill-btn.active{background:var(--accent-soft);color:var(--accent)}.hud-select{background:var(--panel);height:24px;color:var(--text);border:1px solid var(--border-strong);border-radius:var(--radius);cursor:pointer;outline:none;padding:0 6px;font-family:inherit;font-size:12px}#select-hardware-preset{width:clamp(280px,28vw,380px);max-width:100%}.hud-select option{background:var(--panel);color:var(--text)}.hud-input-number{background:var(--panel);border:1px solid var(--border-strong);border-radius:var(--radius);width:52px;height:22px;color:var(--text);text-align:right;outline:none;padding:0 5px;font-family:inherit;font-size:12px}.hud-input-number:focus{border-color:var(--accent)}.hud-slider{accent-color:var(--accent);cursor:pointer;vertical-align:middle;width:110px}.hud-label{color:var(--text-dim);align-items:center;gap:6px;display:flex}.hud-hint{color:var(--text-dim);font-size:11.5px}.hud-value{color:var(--accent);min-width:44px;font-weight:600}#sidebar{width:var(--sidebar-width);background:var(--panel);border-left:1px solid var(--border);z-index:30;flex-direction:column;flex:none;min-height:0;transition:width .15s;display:flex}#sidebar.collapsed{width:30px}.sidebar-tabs{border-bottom:1px solid var(--border);flex:none;align-items:center;gap:2px;height:32px;padding:0 4px 0 6px;display:flex}.sidebar-tab{border-radius:var(--radius);height:24px;color:var(--text-dim);cursor:pointer;white-space:nowrap;background:0 0;border:none;padding:0 9px;font-size:12px}.sidebar-tab:hover{color:var(--text);background:var(--panel-raised)}.sidebar-tab.active{color:var(--text);background:var(--panel-raised);box-shadow:inset 0 -2px 0 var(--accent)}.sidebar-spacer{flex:1}#sidebar-toggle svg{transition:transform .15s}#sidebar.collapsed #sidebar-toggle svg{transform:rotate(180deg)}#sidebar.collapsed .sidebar-tab,#sidebar.collapsed .sidebar-body,#sidebar.collapsed .sidebar-section{display:none}#sidebar.collapsed .sidebar-tabs{justify-content:center;padding:0}.sidebar-body{flex:1;min-height:0;padding:8px;overflow-y:auto}.sidebar-pane{display:none}.sidebar-pane.active{display:block}.sidebar-section{border-top:1px solid var(--border);flex:none;padding:8px}.section-title{letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);margin-bottom:7px;font-size:10.5px;font-weight:600}.history-empty-hint{color:var(--text-faint);padding:4px 2px;font-size:11.5px;line-height:1.5}#history-tree-list{flex-direction:column;gap:1px;display:flex}.history-item{border-radius:var(--radius);color:var(--text-dim);cursor:pointer;border-left:2px solid #0000;align-items:center;gap:8px;padding:5px 8px;font-size:12px;display:flex}.history-item:hover{background:var(--panel-raised);color:var(--text)}.history-item.active{background:var(--accent-soft);color:var(--text);border-left-color:var(--accent)}.history-item.undone{opacity:.45;text-decoration:line-through}#body-list,#sketch-list{flex-direction:column;gap:1px;display:flex}.body-row{border-radius:var(--radius);color:var(--text-dim);cursor:pointer;border-left:2px solid #0000;align-items:center;gap:4px;padding:3px 4px;font-size:12px;display:flex}.body-row:hover{background:var(--panel-raised);color:var(--text)}.body-row.selected{background:var(--accent-soft);color:var(--text);border-left-color:var(--accent)}.body-row.hidden-body .body-name{opacity:.45;text-decoration:line-through}.body-name{text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0;padding:2px 3px;overflow:hidden}.body-name-input{box-sizing:border-box;width:100%;font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--accent);border-radius:3px;padding:1px 4px}.body-btn{width:22px;height:22px;color:var(--text-dim);cursor:pointer;background:0 0;border:none;border-radius:4px;flex:none;justify-content:center;align-items:center;display:flex}.body-btn:hover{background:var(--border);color:var(--text)}.body-btn svg{width:14px;height:14px}.body-row:not(:hover) .body-btn:last-child{opacity:0}.prop-row{border-bottom:1px solid var(--border);justify-content:space-between;gap:10px;padding:4px 2px;display:flex}.prop-row span:first-child{color:var(--text-dim)}.prop-row span:last-child{color:var(--text);font-variant-numeric:tabular-nums}#hud-dim-badge{border:1px solid var(--border-strong);border-radius:var(--radius);width:fit-content;color:var(--text);font-variant-numeric:tabular-nums;align-items:center;margin-bottom:7px;padding:3px 8px;display:none}#selection-color-row{flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:8px}#selection-color-row .color-label{color:var(--text-dim);margin-right:3px}.color-swatch{border:1px solid var(--border-strong);cursor:pointer;border-radius:50%;width:17px;height:17px;padding:0}.color-swatch.active{outline:2px solid var(--text);outline-offset:1px}.color-custom{border:1px solid var(--border-strong);cursor:pointer;background:0 0;border-radius:4px;width:22px;height:20px;padding:0}.color-more{border:1px solid var(--border-strong);height:20px;color:var(--text-dim);cursor:pointer;background:0 0;border-radius:4px;padding:0 7px;font-size:11px}.color-more:hover{color:var(--text);border-color:var(--accent,#00d4ff)}#hud-status{color:var(--text-dim);margin-bottom:8px;font-size:11.5px;line-height:1.5}#hud-panel-info{flex-direction:column;align-items:stretch;gap:4px;display:flex}#hud-panel-info .action-btn{justify-content:flex-start;height:26px}.action-btn .icon{width:15px;height:15px}</style>
+  <script type="module" crossorigin src="/Carv3D/assets/index-CMc6Ho5l.js"></script>
+  <link rel="modulepreload" crossorigin href="/Carv3D/assets/three-DCKiCEMe.js">
+</head>
+<body>
+  <div id="app">
+
+    <!-- Menüband -->
+    <header id="menubar">
+      <div class="mb-group">
+        <div class="brand">
+          <svg class="icon" viewBox="0 0 24 24" data-icon="logo"></svg>
+          <span>Carv3D</span>
+        </div>
+        <nav id="menubar-menus"></nav>
+      </div>
+
+      <div class="mb-group">
+        <div class="project-name" id="project-name" data-i18n="project.untitled">Titelloses Bauteil</div>
+      </div>
+
+      <div class="mb-group">
+        <div class="pill-group" id="mode-switch">
+          <button class="pill-btn active" id="mode-solid" data-tooltip="mode.solid" data-i18n="mode.solid">Modell</button>
+          <button class="pill-btn" id="mode-mesh" data-tooltip="mode.mesh" data-i18n="mode.mesh">Mesh</button>
+        </div>
+        <span class="mb-sep"></span>
+        <button class="icon-btn" id="btn-undo" data-icon="undo" data-tooltip="action.undo" data-shortcut="Ctrl+Z" data-i18n-label="action.undo" disabled></button>
+        <button class="icon-btn" id="btn-redo" data-icon="redo" data-tooltip="action.redo" data-shortcut="Ctrl+Y" data-i18n-label="action.redo" disabled></button>
+        <span class="mb-sep"></span>
+        <span class="bed-info" id="bed-info">Bett: 256 × 256 mm</span>
+        <button class="text-btn primary" id="btn-export-stl">
+          <svg class="icon" viewBox="0 0 24 24" data-icon="export" style="width:14px;height:14px"></svg>
+          <span data-i18n="header.export_stl">Export STL</span>
+        </button>
+      </div>
+    </header>
+
+    <div id="workspace">
+
+      <!-- Werkzeugleiste (Icons, Tooltips mit Namen, Beschreibung und Kürzel) -->
+      <aside class="dock-left">
+        <div id="dock-3d-tools" class="dock-group">
+          <button class="tool-btn" id="tool-enter-sketch" data-tooltip="tool.sketch" data-shortcut="S" data-i18n-label="tool.sketch.name">
+            <span class="btn-icon" data-icon="sketch"></span>
+          </button>
+          <button class="tool-btn active" id="tool-select" data-tooltip="tool.select" data-shortcut="V" data-i18n-label="tool.select.name">
+            <span class="btn-icon" data-icon="select"></span>
+          </button>
+          <button class="tool-btn" id="tool-fillet" data-tooltip="tool.fillet" data-shortcut="F" data-i18n-label="tool.fillet.name">
+            <span class="btn-icon" data-icon="fillet"></span>
+          </button>
+          <button class="tool-btn" id="tool-hole" data-tooltip="tool.hole" data-shortcut="Shift+H" data-i18n-label="tool.hole.name">
+            <span class="btn-icon" data-icon="hole"></span>
+          </button>
+          <button class="tool-btn" id="tool-text" data-tooltip="tool.text" data-shortcut="T" data-i18n-label="tool.text.name">
+            <span class="btn-icon" data-icon="text"></span>
+          </button>
+          <button class="tool-btn" id="tool-measure" data-tooltip="tool.measure" data-i18n-label="tool.measure.name">
+            <span class="btn-icon" data-icon="measure"></span>
+          </button>
+          <button class="tool-btn" id="tool-plane" data-tooltip="tool.plane" data-i18n-label="tool.plane.name">
+            <span class="btn-icon" data-icon="plane"></span>
+          </button>
+          <button class="tool-btn" id="tool-section" data-tooltip="tool.section" data-i18n-label="tool.section.name">
+            <span class="btn-icon" data-icon="section"></span>
+          </button>
+          <div class="dock-sep"></div>
+          <button class="tool-btn" id="tool-sketch-rect" data-tooltip="tool.box" data-shortcut="R" data-i18n-label="tool.box.name">
+            <span class="btn-icon" data-icon="box"></span>
+          </button>
+          <button class="tool-btn" id="tool-sketch-circle" data-tooltip="tool.cylinder" data-shortcut="C" data-i18n-label="tool.cylinder.name">
+            <span class="btn-icon" data-icon="cylinder"></span>
+          </button>
+          <button class="tool-btn" id="tool-shape-sphere" data-tooltip="tool.sphere" data-i18n-label="tool.sphere.name">
+            <span class="btn-icon" data-icon="sphere"></span>
+          </button>
+          <button class="tool-btn" id="tool-shape-ellipsoid" data-tooltip="tool.ellipsoid" data-i18n-label="tool.ellipsoid.name">
+            <span class="btn-icon" data-icon="ellipsoid"></span>
+          </button>
+          <button class="tool-btn" id="tool-shape-cone" data-tooltip="tool.cone" data-i18n-label="tool.cone.name">
+            <span class="btn-icon" data-icon="cone"></span>
+          </button>
+          <button class="tool-btn" id="tool-revolve" data-tooltip="tool.revolve" data-i18n-label="tool.revolve.name">
+            <span class="btn-icon" data-icon="revolve"></span>
+          </button>
+          <button class="tool-btn" id="tool-shape-torus" data-tooltip="tool.torus" data-i18n-label="tool.torus.name">
+            <span class="btn-icon" data-icon="torus"></span>
+          </button>
+          <button class="tool-btn" id="tool-path" data-tooltip="tool.path" data-shortcut="Shift+P" data-i18n-label="tool.path.name">
+            <span class="btn-icon" data-icon="path"></span>
+          </button>
+          <button class="tool-btn" id="tool-sweep" data-tooltip="tool.sweep" data-shortcut="Shift+W" data-i18n-label="tool.sweep.name">
+            <span class="btn-icon" data-icon="sweep"></span>
+          </button>
+          <button class="tool-btn" id="tool-revolve-sketch" data-tooltip="tool.revolve_sketch" data-shortcut="Shift+D" data-i18n-label="tool.revolve_sketch.name">
+            <span class="btn-icon" data-icon="revolve-sketch"></span>
+          </button>
+          <button class="tool-btn" id="tool-loft" data-tooltip="tool.loft" data-shortcut="Shift+L" data-i18n-label="tool.loft.name">
+            <span class="btn-icon" data-icon="loft"></span>
+          </button>
+          <button class="tool-btn" id="tool-pattern-path" data-tooltip="tool.pattern_path" data-shortcut="Shift+A" data-i18n-label="tool.pattern_path.name">
+            <span class="btn-icon" data-icon="pattern-path"></span>
+          </button>
+          <button class="tool-btn" id="tool-spring" data-tooltip="tool.spring" data-shortcut="Shift+F" data-i18n-label="tool.spring.name">
+            <span class="btn-icon" data-icon="spring"></span>
+          </button>
+          <div class="dock-sep"></div>
+          <div id="dock-modify-tools" class="dock-group"></div>
+          <div class="dock-sep"></div>
+          <button class="tool-btn danger" id="tool-delete" data-tooltip="tool.delete" data-shortcut="Entf" data-i18n-label="tool.delete.name">
+            <span class="btn-icon" data-icon="trash"></span>
+          </button>
+        </div>
+
+        <div id="dock-sketch-tools" class="dock-group" style="display: none;">
+          <button class="tool-btn danger" id="tool-exit-sketch" data-tooltip="tool.sketch_exit" data-shortcut="Esc" data-i18n-label="tool.sketch_exit.name">
+            <span class="btn-icon" data-icon="close"></span>
+          </button>
+          <div class="dock-sep"></div>
+          <button class="tool-btn active" id="sketch-tool-circle" data-tooltip="tool.sketch_circle" data-shortcut="C" data-i18n-label="tool.sketch_circle.name">
+            <span class="btn-icon" data-icon="circle"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-rect" data-tooltip="tool.sketch_rect" data-shortcut="R" data-i18n-label="tool.sketch_rect.name">
+            <span class="btn-icon" data-icon="rect"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-line" data-tooltip="tool.sketch_line" data-shortcut="L" data-i18n-label="tool.sketch_line.name">
+            <span class="btn-icon" data-icon="line"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-arc" data-tooltip="tool.sketch_arc" data-shortcut="A" data-i18n-label="tool.sketch_arc.name">
+            <span class="btn-icon" data-icon="arc"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-polygon" data-tooltip="tool.sketch_polygon" data-shortcut="P" data-i18n-label="tool.sketch_polygon.name">
+            <span class="btn-icon" data-icon="polygon"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-spline" data-tooltip="tool.sketch_spline" data-shortcut="S" data-i18n-label="tool.sketch_spline.name">
+            <span class="btn-icon" data-icon="spline"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-ellipse" data-tooltip="tool.sketch_ellipse" data-shortcut="O" data-i18n-label="tool.sketch_ellipse.name">
+            <span class="btn-icon" data-icon="ellipse"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-slot" data-tooltip="tool.sketch_slot" data-shortcut="N" data-i18n-label="tool.sketch_slot.name">
+            <span class="btn-icon" data-icon="slot"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-corner" data-tooltip="tool.sketch_corner" data-shortcut="F" data-i18n-label="tool.sketch_corner.name">
+            <span class="btn-icon" data-icon="corner"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-mirror" data-tooltip="tool.sketch_mirror" data-shortcut="M" data-i18n-label="tool.sketch_mirror.name">
+            <span class="btn-icon" data-icon="mirror"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-project" data-tooltip="tool.sketch_project" data-shortcut="J" data-i18n-label="tool.sketch_project.name">
+            <span class="btn-icon" data-icon="project"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-image" data-tooltip="tool.sketch_image" data-i18n-label="tool.sketch_image.name">
+            <span class="btn-icon" data-icon="image"></span>
+          </button>
+          <button class="tool-btn" id="sketch-tool-select" data-tooltip="tool.sketch_profile" data-shortcut="V" data-i18n-label="tool.sketch_profile.name">
+            <span class="btn-icon" data-icon="profile"></span>
+          </button>
+          <div class="dock-sep"></div>
+          <button class="tool-btn" id="sketch-tool-extrude" data-tooltip="tool.sketch_extrude" data-shortcut="E" data-i18n-label="tool.sketch_extrude.name">
+            <span class="btn-icon" data-icon="extrude"></span>
+          </button>
+        </div>
+        <div id="dock-mesh-tools" class="dock-group" style="display: none;">
+        </div>
+      </aside>
+
+      <!-- Viewport -->
+      <main id="viewport-wrap">
+        <div id="viewport-container"></div>
+
+        <div id="top-helper-pill">
+          <div id="top-helper-text"><span data-i18n="hud.top_hint_select">Klicke auf eine Fläche, um am Modell zu ziehen oder neue Formen zu skizzieren.</span></div>
+          <button id="btn-normal-to-sketch" data-i18n="sketch.normal_to_plane" data-i18n-title="sketch.normal_to_plane_hint">Normal zu Skizze</button>
+        </div>
+
+        <!-- Werkzeugoptionen (Bohrung, Kante, Ziehen) -->
+        <div id="context-hud">
+
+          <div id="hud-panel-hole" class="hud-section" style="display: none;">
+            <span class="hud-title" data-i18n="hole.title">Maker-Bohrung:</span>
+            <select id="select-hardware-preset" class="hud-select">
+              <option value="custom-hole" data-i18n="hole.preset_custom">Freie Bohrung (Ø / Tiefe)</option>
+            </select>
+
+            <div class="pill-group" id="tolerance-pills">
+              <button class="pill-btn" data-tol="press" data-i18n="tolerance.press">Festsitz (+0.05)</button>
+              <button class="pill-btn active" data-tol="standard" data-i18n="tolerance.standard">Standard (+0.20)</button>
+              <button class="pill-btn" data-tol="loose" data-i18n="tolerance.loose">Spiel (+0.35)</button>
+            </div>
+
+            <div id="custom-hole-inputs" style="display: none; align-items: center; gap: 8px;">
+              <label class="hud-label">Ø <input type="number" id="input-hole-diam" class="hud-input-number" value="8" min="1" max="60" step="0.5"> mm</label>
+              <label class="hud-label"><span data-i18n="hole.label_depth">Tiefe</span> <input type="number" id="input-hole-depth" class="hud-input-number" value="18" min="1" max="100" step="1"> mm</label>
+            </div>
+
+            <div id="hole-position" style="display: none; align-items: center; gap: 6px;">
+              <span class="hud-label" data-i18n="hole.dist_title">Mitte bis Kante:</span>
+              <label class="hud-label" data-i18n-title="hole.dist_left" title="Abstand nach links">←<input type="number" id="hole-d-left" class="hud-input-number" step="0.1" min="0"></label>
+              <label class="hud-label" data-i18n-title="hole.dist_right" title="Abstand nach rechts">→<input type="number" id="hole-d-right" class="hud-input-number" step="0.1" min="0"></label>
+              <label class="hud-label" data-i18n-title="hole.dist_up" title="Abstand nach oben">↑<input type="number" id="hole-d-up" class="hud-input-number" step="0.1" min="0"></label>
+              <label class="hud-label" data-i18n-title="hole.dist_down" title="Abstand nach unten">↓<input type="number" id="hole-d-down" class="hud-input-number" step="0.1" min="0"></label>
+              <span class="hud-label">mm</span>
+            </div>
+
+            <span class="hud-hint" id="hole-placement-hint" data-i18n="hole.hint_placement">Klicke auf Fläche zum Platzieren</span>
+
+            <button class="action-btn primary" id="btn-apply-cut" data-i18n="hole.btn_apply">Schnitt anwenden</button>
+            <button class="action-btn" id="btn-cancel-cut" data-i18n="hole.btn_cancel">Abbrechen</button>
+          </div>
+
+          <div id="hud-panel-edge" class="hud-section" style="display: none;">
+            <span class="hud-title" data-i18n="edge.title">Kante bearbeiten:</span>
+            <div class="pill-group" id="edge-mode-pills">
+              <button class="pill-btn active" id="pill-fillet" data-mode="fillet" data-i18n="edge.pill_fillet">Abrunden (Fillet)</button>
+              <button class="pill-btn" id="pill-chamfer" data-mode="chamfer" data-i18n="edge.pill_chamfer">Abschrägen (Fase)</button>
+            </div>
+            <div class="pill-group" id="edge-move-pills" style="display: none;">
+              <button class="pill-btn" id="btn-move-edge" data-i18n="edge.move_edge">Kante verschieben</button>
+              <button class="pill-btn" id="btn-move-a" data-i18n="edge.move_a">Ecke A</button>
+              <button class="pill-btn" id="btn-move-b" data-i18n="edge.move_b">Ecke B</button>
+            </div>
+            <label class="hud-label">
+              <span id="label-edge-metric" data-i18n="edge.label_radius">Radius:</span>
+              <input type="range" id="input-edge-metric" class="hud-slider" min="0.5" max="15" step="0.5" value="3.0">
+              <b id="val-edge-metric" class="hud-value">3.0 mm</b>
+            </label>
+            <button class="action-btn" id="btn-cancel-edge" data-i18n="edge.btn_cancel">Abbrechen</button>
+          </div>
+
+          <div id="hud-panel-tool" class="hud-section" style="display: none;"></div>
+
+          <div id="hud-panel-sketch" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-sketchops" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-sketchedit" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-print" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-section" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-planes" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-paths" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-split" class="hud-section" style="display: none;"></div>
+
+          <div id="hud-panel-mesh" class="hud-section" style="display: none;"></div>
+
+          <div id="hud-panel-ref" class="hud-section" style="display: none;"></div>
+          <div id="hud-panel-multi" class="hud-section" style="display: none;"></div>
+          <input type="file" id="reference-image-input" accept="image/*" style="display: none;">
+
+          <div id="hud-panel-extrude" class="hud-section" style="display: none;">
+            <span class="hud-title" data-i18n="extrude.title">Ziehen (Extrude):</span>
+            <span id="extrude-measure" class="hud-value">+0 mm</span>
+            <button class="action-btn primary" id="btn-done-extrude" data-i18n="extrude.btn_done">Fertig</button>
+          </div>
+
+        </div>
+      </main>
+
+      <!-- Seitenleiste: Verlauf / Eigenschaften, darunter Auswahl und Aktionen -->
+      <aside id="sidebar">
+        <div class="sidebar-tabs">
+          <button class="sidebar-tab active" data-sidebar-tab="history" data-i18n="panel.history">Verlauf</button>
+          <button class="sidebar-tab" data-sidebar-tab="bodies" data-i18n="panel.bodies">Körper</button>
+          <button class="sidebar-tab" data-sidebar-tab="props" data-i18n="panel.properties">Eigenschaften</button>
+          <span class="sidebar-spacer"></span>
+          <button class="icon-btn" id="sidebar-toggle" data-icon="chevron-right" data-tooltip="panel.toggle" data-i18n-label="panel.toggle"></button>
+        </div>
+
+        <div class="sidebar-body">
+          <div class="sidebar-pane active" data-sidebar-pane="history">
+            <div id="history-tree-list"></div>
+            <div class="history-empty-hint" id="history-empty-hint" style="display: none;" data-i18n="history.empty_hint">
+              Sobald du mit dem Modellieren beginnst, wird dein Schrittverlauf hier angezeigt.
+            </div>
+          </div>
+          <div class="sidebar-pane" data-sidebar-pane="bodies">
+            <div id="body-list"></div>
+            <div class="section-title" id="sketch-list-title" style="display: none; margin-top: 14px;" data-i18n="bodies.sketches">Skizzen</div>
+            <div id="sketch-list"></div>
+          </div>
+          <div class="sidebar-pane" data-sidebar-pane="props">
+            <div id="props-list"></div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-title" data-i18n="panel.selection">Auswahl</div>
+          <span id="hud-dim-badge">60 × 60 × 14 mm</span>
+          <div id="selection-color-row" style="display: none;"></div>
+          <div id="hud-status" data-i18n="hud.default_status">Klicke auf eine Fläche, um am Modell zu ziehen oder Bohrungen einzusetzen.</div>
+          <div id="hud-panel-info" class="hud-section">
+            <button class="action-btn" id="btn-action-extrude" style="display: none;">
+              <svg class="icon" viewBox="0 0 24 24" data-icon="extrude"></svg>
+              <span data-i18n="hud.btn_extrude">Ziehen (Extrude)</span>
+            </button>
+            <button class="action-btn" id="btn-action-resize" style="display: none;">
+              <svg class="icon" viewBox="0 0 24 24" data-icon="resize"></svg>
+              <span data-i18n="hud.btn_resize">Größe ändern</span>
+            </button>
+            <button class="action-btn" id="btn-action-edge" style="display: none;">
+              <svg class="icon" viewBox="0 0 24 24" data-icon="fillet"></svg>
+              <span data-i18n="hud.btn_edge">Kante bearbeiten</span>
+            </button>
+            <button class="action-btn" id="btn-action-hole" style="display: none;">
+              <svg class="icon" viewBox="0 0 24 24" data-icon="hole"></svg>
+              <span data-i18n="hud.btn_hole">Bohrung setzen</span>
+            </button>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <div id="carv-tooltip"></div>
+
+</body>
+</html>

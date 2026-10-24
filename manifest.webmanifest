@@ -1,0 +1,24 @@
+{
+  "name": "Carv3D",
+  "short_name": "Carv3D",
+  "description": "Intuitive direct 3D modeler built specifically for 3D printing.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#131519",
+  "theme_color": "#00d4ff",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

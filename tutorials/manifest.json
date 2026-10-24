@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "tutorials": [
+    {
+      "id": "wall_mount",
+      "file": "wall-mount.carv",
+      "bodies": 1,
+      "bytes": 277163
+    },
+    {
+      "id": "electronics_enclosure",
+      "file": "electronics-enclosure.carv",
+      "bodies": 2,
+      "bytes": 880555
+    },
+    {
+      "id": "control_knob",
+      "file": "control-knob.carv",
+      "bodies": 1,
+      "bytes": 1769351
+    },
+    {
+      "id": "threaded_pair",
+      "file": "threaded-pair.carv",
+      "bodies": 2,
+      "bytes": 6910263
+    }
+  ]
+}

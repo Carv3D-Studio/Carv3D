@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="64" fill="#131519" />
+  <!-- Motiv innerhalb der inneren 60 % (102.4..409.6) fuer Maskable-Icons -->
+  <g fill="none" stroke="#00d4ff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Obere Raute -->
+    <polygon points="256,136 360,196 256,256 152,196" />
+    <!-- Linke Raute -->
+    <polygon points="152,196 256,256 256,376 152,316" />
+    <!-- Rechte Raute -->
+    <polygon points="256,256 360,196 360,316 256,376" />
+  </g>
+</svg>
