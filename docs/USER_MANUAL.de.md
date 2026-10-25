@@ -100,7 +100,7 @@ Klicke eine Seite des **Ansichtswürfels** (oben rechts), und die Kamera fliegt 
 ### 2.5 Mehrere Dinge auf einmal
 
 - **Umschalt + Klick** nimmt Flächen oder Kanten desselben Körpers hinzu oder heraus, bei anderen Körpern bildet sie eine Gruppe. **Strg + A** wählt alle Körper.
-- Bei mehreren gewählten Kanten wirken Runden und Fasen auf alle; bei mehreren gewählten Flächen öffnet **Aushöhlen (Shell)** alle.
+- Ein **Doppelklick** auf eine Kante wählt ihre ganze Kette (siehe [5.3](#53-kanten-runden-und-fasen)). Bei mehreren gewählten Kanten wirken Runden und Fasen auf alle; bei mehreren gewählten Flächen öffnet **Aushöhlen (Shell)** alle.
 - Eine Gruppe von Körpern hat eine eigene Leiste mit **Verbinden**, **Abziehen**, **Schnittmenge**, **Duplizieren**, **Löschen** und **Auswahl aufheben**. Beim **Abziehen** ist der zuerst gewählte Körper derjenige, der ausgeschnitten wird. Der Griff verschiebt und dreht die ganze Gruppe in einem Schritt. **Strg + C** und **Strg + V** kopieren und fügen Körper ein, **Strg + D** dupliziert sie.
 - **Auswahlrahmen:** In den Vorlagen, in denen die linke Taste im Leerraum frei ist (2 bis 5), ziehst du einen Rahmen auf. **Von links nach rechts** (durchgezogen, blau) wählt er nur, was ganz im Rahmen liegt; **von rechts nach links** (gestrichelt, grün) alles, was ihn berührt. **Tab** wechselt den Filter zwischen **Körper** und **Flächen** (die sichtbaren, zugewandten Flächen); **Esc** bricht ab.
 
@@ -282,6 +282,8 @@ Klicke die **Wand einer Bohrung**, die **Außenwand eines Zapfens oder Zylinders
 2. Wähle in der Leiste **Kante bearbeiten:** **Abrunden (Fillet)** oder **Abschrägen (Fase)**. Ziehe den Pfeil nach außen zum Runden oder nach innen zum Fasen, oder tippe den Wert (Radius bzw. Fasenbreite) und drücke **Enter**.
 3. Die Kante ist gerundet oder gefast; **Rückgängig** nimmt es zurück.
 
+**Ganze Kantenkette wählen:** Ein **Doppelklick** auf eine Kante wählt alle Kanten, die tangentenstetig an sie anschließen, zum Beispiel die ganze Oberkante eines Teils mit abgerundeten Ecken (gerade Stücke und Bögen zusammen). Die gewählten Kanten leuchten, die Statusleiste nennt ihre Zahl. Danach geht es wie oben weiter: **Abrunden** oder **Abschrägen** in der Leiste, Pfeil ziehen oder Maß tippen wirkt auf die ganze Kette. Ecken mit Knick beenden die Kette; **Alt + Doppelklick** wählt stattdessen die ganze Kantenschleife der Fläche unter dem Zeiger, auch mit Ecken (bei einem Quader die vier Kanten einer Seite). **Umschalt + Klick** nimmt danach einzelne Kanten heraus oder dazu. Passt der Radius nicht an allen Kanten und Ecken der Kette zugleich, sagt Carv3D es und rät zu einem kleineren Maß oder zu weniger Kanten.
+
 Passt das Maß nicht, verkleinert Carv3D es und sagt es, oder bittet um einen kleineren Wert. Kanten, die schon rund sind, lassen sich nicht noch einmal runden.
 
 - **Rundung mit Verlauf:** Der Radius wächst oder schrumpft gleichmäßig vom Anfang zum Ende der Kante. Trage **Radius Anfang** und **Radius Ende** ein.
@@ -363,7 +365,7 @@ Doppelklicke einen Körper und nutze **Größe ändern**: Tippe **Breite (X)**, 
 
 **Maker → Körper teilen …** schneidet einen Körper für den Druck in zwei Teile, zum Beispiel ein Teil, das zu groß für das Bett ist. Wähle die Richtung (**Links/Rechts**, **Oben/Unten**, **Vorn/Hinten**), die **Lage** des Schnitts und die Zahl der **Passstifte**; **Teilen**. Die Stifte und die passenden Löcher bekommen Spiel, damit sie gedruckt zusammenpassen. Beide Teile liegen druckfertig nebeneinander. Ist die Schnittfläche für Stifte dieser Größe zu schmal, wird ohne Stifte geteilt, und ein Hinweis sagt es.
 
-Jede Richtung hat einen eigenen Schalter mit Regler für die Lage. Eine eingeschaltete Richtung gibt **2 Teile**, zwei Richtungen **4 Teile**, drei Richtungen **8 Teile**; die Leiste zeigt die Teilezahl. Mindestens eine Richtung bleibt eingeschaltet. Bei 4 oder 8 Teilen behalten die Teile ihre Ausrichtung und liegen in einem Raster auf dem Bett; Stifte, die seitlich abstehen, druckst du besser mit der Schnittfläche nach unten (Werkzeug **Drehen**).
+Jede Richtung hat einen eigenen Schalter mit Regler für die Lage. Eine eingeschaltete Richtung gibt **2 Teile**, zwei Richtungen **4 Teile**, drei Richtungen **8 Teile**; die Leiste zeigt die Teilezahl. Mindestens eine Richtung bleibt eingeschaltet. Die Teile bleiben standardmäßig an ihrer Stelle und in ihrer Ausrichtung und werden nur etwas auseinandergeschoben (bei zwei Teilen 6 mm, im Befehl `gap`). Schaltest du **Zum Drucken auslegen** ein, werden sie gedreht (Schnittfläche nach unten) und nebeneinander auf das Bett gelegt, ohne in anderen Körpern zu landen.
 
 Den Start findest du an vier Stellen: im Menü **Maker → Körper teilen …**, in der linken Leiste als **Teilen ohne Verbindung** und **Teilen mit Passstiften** (beide in einer Gruppe), in der Kontextleiste eines gewählten Körpers und im **Auswahlrad** (Taste **Q** halten, Körper gewählt): **Körper teilen** öffnet ein Untermenü mit **Ohne Stifte**, **Mit Passstiften**, **In 4 Teile** und **In 8 Teile**.
 

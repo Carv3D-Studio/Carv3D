@@ -100,7 +100,7 @@ Click a side of the **view cube** (top right) to fly to that view. The same view
 ### 2.5 Several things at once
 
 - **Shift + click** adds or removes faces or edges of the same body, or other bodies as a group. **Ctrl + A** selects all bodies.
-- With several edges selected, rounding and chamfering act on all of them; with several faces selected, **Shell** opens all of them.
+- A **double-click** on an edge selects its whole chain (see [5.3](#53-rounding-and-chamfering-edges)). With several edges selected, rounding and chamfering act on all of them; with several faces selected, **Shell** opens all of them.
 - A group of bodies has its own bar with **Join**, **Subtract**, **Intersect**, **Duplicate**, **Delete** and **Clear selection**. For **Subtract**, the body selected first is the one that is cut. The handle moves and rotates the whole group in one step. **Ctrl + C** and **Ctrl + V** copy and paste bodies, **Ctrl + D** duplicates them.
 - **Selection box:** in templates where the left button is free in empty space (2 to 5), drag a box. Drawn **left to right** (solid, blue) it selects only what lies completely inside; drawn **right to left** (dashed, green) it selects everything it touches. **Tab** switches the filter between **Bodies** and **Faces** (the visible faces facing you); **Esc** cancels.
 
@@ -282,6 +282,8 @@ Click the **wall of a hole**, the **outer wall of a post or cylinder**, or a **f
 2. In the bar **Modify Edge:** choose **Fillet (Round)** or **Chamfer (Bevel)**. Pull the arrow outward to round or push it inward to chamfer, or type the value (radius or bevel width) and press **Enter**.
 3. The edge is rounded or chamfered; **Undo** takes it back.
 
+**Selecting a whole edge chain:** a **double-click** on an edge selects all edges that continue tangentially from it, for example the whole top edge of a part with rounded corners (straight pieces and arcs together). The selected edges light up and the status bar tells how many there are. Then carry on as above: **Fillet** or **Chamfer** in the bar, dragging the arrow or typing a size acts on the whole chain. A corner with a kink ends the chain; **Alt + double-click** selects instead the whole edge loop of the face under the pointer, corners included (on a block, the four edges of one side). **Shift + click** then removes or adds single edges. If the radius does not fit all edges and corners of the chain at once, Carv3D says so and suggests a smaller size or fewer edges.
+
 If the size does not fit, Carv3D reduces it and says so, or asks for a smaller value. Edges that are already round cannot be rounded again.
 
 - **Variable fillet:** the radius grows or shrinks steadily from the start to the end of the edge. Enter **Radius start** and **Radius end**.
@@ -363,7 +365,7 @@ Double-click a body and use **Resize**: type **Width (X)**, **Height (Y)** and *
 
 **Maker → Split body …** cuts a body in two for printing, for example a part that is too big for the bed. Choose the direction (**Left/Right**, **Top/Bottom**, **Front/Back**), the **Position** of the cut and the number of **Alignment pins**; **Split**. The pins and the matching holes get clearance so that they fit when printed. Both parts lie next to each other, ready to print. If the cut face is too narrow for pins of that size, the body is split without pins and a note says so.
 
-Every direction has its own switch and slider for the position. One direction switched on gives **2 parts**, two directions **4 parts**, three directions **8 parts**; the bar shows the number of parts. At least one direction stays on. With 4 or 8 parts the parts keep their orientation and lie in a grid on the bed; pins that stick out sideways print better with the cut face down (**Rotate** tool).
+Every direction has its own switch and slider for the position. One direction switched on gives **2 parts**, two directions **4 parts**, three directions **8 parts**; the bar shows the number of parts. At least one direction stays on. By default the parts stay where they were, in their orientation, and are only pushed slightly apart (6 mm; `gap` in the command). If you switch on **Lay out for printing**, they are turned (cut face down) and placed next to each other on the bed without ending up inside other bodies.
 
 You can start it in four places: the menu **Maker → Split body …**, the left bar as **Split without connectors** and **Split with alignment pins** (both in one group), the context bar of a selected body, and the **selection wheel** (hold **Q** with a body selected): **Split body** opens a submenu with **Without pins**, **With alignment pins**, **Into 4 parts** and **Into 8 parts**.
 
