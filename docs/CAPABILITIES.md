@@ -100,4 +100,4 @@ The MCP server can run headlessly or connect through a live bridge to the open a
 
 ## Availability
 
-The build is distributed only to invited testers. [Apply on the Carv3D website](https://carv3d.de/Beta.html#beta) or read the [beta testing guide](BETA_TESTING.md).
+The build is not a public download: selected applicants receive access for a free 30-day test. [Apply on the Carv3D website](https://carv3d.de/Beta.html#beta) or read the [beta testing guide](BETA_TESTING.md).

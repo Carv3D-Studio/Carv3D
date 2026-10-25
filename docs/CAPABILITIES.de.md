@@ -100,4 +100,4 @@ Der MCP-Server kann ohne Oberfläche laufen oder über eine Live-Brücke die ge�
 
 ## Verfügbarkeit
 
-Der Build wird ausschließlich an eingeladene Tester verteilt. [Auf der Carv3D-Webseite bewerben](https://carv3d.de/Beta.html#beta) oder die [Hinweise für Betatests](BETA_TESTING.de.md) lesen.
+Der Build ist kein öffentlicher Download: Ausgewählte Bewerber erhalten Zugang zu einem kostenlosen 30-Tage-Test. [Auf der Carv3D-Webseite bewerben](https://carv3d.de/Beta.html#beta) oder die [Hinweise für Betatests](BETA_TESTING.de.md) lesen.
