@@ -20,7 +20,7 @@ Carv3D ist ein Modellierer für Teile, die 3D-gedruckt werden. Du arbeitest dire
 4. [Skizzen](#4-skizzen)
    - [4.1 Skizze beginnen](#41-skizze-beginnen) · [4.2 Formen zeichnen](#42-formen-zeichnen) · [4.3 Maße eintippen](#43-maße-eintippen) · [4.4 Ecken verrunden und fasen](#44-ecken-verrunden-und-fasen) · [4.5 Spiegeln und Muster](#45-spiegeln-und-muster) · [4.6 Projizieren und Referenzbild](#46-projizieren-und-referenzbild) · [4.7 Kontur-Operationen](#47-kontur-operationen) · [4.8 Extrudieren und Ausschneiden](#48-extrudieren-und-ausschneiden) · [4.9 Konstruktionsebenen](#49-konstruktionsebenen)
 5. [Körper bearbeiten](#5-körper-bearbeiten)
-   - [5.1 Flächen ziehen und drücken](#51-flächen-ziehen-und-drücken) · [5.2 Radius runder Flächen ändern](#52-radius-runder-flächen-ändern) · [5.3 Kanten runden und fasen](#53-kanten-runden-und-fasen) · [5.4 Aushöhlen](#54-aushöhlen) · [5.5 Fläche versetzen, löschen und heilen](#55-fläche-versetzen-löschen-und-heilen) · [5.6 Kante versetzen](#56-kante-versetzen) · [5.7 Fläche teilen](#57-fläche-teilen) · [5.8 Formschräge](#58-formschräge) · [5.9 Kante oder Ecke verschieben](#59-kante-oder-ecke-verschieben) · [5.10 Größe ändern](#510-größe-ändern) · [5.11 Verschieben, Drehen, Skalieren, Spiegeln, Kopieren](#511-verschieben-drehen-skalieren-spiegeln-kopieren) · [5.12 Ausrichten](#512-ausrichten) · [5.13 Muster](#513-muster) · [5.14 Körper verbinden](#514-körper-verbinden) · [5.15 Körper teilen mit Passstiften](#515-körper-teilen-mit-passstiften)
+   - [5.1 Flächen ziehen und drücken](#51-flächen-ziehen-und-drücken) · [5.2 Radius runder Flächen ändern](#52-radius-runder-flächen-ändern) · [5.3 Kanten runden und fasen](#53-kanten-runden-und-fasen) · [5.4 Aushöhlen](#54-aushöhlen) · [5.5 Fläche versetzen, löschen und heilen](#55-fläche-versetzen-löschen-und-heilen) · [5.6 Kante versetzen](#56-kante-versetzen) · [5.7 Fläche teilen](#57-fläche-teilen) · [5.8 Formschräge](#58-formschräge) · [5.9 Kante oder Ecke verschieben](#59-kante-oder-ecke-verschieben) · [5.10 Größe ändern](#510-größe-ändern) · [5.11 Verschieben, Drehen, Skalieren, Spiegeln, Kopieren](#511-verschieben-drehen-skalieren-spiegeln-kopieren) · [5.12 Ausrichten](#512-ausrichten) · [5.13 Muster](#513-muster) · [5.14 Körper verbinden](#514-körper-verbinden) · [5.15 Körper teilen mit Passstiften](#515-körper-teilen-mit-passstiften) · [5.16 Bausatz und Bauanleitung](#516-bausatz-und-bauanleitung)
 6. [Pfade, Sweep, Loft und Drehen](#6-pfade-sweep-loft-und-drehen)
 7. [Befestigen: Bohrungen, Taschen und Gewinde](#7-befestigen-bohrungen-taschen-und-gewinde)
 8. [Farben und Materialien](#8-farben-und-materialien)
@@ -59,10 +59,10 @@ Die Einheit ist Millimeter. Das Druckbett ist das Raster in der Ansicht; die Kö
 
 ### 2.1 Das Fenster
 
-- **Menüleiste** (oben): Datei, Bearbeiten, Werkzeuge, Pfade, Maker, Ansicht, Hilfe, Erweiterungen, Einstellungen. Rechts neben den Menüs: der Name des Bauteils, der Schalter **Modell | Mesh**, die Knöpfe Rückgängig und Wiederholen, die Bettgröße („Bett: 256 × 256 mm“) und der Knopf **Export STL**. Die Menüs lassen sich mit der Tastatur bedienen (Pfeiltasten, Enter, Esc).
+- **Menüleiste** (oben): Datei, Bearbeiten, Werkzeuge, Pfade, Maker, Bausatz, Ansicht, Hilfe, Erweiterungen, Einstellungen. Rechts neben den Menüs: der Name des Bauteils, der Schalter **Modell | Mesh**, die Knöpfe Rückgängig und Wiederholen, die Bettgröße („Bett: 256 × 256 mm“) und der Knopf **Export STL**. Die Menüs lassen sich mit der Tastatur bedienen (Pfeiltasten, Enter, Esc).
 - **Werkzeugleiste** (links): die wichtigsten Werkzeuge. Zusammengehörige Werkzeuge sind gruppiert: Fahre über einen Gruppenknopf, dann klappt seine Liste auf; der Knopf merkt sich das zuletzt benutzte Werkzeug. Die Gruppen sind neue Formen, Pfade, Körper verbinden (Vereinigen, Subtrahieren, Schnittmenge), Transformieren (Verschieben, Drehen, Skalieren, Spiegeln), Muster, Kantenwerkzeuge und Flächenwerkzeuge. **Körper löschen** steht ganz unten.
 - **Ansicht** (Mitte): Das Raster ist dein Druckbett. Der [Ansichtswürfel](#23-ansichtswürfel-und-standardansichten) sitzt oben rechts; eine Hinweiszeile oben sagt, was du als Nächstes tun kannst.
-- **Seitenleiste** (rechts): die Reiter **Verlauf**, **Körper** und **Eigenschaften**; der Pfeil klappt die Leiste ein. Darunter zeigt das Feld **Auswahl** die Größe der Auswahl, die Farbfelder und Knöpfe wie **Ziehen (Extrude)**, **Kante bearbeiten**, **Bohrung setzen** und **Größe ändern**.
+- **Seitenleiste** (rechts): die Reiter **Verlauf**, **Körper** und **Eigenschaften**; der Pfeil klappt die Leiste ein. Darunter zeigt das Feld **Auswahl** die Größe der Auswahl, das Fenster **Eigenschaften** ([2.7](#27-genaue-werte-eintippen)), die Farbfelder und Knöpfe wie **Ziehen (Extrude)**, **Kante bearbeiten**, **Bohrung setzen** und **Größe ändern**.
 - **Werkzeugleiste unten:** Braucht ein Werkzeug Einstellungen (Bohrung, Kante, Kante versetzen, Skizze, Druckvorschau …), erscheint seine Leiste unten in der Ansicht mit den Werten und **Fertig** oder **Abbrechen**.
 - **Meldungen:** Klappt eine Aktion nicht, erscheint eine Meldung mit Grund und Hinweis. **Rückgängig** bringt dich immer zum letzten guten Stand zurück.
 
@@ -101,7 +101,7 @@ Klicke eine Seite des **Ansichtswürfels** (oben rechts), und die Kamera fliegt 
 
 - **Umschalt + Klick** nimmt Flächen oder Kanten desselben Körpers hinzu oder heraus, bei anderen Körpern bildet sie eine Gruppe. **Strg + A** wählt alle Körper.
 - Ein **Doppelklick** auf eine Kante wählt ihre ganze Kette (siehe [5.3](#53-kanten-runden-und-fasen)). Bei mehreren gewählten Kanten wirken Runden und Fasen auf alle; bei mehreren gewählten Flächen öffnet **Aushöhlen (Shell)** alle.
-- Eine Gruppe von Körpern hat eine eigene Leiste mit **Verbinden**, **Abziehen**, **Schnittmenge**, **Duplizieren**, **Löschen** und **Auswahl aufheben**. Beim **Abziehen** ist der zuerst gewählte Körper derjenige, der ausgeschnitten wird. Der Griff verschiebt und dreht die ganze Gruppe in einem Schritt. **Strg + C** und **Strg + V** kopieren und fügen Körper ein, **Strg + D** dupliziert sie.
+- Eine Gruppe von Körpern hat eine eigene Leiste mit **Verbinden**, **Abziehen**, **Schnittmenge**, **Duplizieren**, **Löschen** und **Auswahl aufheben**. Beim **Abziehen** ist der zuerst gewählte Körper derjenige, der ausgeschnitten wird. Der Griff verschiebt und dreht die ganze Gruppe in einem Schritt; das Fenster **Eigenschaften** setzt Position, Größe und Drehung der Gruppe auf den Wert genau, und ein Klick auf ein Farbfeld färbt alle Körper der Gruppe. **Strg + C** und **Strg + V** kopieren und fügen Körper ein, **Strg + D** dupliziert sie.
 - **Auswahlrahmen:** In den Vorlagen, in denen die linke Taste im Leerraum frei ist (2 bis 5), ziehst du einen Rahmen auf. **Von links nach rechts** (durchgezogen, blau) wählt er nur, was ganz im Rahmen liegt; **von rechts nach links** (gestrichelt, grün) alles, was ihn berührt. **Tab** wechselt den Filter zwischen **Körper** und **Flächen** (die sichtbaren, zugewandten Flächen); **Esc** bricht ab.
 
 ### 2.6 Kontextleiste und Auswahlrad
@@ -125,6 +125,17 @@ Das **Auswahlrad** bietet dieselben Aktionen am Mauszeiger an. Halte **Q**, bewe
 ### 2.7 Genaue Werte eintippen
 
 Jede Zahl, die du ziehen kannst, hat ein Maßfeld. **Tippe einfach eine Zahl** (Ziffern, Komma oder Punkt, Minus), und das Eingabefeld öffnet sich; **Enter** bestätigt, **Esc** verwirft. **Tab** springt zum nächsten Feld. Ein negativer Wert drückt eine Fläche in den Körper hinein, ein positiver zieht sie heraus. Werkzeugleisten bestätigst du mit **Enter**, **Fertig** oder einem Klick ins Leere und verwirfst mit **Esc**.
+
+**Das Fenster Eigenschaften.** Sobald ein Körper gewählt ist, erscheint in der Seitenleiste im Feld **Auswahl**, über den Farbfeldern, das Fenster **Eigenschaften** (ein Klick auf seine Überschrift klappt es ein). Du änderst darin den Körper direkt:
+
+- **Name:** tippe einen neuen Namen und drücke **Enter**.
+- **Position:** **X** und **Z** sind die Mitte des Körpers, **Y** ist seine Unterkante (auf dem Druckbett ist Y = 0). Eine Zahl mit **Enter** verschiebt den Körper dorthin.
+- **Größe:** **B** (Breite, X), **H** (Höhe, Y) und **T** (Tiefe, Z) in Millimetern. Eine Zahl mit **Enter** setzt dieses Maß genau; Rundungen und Fasen bleiben dabei erhalten. Bei einem runden Körper, der in einer Richtung keine ebene Fläche hat (zum Beispiel eine Kugel), geht das nicht für ein einzelnes Maß; das Programm sagt es dir und schlägt **Proportional** vor. Mit **Proportional** wachsen alle drei Maße gemeinsam, das geht bei jeder Form.
+- **Drehen:** Winkel in Grad mit **Enter**: Der Körper dreht sich um diese Achse um seine Mitte (positiv gegen den Uhrzeigersinn, von der Achsenspitze gesehen). Das Feld wird danach wieder leer.
+
+Jede bestätigte Eingabe ist ein Schritt im Verlauf und lässt sich mit **Strg + Z** zurücknehmen. **Esc** oder ein anderes Feld verwirft eine Eingabe, die du nicht mit **Enter** bestätigt hast.
+
+**Mehrere Körper.** Sind mehrere Körper gewählt, zeigt das Fenster die gemeinsame Begrenzungsbox der Gruppe, und jede Eingabe wirkt auf die Gruppe als Ganzes, in **einem** Verlaufsschritt: **Position** verschiebt alle Körper gemeinsam, **Drehen** dreht die Gruppe um ihre gemeinsame Mitte, und eine **Größe** skaliert die Gruppe immer proportional um die Mitte ihrer Standfläche; die Abstände der Körper zueinander wachsen mit. So bleiben auch geteilte Körper mit Passstiften eine Einheit: Stifte und Löcher behalten ihre Lage zueinander. Ein Klick auf ein Farbfeld färbt alle Körper der Gruppe.
 
 ### 2.8 Befehlssuche
 
@@ -371,6 +382,23 @@ Den Start findest du an vier Stellen: im Menü **Maker → Körper teilen …**,
 
 **Wieder zusammenstecken:** **Maker → Geteilte Teile zusammenstecken** (auch in der Kontextleiste und im Auswahlrad, wenn mehrere Körper gewählt sind; ohne Auswahl werden alle Körper versucht) setzt die Teile so zusammen, dass jeder Stift in seinem Loch sitzt und die Schnittflächen sich berühren. Carv3D liest dafür Stifte und Löcher aus der Form der Teile: Du darfst die Teile vorher bearbeiten (zum Beispiel Kanten runden) oder verschieben. Die Stifte einer Schnittfläche sind unterschiedlich dick, damit die Teile nur in einer Lage passen. Bei Teilungen ohne Stifte gibt es nichts zusammenzustecken. Bei 8 Teilen werden nicht immer alle untergebracht; die Meldung nennt, wie viele passten. Beim Auslegen zum Drucken legt Carv3D die Teile so ab, dass sie in keinem anderen Körper liegen.
 
+### 5.16 Bausatz und Bauanleitung
+
+Eine Figur aus mehreren gedruckten Teilen zum Zusammenstecken ist ein **Bausatz**. Carv3D erstellt für ihn die **Bauanleitung** und die **Stückliste** automatisch aus deinen Teilen; du siehst sie im Programm Schritt für Schritt an.
+
+**So geht es:**
+
+1. **Datei → Neues Projekt …** fragt die Art des Projekts: **Standard** oder **Bausatz**. Ein vorhandenes Projekt machst du mit **Bausatz → Projekt ist ein Bausatz** zum Bausatz (Häkchen).
+2. Baue die Figur und teile sie in Stücke mit Passstiften ([5.15](#515-körper-teilen-mit-passstiften)). Die Teile dürfen einzeln auf dem Bett liegen oder schon mit **Geteilte Teile zusammenstecken** zusammengesteckt sein.
+3. **Bausatz → Anleitung erstellen / neu berechnen** leitet die Schritte ab. Die Statuszeile nennt die Zahl der Schritte.
+4. **Bausatz → Anleitung ansehen …** öffnet den Betrachter.
+
+**Wie die Reihenfolge entsteht:** Das **Grundteil** ist das Teil in der Mitte (mit den meisten großen Nachbarn, bei Gleichstand das größte). Danach kommt jeweils ein Teil, das ein schon stehendes berührt; die großen zuerst. Kleine **Verbindungsstifte** werden eingesetzt, sobald das erste Teil steht, in das sie gehören; gleichartige Stifte stehen in einem Schritt. Liegen die Teile einzeln auf dem Bett, findet Carv3D über die Passstifte heraus, wie sie zusammengehören; deine Teile werden dabei nicht verschoben. Ein Teil, das nirgends anschließt, steht am Ende mit einem Hinweis. Die Reihenfolge ist ein Vorschlag: Carv3D prüft nicht, ob sich ein Teil in der Wirklichkeit in dieser Richtung einführen lässt.
+
+**Der Betrachter** ist eine Leiste am rechten Rand. Er zeigt **Schritt n von N** mit **Zurück** und **Weiter** (oder den Pfeiltasten), die Überschrift, den Text, die Teile des Schritts mit Farbe und Druckhinweis, woran sie gesteckt werden, und eine Liste aller Schritte zum Anklicken. In der Ansicht stehen die Teile bis zu diesem Schritt zusammengesteckt, das **neue Teil leuchtet blau** und ist ein Stück herausgezogen, Teile späterer Schritte sind ausgeblendet. Der Reiter **Stückliste** zählt gleichartige Teile und nennt je Zeile Farbe, **Filamentnummer** (dieselbe wie im 3MF-Export), Gewicht, welche Seite beim Drucken nach unten zeigt und ob Stützen nötig sind. **Esc** oder × schließt den Betrachter; dann steht alles wieder wie vorher. Solange er offen ist, ist das Bearbeiten gesperrt.
+
+Die Art des Projekts und die Anleitung stehen in der `.carv`-Datei. Ältere Programmstände lehnen einen Bausatz mit einem Hinweis ab, statt ihn ohne Anleitung zu öffnen. Ändern sich die Teile, erstellst du die Anleitung neu.
+
 ## 6. Pfade, Sweep, Loft und Drehen
 
 Das Menü **Pfade** (und die Gruppe in der Werkzeugleiste) enthält sechs Werkzeuge mit einer gemeinsamen Leiste: **Pfad zeichnen …** (**Umschalt + P**), **Sweep …** (**Umschalt + W**), **Skizze drehen …** (**Umschalt + D**), **Loft …** (**Umschalt + L**), **Muster entlang Pfad …** (**Umschalt + A**) und **Feder …** (**Umschalt + F**, siehe [3.3](#33-schraubenlinie-und-feder)).
@@ -517,6 +545,7 @@ Wähle in der Druckvorschau einen Slicer und drücke **In Slicer öffnen**: Die 
 
 - **Datei → Projekt speichern** schreibt eine bearbeitbare `.carv`-Datei mit exakter Geometrie, Körpernamen, Farben, Skizzen, Pfaden, Konstruktionsebenen, Darstellungen und dem Druckerprofil. Dein Browser legt die Datei in seinem Download-Ordner ab.
 - **Datei → Projekt öffnen …** öffnet eine `.carv`-Datei; das geht auch per Ziehen auf das Fenster. Das Öffnen ersetzt das aktuelle Dokument. Ältere Projektdateien lassen sich in neueren Versionen weiter öffnen; ein Projekt aus einer neueren Version verlangt, die App zu aktualisieren.
+- **Datei → Neues Projekt …** fragt die Art: **Standard** oder **Bausatz** ([5.16](#516-bausatz-und-bauanleitung)). Die Art und die Bauanleitung eines Bausatzes stehen in der `.carv`-Datei.
 - **Behalte die `.carv`-Datei** auch nach dem Export: Netzexporte sind keine bearbeitbaren Masterdateien.
 
 ### 13.2 Automatische Sicherung und Wiederherstellung
@@ -561,7 +590,7 @@ Was die Befehle abdecken, ein Satz je Bereich:
 - **Befestigen:** Schraubenlöcher, Mutter-, Magnet- und Einsatztaschen, Gewinde, Platzhalterkörper für Schrauben, Muttern und Scheiben, die Hardware-Tabelle.
 - **Farben:** Körper- und Flächenfarben, Darstellungen, Palette, Farbplan.
 - **Generatoren:** Box mit Deckel, Lampenschirm aus Geflecht.
-- **Drucken:** Druckerprofil, Druckprüfung, Überhang-Analyse, beste Ausrichtung, Teilen.
+- **Drucken:** Druckerprofil, Druckprüfung, Überhang-Analyse, beste Ausrichtung, Teilen, Bauanleitung eines Bausatzes.
 - **Dateien:** Import, Export (STL, 3MF, STEP), Projekte speichern und laden, Rückgängig und Wiederholen, der Rechenweg.
 
 Das öffentliche Repository enthält die MCP-Dokumentation nicht; das Beta-Paket beschreibt die Befehle.
@@ -659,6 +688,7 @@ Carv3D befindet sich in einer frühen Beta. Der aktuelle Schwerpunkt liegt auf d
 
 **Modellieren**
 
+- Bausatz: Die Bauanleitung wird im Programm angezeigt (Schritte, Stückliste). Texte ändern, Schritte umordnen und die Ausgabe als Seite oder PDF gibt es noch nicht.
 - Skizzen: kein Skizzieren auf gekrümmten Flächen; kein Zuschneiden und Verlängern; keine Maßbeziehungen (parallel, tangential, gleich …); einzelne Kanten lassen sich nicht projizieren; keine Konstruktionsachsen oder -punkte.
 - Push/Pull arbeitet auf ebenen Flächen; der Radius lässt sich an Bohrungen, Zapfen, Zylindern und Rundungen ändern, aber nicht am Kegelmantel und an Kugeln und nicht für mehrere Flächen gleichzeitig.
 - Fläche löschen heilt Bohrungen, Zapfen, Rundungen (Zylinderflächen) und gerade Fasen zwischen zwei ebenen Flächen, nicht Taschen oder Eckfasen. Fläche teilen geht auf ebenen Flächen mit geraden Linien. Kante versetzen geht auf ebenen Flächen; offene Ketten werden gerade bis zum Rand der Fläche verlängert. Eine Fläche zu ersetzen gibt es nicht.

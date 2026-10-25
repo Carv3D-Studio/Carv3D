@@ -20,7 +20,7 @@ Carv3D is a modeler for parts that will be 3D printed. You work directly on the 
 4. [Sketches](#4-sketches)
    - [4.1 Starting a sketch](#41-starting-a-sketch) · [4.2 Drawing shapes](#42-drawing-shapes) · [4.3 Typing sizes](#43-typing-sizes) · [4.4 Rounding and chamfering corners](#44-rounding-and-chamfering-corners) · [4.5 Mirror and patterns](#45-mirror-and-patterns) · [4.6 Project and reference image](#46-project-and-reference-image) · [4.7 Contour operations](#47-contour-operations) · [4.8 Extruding and cutting](#48-extruding-and-cutting) · [4.9 Construction planes](#49-construction-planes)
 5. [Editing bodies](#5-editing-bodies)
-   - [5.1 Pushing and pulling faces](#51-pushing-and-pulling-faces) · [5.2 Changing the radius of round faces](#52-changing-the-radius-of-round-faces) · [5.3 Rounding and chamfering edges](#53-rounding-and-chamfering-edges) · [5.4 Shell](#54-shell) · [5.5 Offset, delete and heal faces](#55-offset-delete-and-heal-faces) · [5.6 Offset edge](#56-offset-edge) · [5.7 Split face](#57-split-face) · [5.8 Draft](#58-draft) · [5.9 Moving an edge or a corner](#59-moving-an-edge-or-a-corner) · [5.10 Resize](#510-resize) · [5.11 Move, rotate, scale, mirror, copy](#511-move-rotate-scale-mirror-copy) · [5.12 Align](#512-align) · [5.13 Patterns](#513-patterns) · [5.14 Combining bodies](#514-combining-bodies) · [5.15 Splitting a body with alignment pins](#515-splitting-a-body-with-alignment-pins)
+   - [5.1 Pushing and pulling faces](#51-pushing-and-pulling-faces) · [5.2 Changing the radius of round faces](#52-changing-the-radius-of-round-faces) · [5.3 Rounding and chamfering edges](#53-rounding-and-chamfering-edges) · [5.4 Shell](#54-shell) · [5.5 Offset, delete and heal faces](#55-offset-delete-and-heal-faces) · [5.6 Offset edge](#56-offset-edge) · [5.7 Split face](#57-split-face) · [5.8 Draft](#58-draft) · [5.9 Moving an edge or a corner](#59-moving-an-edge-or-a-corner) · [5.10 Resize](#510-resize) · [5.11 Move, rotate, scale, mirror, copy](#511-move-rotate-scale-mirror-copy) · [5.12 Align](#512-align) · [5.13 Patterns](#513-patterns) · [5.14 Combining bodies](#514-combining-bodies) · [5.15 Splitting a body with alignment pins](#515-splitting-a-body-with-alignment-pins) · [5.16 Kit and assembly manual](#516-kit-and-assembly-manual)
 6. [Paths, sweep, loft and revolve](#6-paths-sweep-loft-and-revolve)
 7. [Fastening: holes, pockets and threads](#7-fastening-holes-pockets-and-threads)
 8. [Colors and materials](#8-colors-and-materials)
@@ -59,10 +59,10 @@ Units are millimetres. The print bed is the grid in the view; bodies stand on it
 
 ### 2.1 The window
 
-- **Menu bar** (top): File, Edit, Tools, Paths, Maker, View, Help, Extensions, Settings. To the right of the menus: the part name, the switch **Model | Mesh**, the undo and redo buttons, the print bed size ("Bed: 256 × 256 mm") and the **Export STL** button. The menus can be operated with the keyboard (arrow keys, Enter, Esc).
+- **Menu bar** (top): File, Edit, Tools, Paths, Maker, Kit, View, Help, Extensions, Settings. To the right of the menus: the part name, the switch **Model | Mesh**, the undo and redo buttons, the print bed size ("Bed: 256 × 256 mm") and the **Export STL** button. The menus can be operated with the keyboard (arrow keys, Enter, Esc).
 - **Tool rail** (left): the most important tools. Related tools are grouped: hover over a group button to open its list; the button remembers the tool you used last. The groups are new shapes, paths, combine bodies (union, subtract, intersect), transform (move, rotate, scale, mirror), patterns, edge tools and face tools. **Delete body** is at the bottom.
 - **View** (center): the grid is your print bed. The [view cube](#23-view-cube-and-standard-views) is in the top right corner; a hint line at the top says what you can do next.
-- **Side panel** (right): the tabs **History**, **Bodies** and **Properties**; the arrow collapses the panel. Below it the **Selection** panel shows the size of the selection, the color swatches and buttons such as **Pull (Extrude)**, **Modify Edge**, **Place Hole** and **Resize**.
+- **Side panel** (right): the tabs **History**, **Bodies** and **Properties**; the arrow collapses the panel. Below it the **Selection** panel shows the size of the selection, the **Properties** window ([2.7](#27-typing-exact-values)), the color swatches and buttons such as **Pull (Extrude)**, **Modify Edge**, **Place Hole** and **Resize**.
 - **Tool bar** (bottom): when a tool needs settings (hole, edge, offset edge, sketch, print preview …), its bar appears at the bottom of the view with the values and **Done** or **Cancel**.
 - **Messages:** if an action does not work, a notice appears with the reason and a hint. **Undo** always takes you back to the last good state.
 
@@ -101,7 +101,7 @@ Click a side of the **view cube** (top right) to fly to that view. The same view
 
 - **Shift + click** adds or removes faces or edges of the same body, or other bodies as a group. **Ctrl + A** selects all bodies.
 - A **double-click** on an edge selects its whole chain (see [5.3](#53-rounding-and-chamfering-edges)). With several edges selected, rounding and chamfering act on all of them; with several faces selected, **Shell** opens all of them.
-- A group of bodies has its own bar with **Join**, **Subtract**, **Intersect**, **Duplicate**, **Delete** and **Clear selection**. For **Subtract**, the body selected first is the one that is cut. The handle moves and rotates the whole group in one step. **Ctrl + C** and **Ctrl + V** copy and paste bodies, **Ctrl + D** duplicates them.
+- A group of bodies has its own bar with **Join**, **Subtract**, **Intersect**, **Duplicate**, **Delete** and **Clear selection**. For **Subtract**, the body selected first is the one that is cut. The handle moves and rotates the whole group in one step; the **Properties** window sets the position, size and rotation of the group to the exact value, and a click on a color swatch colors all bodies of the group. **Ctrl + C** and **Ctrl + V** copy and paste bodies, **Ctrl + D** duplicates them.
 - **Selection box:** in templates where the left button is free in empty space (2 to 5), drag a box. Drawn **left to right** (solid, blue) it selects only what lies completely inside; drawn **right to left** (dashed, green) it selects everything it touches. **Tab** switches the filter between **Bodies** and **Faces** (the visible faces facing you); **Esc** cancels.
 
 ### 2.6 Context bar and selection wheel
@@ -125,6 +125,17 @@ The **selection wheel** offers the same actions at the mouse pointer. Hold **Q**
 ### 2.7 Typing exact values
 
 Every number you can drag has a value badge. **Just type a number** (digits, decimal point or comma, minus) and the entry field opens; **Enter** confirms, **Esc** discards. **Tab** jumps to the next field. A negative value pushes a face into the body, a positive one pulls it out. Tool bars confirm with **Enter**, **Done**, or a click into empty space and discard with **Esc**.
+
+**The Properties window.** As soon as a body is selected, the **Properties** window appears in the side panel inside the **Selection** panel, above the color swatches (a click on its title collapses it). You change the body directly in it:
+
+- **Name:** type a new name and press **Enter**.
+- **Position:** **X** and **Z** are the center of the body, **Y** is its bottom edge (on the print bed Y = 0). A number plus **Enter** moves the body there.
+- **Size:** **W** (width, X), **H** (height, Y) and **D** (depth, Z) in millimeters. A number plus **Enter** sets that dimension exactly; fillets and chamfers stay intact. A round body that has no flat face in one direction (a sphere, for example) cannot change a single dimension; the program tells you and suggests **Proportional**. With **Proportional** all three dimensions grow together, which works for any shape.
+- **Rotate:** an angle in degrees plus **Enter**: the body turns about that axis through its center (positive is counterclockwise, seen from the tip of the axis). The field is empty again afterwards.
+
+Every confirmed entry is one step in the history and can be undone with **Ctrl + Z**. **Esc** or another field discards an entry you did not confirm with **Enter**.
+
+**Several bodies.** With several bodies selected, the window shows the common bounding box of the group, and every entry acts on the group as a whole, in **one** history step: **Position** moves all bodies together, **Rotate** turns the group about its common center, and a **Size** always scales the group proportionally about the center of its footprint; the distances between the bodies grow with it. This keeps split bodies with alignment pins a single unit: pins and holes keep their position relative to each other. A click on a color swatch colors all bodies of the group.
 
 ### 2.8 Command search
 
@@ -371,6 +382,23 @@ You can start it in four places: the menu **Maker → Split body …**, the left
 
 **Plugging back together:** **Maker → Plug split parts together** (also in the context bar and the selection wheel when several bodies are selected; with no selection all bodies are tried) puts the parts together so that every pin sits in its hole and the cut faces touch. Carv3D reads the pins and holes from the shape of the parts, so you may edit the parts first (for example round edges) or move them. The pins on one cut face have different thicknesses, so the parts fit together in only one way. A split without pins has nothing to plug together. With 8 parts not every part is always placed; the message says how many fit. When laying out for printing, Carv3D places the parts so that none lands inside another body.
 
+### 5.16 Kit and assembly manual
+
+A figure made of several printed parts that plug together is a **kit**. Carv3D builds the **assembly manual** and the **parts list** for it automatically from your parts; you read them in the program step by step.
+
+**How it works:**
+
+1. **File → New project …** asks for the kind of project: **Standard** or **Kit**. You turn an existing project into a kit with **Kit → Project is a kit** (check mark).
+2. Build the figure and split it into pieces with alignment pins ([5.15](#515-splitting-a-body-with-alignment-pins)). The parts may lie next to each other on the bed, or already be plugged together with **Plug split parts back together**.
+3. **Kit → Build or rebuild manual** derives the steps. The status line names the number of steps.
+4. **Kit → View manual …** opens the viewer.
+
+**How the order is found:** the **base part** is the part in the middle (the one with the most large neighbours, the largest one on a tie). After that comes one part at a time that touches a part already in place, the large ones first. Small **connector pins** are inserted as soon as the first part they belong into is in place; equal pins share one step. If the parts lie separately on the bed, Carv3D finds out from the alignment pins how they belong together; your parts are not moved. A part that connects to nothing comes last, with a note. The order is a suggestion: Carv3D does not check whether a part can really be inserted in that direction.
+
+**The viewer** is a panel at the right edge. It shows **Step n of N** with **Back** and **Next** (or the arrow keys), the headline, the text, the parts of the step with their color and print hint, what they are plugged onto, and a list of all steps to click. In the view, the parts up to this step are plugged together, the **new part glows blue** and is pulled out a little, parts of later steps are hidden. The **Parts list** tab counts equal parts and gives for every line the color, the **filament number** (the same as in the 3MF export), the weight, which side faces down when printing and whether supports are needed. **Esc** or × closes the viewer; everything is as before. While it is open, editing is locked.
+
+The kind of project and the manual are stored in the `.carv` file. Older program versions refuse a kit with a note instead of opening it without the manual. If the parts change, build the manual again.
+
 ## 6. Paths, sweep, loft and revolve
 
 The menu **Paths** (and the tool rail group) contains six tools that share one bar: **Draw path …** (**Shift + P**), **Sweep …** (**Shift + W**), **Revolve sketch …** (**Shift + D**), **Loft …** (**Shift + L**), **Pattern along path …** (**Shift + A**) and **Spring …** (**Shift + F**, see [3.3](#33-helix-and-spring)).
@@ -517,6 +545,7 @@ In the print preview choose a slicer and press **Open in slicer**: the parts are
 
 - **File → Save project** writes an editable `.carv` file with exact geometry, body names, colors, sketches, paths, construction planes, appearances and the printer profile. Your browser stores the file in its download folder.
 - **File → Open project …** opens a `.carv` file; so does dragging it onto the window. Opening replaces the current document. Older project files keep opening in newer versions; a project from a newer version asks you to update the app.
+- **File → New project …** asks for the kind: **Standard** or **Kit** ([5.16](#516-kit-and-assembly-manual)). The kind and the assembly manual of a kit are stored in the `.carv` file.
 - **Keep the `.carv` file** even after exporting: mesh exports are not editable masters.
 
 ### 13.2 Automatic backup and recovery
@@ -561,7 +590,7 @@ What the commands cover, in one sentence per area:
 - **Fastening:** screw holes, nut, magnet and insert pockets, threads, screw, nut and washer placeholder bodies, the table of hardware.
 - **Colors:** body and face colors, appearances, palette, color plan.
 - **Generators:** box with lid, woven lamp shade.
-- **Printing:** printer profile, printability check, overhang analysis, best orientation, splitting.
+- **Printing:** printer profile, printability check, overhang analysis, best orientation, splitting, assembly manual of a kit.
 - **Files:** import, export (STL, 3MF, STEP), save and load projects, undo and redo, the calculation method.
 
 The public repository does not contain the MCP documentation; the beta package describes the commands.
@@ -659,6 +688,7 @@ Carv3D is in early beta. The current focus is direct modeling and parts for 3D p
 
 **Modeling**
 
+- Kit: the assembly manual is shown in the program (steps, parts list). Editing the texts, reordering steps and output as a page or PDF are not there yet.
 - Sketches: no sketching on curved faces; no trim and extend; no dimension constraints (parallel, tangent, equal …); single edges cannot be projected; no construction axes or points.
 - Push/pull works on flat faces; the radius can be changed on holes, posts, cylinders and fillets, but not on cone surfaces and spheres, and not for several faces at once.
 - Delete face heals holes, posts, fillets (cylindrical faces) and straight chamfers between two flat faces, not pockets or corner chamfers. Split face works on flat faces with straight lines. Offset edge works on flat faces; open chains are extended straight to the rim of the face. Replacing a face is not available.
