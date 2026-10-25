@@ -7,7 +7,7 @@ Carv3D soll bezahlbar bleiben, ohne Abonnement auskommen und gekaufte Versionen 
 ## Frühe Beta
 
 - Die Beta ist kostenlos und erfordert kein Konto.
-- Betaversionen sind zeitlich befristet. Der derzeit geplante Build kann bis einschließlich **31. März 2027** zum Modellieren verwendet werden.
+- Betaversionen sind zeitlich befristet: ein kostenloser 30-Tage-Test ab dem ersten Start (auf Anfrage verlängerbar); persönlich eingeladene Frühtester können bis einschließlich **31. März 2027** modellieren.
 - Eine neuere Beta kann den Testzeitraum verlängern.
 - Nach Ablauf lassen sich bestehende Projekte weiterhin öffnen und speichern sowie als STEP, STL oder 3MF exportieren. Für die weitere Bearbeitung ist eine aktuelle Beta oder eine lizenzierte Version erforderlich.
 

@@ -80,13 +80,13 @@ Carv3D exposes its modeling commands through a local **Model Context Protocol (M
 
 ## Private early beta
 
-Carv3D is currently tested in small invitation waves. The beta is free, but there is no public test download.
+The beta is **free for 30 days from your first start**, with the full range of functions including saving and export. Access is issued in small waves; there is no public test download.
 
 1. [Open the beta application](https://carv3d.de/Beta.html#beta).
 2. Describe what you want to build and how you use 3D printing or maker tools.
-3. You receive an email receipt immediately. Selected testers receive a separate personal invitation.
+3. You receive an email receipt immediately. Selected applicants receive their access by email.
 
-The current beta plan allows modeling through **31 March 2027**. After a beta build expires, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues with a current beta or a licensed release.
+The 30 days start with your first launch and can be extended on request. Personally invited early testers can model through **31 March 2027**. After a test period ends, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues after an extension, with a current beta or with a licensed release.
 
 > [!TIP]
 > **Early supporter reward:** Planning goal, not a binding promise: we intend to give a free lifetime license for version 1.0 to up to 10 early testers who actively report confirmed, reproducible bugs. What counts as "active" and "confirmed" is decided by Carv3D; there is no legal entitlement, and the terms may change before 1.0.

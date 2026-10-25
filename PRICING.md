@@ -7,7 +7,7 @@ Carv3D is intended to remain affordable, work without a subscription and keep pu
 ## Early beta
 
 - The beta is free and requires no account.
-- Beta builds are time limited. The currently planned build can be used for modeling through **31 March 2027**.
+- Beta builds are time limited: a free 30-day test from the first start (extendable on request); personally invited early testers can model through **31 March 2027**.
 - A newer beta may extend the testing period.
 - After expiry, existing projects can still be opened and saved and exported as STEP, STL or 3MF. Continuing to edit models requires a current beta or a licensed release.
 

@@ -80,13 +80,13 @@ Carv3D stellt seine Modellierbefehle über einen lokalen **Model Context Protoco
 
 ## Private frühe Beta
 
-Carv3D wird derzeit in kleinen Einladungswellen getestet. Die Beta ist kostenlos, es gibt jedoch keinen öffentlichen Testdownload.
+Die Beta ist **30 Tage ab dem ersten Start kostenlos**, mit vollem Funktionsumfang einschließlich Speichern und Export. Der Zugang wird in kleinen Wellen vergeben; es gibt keinen öffentlichen Testdownload.
 
 1. [Beta-Bewerbung öffnen](https://carv3d.de/Beta.html#beta).
 2. Kurz beschreiben, was du bauen möchtest und wie du 3D-Druck oder Maker-Werkzeuge nutzt.
-3. Du erhältst sofort eine Eingangsbestätigung per E-Mail. Ausgewählte Tester bekommen eine getrennte persönliche Einladung.
+3. Du erhältst sofort eine Eingangsbestätigung per E-Mail. Ausgewählte Bewerber erhalten ihren Zugang per E-Mail.
 
-Der aktuelle Beta-Plan erlaubt das Modellieren bis einschließlich **31. März 2027**. Nach Ablauf einer Betaversion lassen sich bestehende Projekte weiterhin öffnen, speichern und als STEP, STL oder 3MF exportieren. Die Bearbeitung wird mit einer aktuellen Beta oder einer lizenzierten Version fortgesetzt.
+Die 30 Tage beginnen mit deinem ersten Start und lassen sich auf Anfrage verlängern. Persönlich eingeladene Frühtester können bis einschließlich **31. März 2027** modellieren. Nach Ablauf eines Testzeitraums lassen sich bestehende Projekte weiterhin öffnen, speichern und als STEP, STL oder 3MF exportieren. Die Bearbeitung wird nach einer Verlängerung, mit einer aktuellen Beta oder mit einer lizenzierten Version fortgesetzt.
 
 > [!TIP]
 > **Belohnung für Frühunterstützer:** Planungsziel, keine verbindliche Zusage: Wir möchten bis zu 10 frühen Testern, die aktiv bestätigte, reproduzierbare Fehler melden, eine kostenlose lebenslange Lizenz für Version 1.0 geben. Was als „aktiv“ und „bestätigt“ gilt, entscheidet Carv3D; es besteht kein Rechtsanspruch, und die Bedingungen können sich vor 1.0 ändern.
