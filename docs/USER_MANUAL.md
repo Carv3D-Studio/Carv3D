@@ -363,6 +363,12 @@ Double-click a body and use **Resize**: type **Width (X)**, **Height (Y)** and *
 
 **Maker → Split body …** cuts a body in two for printing, for example a part that is too big for the bed. Choose the direction (**Left/Right**, **Top/Bottom**, **Front/Back**), the **Position** of the cut and the number of **Alignment pins**; **Split**. The pins and the matching holes get clearance so that they fit when printed. Both parts lie next to each other, ready to print. If the cut face is too narrow for pins of that size, the body is split without pins and a note says so.
 
+Every direction has its own switch and slider for the position. One direction switched on gives **2 parts**, two directions **4 parts**, three directions **8 parts**; the bar shows the number of parts. At least one direction stays on. With 4 or 8 parts the parts keep their orientation and lie in a grid on the bed; pins that stick out sideways print better with the cut face down (**Rotate** tool).
+
+You can start it in four places: the menu **Maker → Split body …**, the left bar as **Split without connectors** and **Split with alignment pins** (both in one group), the context bar of a selected body, and the **selection wheel** (hold **Q** with a body selected): **Split body** opens a submenu with **Without pins**, **With alignment pins**, **Into 4 parts** and **Into 8 parts**.
+
+**Plugging back together:** **Maker → Plug split parts together** (also in the context bar and the selection wheel when several bodies are selected; with no selection all bodies are tried) puts the parts together so that every pin sits in its hole and the cut faces touch. Carv3D reads the pins and holes from the shape of the parts, so you may edit the parts first (for example round edges) or move them. The pins on one cut face have different thicknesses, so the parts fit together in only one way. A split without pins has nothing to plug together. With 8 parts not every part is always placed; the message says how many fit. When splitting, Carv3D lays the parts out so that none lands inside another body.
+
 ## 6. Paths, sweep, loft and revolve
 
 The menu **Paths** (and the tool rail group) contains six tools that share one bar: **Draw path …** (**Shift + P**), **Sweep …** (**Shift + W**), **Revolve sketch …** (**Shift + D**), **Loft …** (**Shift + L**), **Pattern along path …** (**Shift + A**) and **Spring …** (**Shift + F**, see [3.3](#33-helix-and-spring)).

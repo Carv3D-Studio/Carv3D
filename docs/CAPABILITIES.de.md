@@ -15,7 +15,7 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 - Körper verschieben, drehen, skalieren, spiegeln, duplizieren, ausrichten und auf ein Maß bringen
 - geführtes Vereinigen, Abziehen und Schneiden von Körpern
 - lineare, kreisförmige und pfadgebundene Muster
-- Körper mit optionalen Passstiften teilen
+- Körper in 2, 4 oder 8 Teile mit optionalen Passstiften teilen und die Teile per Knopfdruck wieder zusammenstecken
 - Schnittebenen, Maße sowie Flächen- und Kanteninformationen
 - Konstruktionsebenen auf Standard-, Auswahl- und Versatzbezügen
 
@@ -68,7 +68,7 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 - Prüfung auf Wandstärke, Überhänge, Brücken, schwebende Teile und Bauraumüberschreitung
 - Vorschlag für die Druckausrichtung
 - Schichtvorschau und Filamentschätzung
-- Teile mit Passungsspiel und Passstiften trennen
+- Teile mit Passungsspiel und Passstiften trennen; die Teile werden so abgelegt, dass sie nie in anderen Körpern liegen
 - 3MF-Übergabe an unterstützte Slicer-Abläufe
 - getrennte Anzeige- und Analysenetze für flüssige Bearbeitung und zuverlässige Prüfung
 

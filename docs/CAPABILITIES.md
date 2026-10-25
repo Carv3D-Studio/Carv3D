@@ -15,7 +15,7 @@ This page summarizes the functions available in the current private early-beta b
 - move, rotate, resize, scale, mirror, duplicate and align bodies
 - union, subtract and intersect operations with guided body selection
 - linear, circular and path patterns
-- body splitting with optional alignment pins
+- body splitting into 2, 4 or 8 parts with optional alignment pins, and plugging the parts back together with one click
 - section planes, measurements, face and edge inspection
 - construction planes on standard, selected and offset references
 
@@ -68,7 +68,7 @@ This page summarizes the functions available in the current private early-beta b
 - wall-thickness, overhang, bridge, floating-part and build-volume checks
 - suggested print orientation
 - layer preview and filament estimate
-- split parts with fit clearance and alignment pins
+- split parts with fit clearance and alignment pins; the parts are laid out so that they never end up inside other bodies
 - 3MF hand-off to supported slicer workflows
 - separate display and analysis meshes for responsive editing and reliable checking
 
