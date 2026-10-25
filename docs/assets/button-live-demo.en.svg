@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="56" viewBox="0 0 280 56" role="img" aria-label="Try the live demo">
+  <rect x="1" y="1" width="278" height="54" rx="12" fill="#19c8f0"/>
+  <path d="M24 17 L24 39 L42 28 Z" fill="#071014"/>
+  <text x="56" y="35" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#071014">Try the live demo</text>
+</svg>

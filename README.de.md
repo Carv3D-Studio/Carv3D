@@ -6,6 +6,11 @@
 
 [English](README.md) · **Deutsch**
 
+<p align="center">
+  <a href="https://carv3d-studio.github.io/Carv3D/"><img src="docs/assets/button-live-demo.de.svg" alt="Live-Demo ausprobieren" height="56" /></a><br />
+  Läuft im Browser, ohne Download und ohne Konto · <a href="https://carv3d.de/Beta.html#beta">Für die private Beta bewerben</a> · <a href="docs/USER_MANUAL.de.md">Benutzerhandbuch</a>
+</p>
+
 ## Gebaut für Teile, die funktionieren müssen
 
 Carv3D verbindet die direkte Bearbeitung echter Volumenkörper mit Werkzeugen für Werkstatt und 3D-Druck. Fläche oder Kante auswählen, direkt verändern, einen exakten Wert eingeben und weiterarbeiten, ohne dafür einen langen Konstruktionsbaum aufzubauen.
