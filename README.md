@@ -39,8 +39,8 @@ Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version 
 </p>
 
 <p align="center">
-  <strong>Direct CAD for 3D printing and maker projects.</strong><br />
-  Precise solid modeling, organic mesh sculpting, practical hardware tools and print checks in one focused workspace.
+  <strong>Direct modeling for 3D printing.</strong><br />
+  Pull faces instead of maintaining a feature tree. Exact solids, real threads, hardware pockets, colours per face and print checks in one workspace that runs in your browser.
 </p>
 
 <p align="center">
@@ -55,6 +55,17 @@ Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version 
 > Carv3D is a **closed-source application currently in private early beta**. This public repository contains product information, documentation, issue templates and the public roadmap. It does not contain the application core or a public download.
 
 Carv3D is developed and maintained by **[Carv3D Studio](https://github.com/Carv3D-Studio)**. The public repository and the private application core live in the same organization while remaining clearly separated.
+
+## What makes Carv3D different
+
+- **Pull faces, no feature tree.** Click a face, drag it, type an exact value in millimetres and go on. Nothing to maintain, nothing that breaks when you change an early step.
+- **Exact solids and sculpted mesh in one workspace.** Holes, fillets and shells stay exact; organic shapes are sculpted next to them.
+- **Hardware that prints.** Real threads, screw holes, nut and magnet pockets and heat-set insert pockets with your printer's tolerances.
+- **Colours per face.** Paint faces and export a multi-colour 3MF with filament numbers.
+- **Print checks built in.** Thin walls, overhangs, bridges and build volume are checked before export; split large parts with alignment pins.
+- **Generators for everyday parts.** A box with a plug-in lid, springs, woven shades and more, as exact bodies you can still edit.
+- **Your files stay with you.** Carv3D runs in the browser and works on your own device.
+- **Scriptable and AI-ready.** The interface and the MCP server use the same commands.
 
 ## Made in Carv3D
 
@@ -86,20 +97,16 @@ The beta is **free for 30 days from your first start**, with the full range of f
 2. Describe what you want to build and how you use 3D printing or maker tools.
 3. You receive an email receipt immediately. Selected applicants receive their access by email.
 
-The 30 days start with your first launch and can be extended on request. Personally invited early testers can model through **31 March 2027**. After a test period ends, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues after an extension, with a current beta or with a licensed release.
+The 30 days start with your first launch and can be extended on request. Personally invited early testers can model through **31 March 2027**. After a test period ends, existing projects remain openable, saveable and exportable as STEP, STL or 3MF. Editing continues after an extension, with a current beta or with a later beta.
 
-> [!TIP]
-> **Early supporter reward:** Planning goal, not a binding promise: we intend to give a free lifetime license for version 1.0 to up to 10 early testers who actively report confirmed, reproducible bugs. What counts as "active" and "confirmed" is decided by Carv3D; there is no legal entitlement, and the terms may change before 1.0.
 
 ## Product direction
 
 - application core remains closed source
 - local modeling without a mandatory account or cloud service
-- perpetual license planned for version 1.0; no subscription planned
-- current target: about **€53** regular (lifetime license for the purchased version), free educational use for verified teachers and **€10–15** for students
-- reviewed community extensions are planned to use visible source code and remain free of charge
+- reviewed community extensions are planned to use visible source code
 
-Prices, supported platforms and license terms remain planning targets until the stable release. See [Pricing principles](PRICING.md), [Public roadmap](ROADMAP.md) and [Extensions](docs/EXTENSIONS.md).
+Supported platforms remain planning targets until the stable release. See [Public roadmap](ROADMAP.md) and [Extensions](docs/EXTENSIONS.md).
 
 ## Documentation and feedback
 

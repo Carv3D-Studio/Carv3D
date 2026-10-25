@@ -4,7 +4,7 @@
 
 *Stand: 25.10.2026, Version 0.1.0-beta.1.* Dieses Handbuch beschreibt, was die aktuelle private Beta kann und wo ihre Grenzen liegen. Geplantes steht hier nicht; dafür gibt es die [öffentliche Roadmap](../ROADMAP.de.md).
 
-Carv3D ist ein Modellierer für Teile, die 3D-gedruckt werden. Du arbeitest direkt am Modell: Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Einen Konstruktionsbaum, den man pflegen muss, gibt es nicht. Alles Folgende ist so geschrieben, dass du ohne CAD-Erfahrung anfangen kannst; unbekannte Wörter stehen im [Glossar](#b-glossar).
+Carv3D ist ein Modellierer für Teile, die 3D-gedruckt werden. Du arbeitest direkt am Modell: Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Einen Konstruktionsbaum, den man pflegen muss, gibt es nicht. Alles Folgende ist so geschrieben, dass du ohne Vorkenntnisse anfangen kannst; unbekannte Wörter stehen im [Glossar](#b-glossar).
 
 > **Erst ausprobieren, dann bewerben:** Die eingeschränkte [Live-Demo](https://carv3d-studio.github.io/Carv3D/) läuft im Browser (ohne Download, ohne Konto). Sie umfasst das Modellieren; Speichern, Öffnen, Importieren und Exportieren sind dort gesperrt.
 
@@ -81,7 +81,7 @@ Unter **Einstellungen → Maussteuerung** gibt es sechs Vorlagen. Wähle die, di
 | 5. Mittlere Taste verschiebt | Umschalt + mittlere | mittlere Taste | wählt; zieht einen Auswahlrahmen |
 | 6. Trackpad / Einhand | linke Taste im Leerraum | rechte Taste | dreht die Ansicht |
 
-Die Namen der Vorlagen 2 bis 5 im Menü erinnern an verbreitete CAD- und 3D-Programme; die Tabelle beschreibt, was jede tut.
+Die Namen der Vorlagen 2 bis 5 im Menü erinnern an verbreitete 3D-Programme; die Tabelle beschreibt, was jede tut.
 
 **Leertaste** fokussiert die gewählte Fläche (und startet auf einer ebenen Fläche eine Skizze). **Esc** hebt die Auswahl auf.
 
@@ -535,7 +535,7 @@ Netze müssen geschlossen sein. Ein offenes oder fehlerhaftes Netz wird mit Hinw
 
 - **3MF** ist das bevorzugte Format für aktuelle Slicer: Millimeter, Z oben, mit Farben und Körpernamen.
 - **STL** (binär, Z oben) ist das am weitesten verstandene Format.
-- **STEP** überträgt exakte Volumengeometrie in andere CAD-Systeme; Netzkörper lassen sich nicht als STEP exportieren.
+- **STEP** überträgt exakte Volumengeometrie in andere 3D-Programme; Netzkörper lassen sich nicht als STEP exportieren.
 
 Nach Ablauf deines Testzeitraums (30 Tage ab dem ersten Start; für persönlich eingeladene Frühtester der 31. März 2027) lassen sich vorhandene Projekte weiter öffnen, speichern und exportieren.
 
@@ -617,7 +617,7 @@ Ein funktionales zweiteiliges Gewindepaar:
 - **`.carv`** erhält bearbeitbare exakte Geometrie, Körpernamen, Farben, Skizzen und das Druckprofil.
 - **3MF** ist das bevorzugte Format für moderne Slicer.
 - **STL** eignet sich für breite Kompatibilität.
-- **STEP** überträgt exakte Volumengeometrie in andere CAD-Systeme.
+- **STEP** überträgt exakte Volumengeometrie in andere 3D-Programme.
 
 Das `.carv`-Projekt sollte auch nach dem Export aufbewahrt werden, weil Netzexporte nicht als bearbeitbare Masterdatei gedacht sind.
 
@@ -731,7 +731,7 @@ Jede Taste lässt sich unter **Einstellungen → Tastenbelegung …** ändern ([
 - **Boolesche Operation:** Körper durch Vereinigen, Abziehen oder Schneiden kombinieren.
 - **Überhang und Brücke:** ein Teil des Modells, das sich so weit nach außen neigt, dass der Drucker Stützen darunter braucht; eine waagerechte Decke, die eine Lücke überspannt.
 - **Slicer:** das Programm, das dein Modell in Anweisungen für den Drucker umrechnet.
-- **3MF, STL, STEP:** Dateiformate. 3MF und STL sind Netze für Slicer (3MF kann Farben tragen); STEP trägt exakte Volumenkörper für CAD-Programme.
+- **3MF, STL, STEP:** Dateiformate. 3MF und STL sind Netze für Slicer (3MF kann Farben tragen); STEP trägt exakte Volumenkörper für andere 3D-Programme.
 - **Düse, Schichthöhe, Passungszugabe:** die Öffnung der Druckdüse; die Dicke einer gedruckten Schicht; das zusätzliche Spiel, das Löchern gegeben wird, damit Teile passen.
 - **Gewindeeinsatz (Heat-Set):** ein kleines Gewindeteil aus Metall, das in den Kunststoff eingeschmolzen wird.
 - **MCP:** ein Standardweg, wie ein Assistenzprogramm die Befehle eines anderen Programms nutzt; hier immer auf deinem eigenen Rechner.

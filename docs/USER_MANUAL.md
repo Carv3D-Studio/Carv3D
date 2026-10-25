@@ -4,7 +4,7 @@
 
 *Status: 2026-10-25, version 0.1.0-beta.1.* This manual describes what the current private beta can do and where its limits are. Planned work is not described here; see the [public roadmap](../ROADMAP.md).
 
-Carv3D is a modeler for parts that will be 3D printed. You work directly on the model: click a face, pull it, type an exact value in millimetres and continue. There is no feature tree to maintain. Everything below is written so that you can start without CAD experience; words you may not know are explained in the [glossary](#b-glossary).
+Carv3D is a modeler for parts that will be 3D printed. You work directly on the model: click a face, pull it, type an exact value in millimetres and continue. There is no feature tree to maintain. Everything below is written so that you can start without prior experience; words you may not know are explained in the [glossary](#b-glossary).
 
 > **Try before you apply:** the restricted [live demo](https://carv3d-studio.github.io/Carv3D/) runs in your browser (no download, no account). It covers modeling, but saving, opening, importing and exporting are disabled there.
 
@@ -81,7 +81,7 @@ Units are millimetres. The print bed is the grid in the view; bodies stand on it
 | 5. Middle button pans | Shift + middle | middle button | selects; drags a selection box |
 | 6. Trackpad / one hand | left button in empty space | right button | orbits the view |
 
-The names of templates 2 to 5 in the menu recall common CAD and 3D programs; the table describes what each one does.
+The names of templates 2 to 5 in the menu recall common 3D programs; the table describes what each one does.
 
 **Space** focuses on the selected face (and starts a sketch on a flat face). **Esc** deselects.
 
@@ -535,7 +535,7 @@ Meshes must be closed. An open or faulty mesh is refused with a hint (repair it 
 
 - **3MF** is the preferred format for current slicers: millimetres, Z up, with colors and body names.
 - **STL** (binary, Z up) is the most widely understood format.
-- **STEP** carries exact solid geometry to other CAD systems; mesh bodies cannot be exported as STEP.
+- **STEP** carries exact solid geometry to other 3D programs; mesh bodies cannot be exported as STEP.
 
 After your test period ends (30 days from your first start; for personally invited early testers 31 March 2027), existing projects can still be opened, saved and exported.
 
@@ -617,7 +617,7 @@ Suggested exercise: create another thread with the hole tool and tune fit cleara
 - **`.carv`** preserves editable exact geometry, body names, colors, sketches and the print profile.
 - **3MF** is the preferred format for modern slicers.
 - **STL** is suitable for broad compatibility.
-- **STEP** transfers exact solid geometry to another CAD system.
+- **STEP** transfers exact solid geometry to other 3D programs.
 
 Keep the `.carv` project even after exporting, because mesh exports are not intended as the editable master file.
 
@@ -731,7 +731,7 @@ You can change every key under **Settings → Key bindings …** ([2.11](#211-ch
 - **Boolean operation:** combine bodies by union, subtraction or intersection.
 - **Overhang and bridge:** a part of the model that leans out so much that the printer needs support under it; a horizontal ceiling that spans a gap.
 - **Slicer:** the program that turns your model into instructions for the printer.
-- **3MF, STL, STEP:** file formats. 3MF and STL are meshes for slicers (3MF can carry colors); STEP carries exact solids for CAD programs.
+- **3MF, STL, STEP:** file formats. 3MF and STL are meshes for slicers (3MF can carry colors); STEP carries exact solids for other 3D programs.
 - **Nozzle, layer height, fit allowance:** the opening of the print nozzle; the thickness of one printed layer; the extra clearance added to holes so that parts fit.
 - **Heat-set insert:** a small metal thread part that is melted into the plastic.
 - **MCP:** a standard way for an assistant program to use another program's commands; here always on your own computer.

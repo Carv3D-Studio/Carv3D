@@ -34,11 +34,11 @@ See [Current capabilities](docs/CAPABILITIES.md) for the detailed overview.
 - complete security and package review for the extension system
 - establish a reviewed directory for free, source-visible community extensions
 - publish stable installer, update and rollback procedures
-- finalize supported platforms, license activation and offline behavior
+- finalize supported platforms and offline behavior
 - complete user documentation and migration guidance
 
 ## Version 1.0
 
-Version 1.0 is planned when core workflows are stable, projects remain reliably compatible and the application is understandable for new users. Current planning targets are about **€53** for a lifetime regular license for the purchased version, free educational use for verified teachers, and **€10–15** for students. No subscription or mandatory account is planned.
+Version 1.0 is planned when core workflows are stable, projects remain reliably compatible and the application is understandable for new users. No mandatory account is planned.
 
-Final prices, license terms and supported platforms will be published before sales begin. See [Pricing principles](PRICING.md).
+Supported platforms will be published before the release.

@@ -39,8 +39,8 @@ Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassu
 </p>
 
 <p align="center">
-  <strong>Direktes CAD für 3D-Druck und Maker-Projekte.</strong><br />
-  Präzise Volumenmodellierung, organisches Mesh-Formen, praktische Hardware-Werkzeuge und Druckprüfungen in einer fokussierten Umgebung.
+  <strong>Direktes Modellieren für den 3D-Druck.</strong><br />
+  Flächen ziehen statt Konstruktionsbaum pflegen. Exakte Volumenkörper, echte Gewinde, Hardware-Taschen, Farben pro Fläche und Druckprüfungen in einer Umgebung, die im Browser läuft.
 </p>
 
 <p align="center">
@@ -55,6 +55,17 @@ Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassu
 > Carv3D ist eine **Closed-Source-Anwendung in einer privaten frühen Beta**. Dieses öffentliche Repository enthält Produktinformationen, Dokumentation, Vorlagen für Meldungen und die öffentliche Roadmap. Der Anwendungskern und ein öffentlicher Download sind nicht enthalten.
 
 Carv3D wird von **[Carv3D Studio](https://github.com/Carv3D-Studio)** entwickelt und gepflegt. Das öffentliche Repository und der private Anwendungskern liegen in derselben Organisation, bleiben aber klar voneinander getrennt.
+
+## Was Carv3D besonders macht
+
+- **Flächen ziehen, kein Konstruktionsbaum.** Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Nichts muss gepflegt werden, nichts bricht, wenn du einen frühen Schritt änderst.
+- **Exakte Volumenkörper und geformtes Mesh in einer Umgebung.** Bohrungen, Verrundungen und Aushöhlungen bleiben exakt; organische Formen entstehen daneben.
+- **Hardware, die sich drucken lässt.** Echte Gewinde, Schraubenlöcher, Mutter-, Magnet- und Gewindeeinsatz-Taschen mit den Toleranzen deines Druckers.
+- **Farben pro Fläche.** Flächen einfärben und als mehrfarbiges 3MF mit Filamentnummern exportieren.
+- **Druckprüfung eingebaut.** Dünne Wände, Überhänge, Brücken und Bauraum werden vor dem Export geprüft; große Teile teilst du mit Passstiften.
+- **Generatoren für Alltagsteile.** Box mit Steckdeckel, Federn, Lampenschirme und mehr, als exakte Körper, die du weiter bearbeiten kannst.
+- **Deine Dateien bleiben bei dir.** Carv3D läuft im Browser und arbeitet auf deinem eigenen Gerät.
+- **Skriptbar und KI-bereit.** Oberfläche und MCP-Server nutzen dieselben Befehle.
 
 ## In Carv3D erstellt
 
@@ -86,20 +97,16 @@ Die Beta ist **30 Tage ab dem ersten Start kostenlos**, mit vollem Funktionsumfa
 2. Kurz beschreiben, was du bauen möchtest und wie du 3D-Druck oder Maker-Werkzeuge nutzt.
 3. Du erhältst sofort eine Eingangsbestätigung per E-Mail. Ausgewählte Bewerber erhalten ihren Zugang per E-Mail.
 
-Die 30 Tage beginnen mit deinem ersten Start und lassen sich auf Anfrage verlängern. Persönlich eingeladene Frühtester können bis einschließlich **31. März 2027** modellieren. Nach Ablauf eines Testzeitraums lassen sich bestehende Projekte weiterhin öffnen, speichern und als STEP, STL oder 3MF exportieren. Die Bearbeitung wird nach einer Verlängerung, mit einer aktuellen Beta oder mit einer lizenzierten Version fortgesetzt.
+Die 30 Tage beginnen mit deinem ersten Start und lassen sich auf Anfrage verlängern. Persönlich eingeladene Frühtester können bis einschließlich **31. März 2027** modellieren. Nach Ablauf eines Testzeitraums lassen sich bestehende Projekte weiterhin öffnen, speichern und als STEP, STL oder 3MF exportieren. Die Bearbeitung wird nach einer Verlängerung, mit einer aktuellen Beta oder mit einer späteren Beta fortgesetzt.
 
-> [!TIP]
-> **Belohnung für Frühunterstützer:** Planungsziel, keine verbindliche Zusage: Wir möchten bis zu 10 frühen Testern, die aktiv bestätigte, reproduzierbare Fehler melden, eine kostenlose lebenslange Lizenz für Version 1.0 geben. Was als „aktiv“ und „bestätigt“ gilt, entscheidet Carv3D; es besteht kein Rechtsanspruch, und die Bedingungen können sich vor 1.0 ändern.
 
 ## Produktausrichtung
 
 - der Anwendungskern bleibt Closed Source
 - lokale Modellierung ohne Pflichtkonto oder Cloud-Dienst
-- dauerhafte Lizenz für Version 1.0 geplant; kein Abonnement vorgesehen
-- aktuelles Ziel: ungefähr **53 €** regulär (lebenslange Lizenz für die erworbene Version), kostenlose Bildungsnutzung für verifizierte Lehrkräfte und **10–15 €** für Schüler und Studierende
 - geprüfte Community-Erweiterungen sollen einsehbaren Quellcode haben und kostenlos bleiben
 
-Preise, unterstützte Plattformen und Lizenzbedingungen bleiben bis zur stabilen Veröffentlichung Planungsziele. Siehe [Preisgrundsätze](PRICING.de.md), [öffentliche Roadmap](ROADMAP.de.md) und [Erweiterungen](docs/EXTENSIONS.de.md).
+Unterstützte Plattformen bleiben bis zur stabilen Veröffentlichung Planungsziele. Siehe [öffentliche Roadmap](ROADMAP.de.md) und [Erweiterungen](docs/EXTENSIONS.de.md).
 
 ## Dokumentation und Rückmeldungen
 

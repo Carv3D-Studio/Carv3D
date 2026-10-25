@@ -88,7 +88,7 @@ This page summarizes the functions available in the current private early-beta b
 - body, sketch, path and history lists
 - multiple selection for bodies, faces and edges, including a selection box
 - undo and redo across modeling operations
-- selectable mouse-navigation presets for common CAD and 3D applications
+- selectable mouse-navigation presets for common 3D applications
 - customizable keyboard shortcuts and keyboard-accessible menus
 - guided introduction and task-specific learning videos
 

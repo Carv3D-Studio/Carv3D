@@ -88,7 +88,7 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 - Listen für Körper, Skizzen, Pfade und Verlauf
 - Mehrfachauswahl von Körpern, Flächen und Kanten, auch mit Auswahlrahmen
 - Rückgängig und Wiederholen für Modellieroperationen
-- wählbare Maussteuerung nach Vorbildern verbreiteter CAD- und 3D-Anwendungen
+- wählbare Maussteuerung nach Vorbildern verbreiteter 3D-Anwendungen
 - anpassbare Tastenkürzel und per Tastatur bedienbare Menüs
 - geführte Einführung und aufgabenbezogene Lernvideos
 
