@@ -537,7 +537,7 @@ Meshes must be closed. An open or faulty mesh is refused with a hint (repair it 
 - **STL** (binary, Z up) is the most widely understood format.
 - **STEP** carries exact solid geometry to other CAD systems; mesh bodies cannot be exported as STEP.
 
-After the beta period ends (31 March 2027), existing projects can still be opened, saved and exported.
+After your test period ends (30 days from your first start; for personally invited early testers 31 March 2027), existing projects can still be opened, saved and exported.
 
 ## 14. AI and MCP
 
@@ -644,7 +644,7 @@ Carv3D is in early beta. The current focus is direct modeling and parts for 3D p
 
 **General**
 
-- Operation and the project format may still change during the 0.x phase. This beta build can be used for editing through 31 March 2027; opening, saving and export remain available afterwards.
+- Operation and the project format may still change during the 0.x phase. Editing is time limited: 30 days from your first start (extendable on request), for personally invited early testers through 31 March 2027; opening, saving and export remain available afterwards. **Help → About Carv3D …** shows the remaining days.
 - Data loss cannot be excluded. Save `.carv` files and keep an extra copy in an exchange format such as STEP or 3MF; the automatic backup lives only in the browser.
 - Very large or geometrically complex models can be slow or fail. If the geometry kernel crashes, it is restarted and the body is restored (the history is reset). Tablet and touch operation are not fully optimized, and there is no installer yet (a package with a start script).
 - New bodies from the menu appear at the origin and can overlap existing ones. After extruding a sketch, a typed value is added to the current height.

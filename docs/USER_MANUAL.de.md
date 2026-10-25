@@ -537,7 +537,7 @@ Netze müssen geschlossen sein. Ein offenes oder fehlerhaftes Netz wird mit Hinw
 - **STL** (binär, Z oben) ist das am weitesten verstandene Format.
 - **STEP** überträgt exakte Volumengeometrie in andere CAD-Systeme; Netzkörper lassen sich nicht als STEP exportieren.
 
-Nach Ablauf der Beta-Zeit (31. März 2027) lassen sich vorhandene Projekte weiter öffnen, speichern und exportieren.
+Nach Ablauf deines Testzeitraums (30 Tage ab dem ersten Start; für persönlich eingeladene Frühtester der 31. März 2027) lassen sich vorhandene Projekte weiter öffnen, speichern und exportieren.
 
 ## 14. KI und MCP
 
@@ -644,7 +644,7 @@ Carv3D befindet sich in einer frühen Beta. Der aktuelle Schwerpunkt liegt auf d
 
 **Allgemein**
 
-- Bedienung und Dateiformat können sich während der 0.x-Phase noch ändern. Dieser Beta-Build ist für die Bearbeitung bis einschließlich 31. März 2027 befristet; Öffnen, Speichern und Exportieren bleiben danach verfügbar.
+- Bedienung und Dateiformat können sich während der 0.x-Phase noch ändern. Das Bearbeiten ist befristet: 30 Tage ab dem ersten Start (auf Anfrage verlängerbar), für persönlich eingeladene Frühtester bis einschließlich 31. März 2027; Öffnen, Speichern und Exportieren bleiben danach verfügbar. **Hilfe → Über Carv3D …** zeigt die verbleibenden Tage.
 - Datenverlust lässt sich nicht ausschließen. Speichere `.carv`-Dateien und halte eine zusätzliche Kopie in einem Austauschformat wie STEP oder 3MF bereit; die automatische Sicherung liegt nur im Browser.
 - Sehr große oder geometrisch komplizierte Modelle können langsam sein oder fehlschlagen. Stürzt der Geometrie-Kernel ab, wird er neu gestartet und der Körper wiederhergestellt (der Verlauf wird zurückgesetzt). Tablet- und Touch-Bedienung sind nicht vollständig optimiert, und es gibt noch keinen Installer (ein Paket mit Startskript).
 - Neue Körper aus dem Menü entstehen am Ursprung und können vorhandene überlappen. Nach dem Extrudieren einer Skizze wird ein getippter Wert zur aktuellen Höhe addiert.
