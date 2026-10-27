@@ -63,14 +63,21 @@ Carv3D wird von **[Carv3D Studio](https://github.com/Carv3D-Studio)** entwickelt
 
 ## Was Carv3D besonders macht
 
-- **Flächen ziehen, kein Konstruktionsbaum.** Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Nichts muss gepflegt werden, nichts bricht, wenn du einen frühen Schritt änderst.
-- **Exakte Volumenkörper und geformtes Mesh in einer Umgebung.** Bohrungen, Verrundungen und Aushöhlungen bleiben exakt; organische Formen entstehen daneben.
-- **Hardware, die sich drucken lässt.** Echte Gewinde, Schraubenlöcher, Mutter-, Magnet- und Gewindeeinsatz-Taschen mit den Toleranzen deines Druckers.
-- **Farben pro Fläche.** Flächen einfärben und als mehrfarbiges 3MF mit Filamentnummern exportieren.
-- **Druckprüfung eingebaut.** Dünne Wände, Überhänge, Brücken und Bauraum werden vor dem Export geprüft; große Teile teilst du mit Passstiften.
-- **Generatoren für Alltagsteile.** Box mit Steckdeckel, Federn, Lampenschirme und mehr, als exakte Körper, die du weiter bearbeiten kannst.
-- **Deine Dateien bleiben bei dir.** Carv3D läuft im Browser und arbeitet auf deinem eigenen Gerät.
-- **Skriptbar und KI-bereit.** Oberfläche und MCP-Server nutzen dieselben Befehle.
+Carv3D bearbeitet echte Volumenkörper direkt und bringt die Generatoren und die Druckvorbereitung mit, für die man in Werkstatt- und 3D-Druck-Projekten sonst oft weitere Programme braucht. Jede Funktion ist zugleich ein Befehl für Skripte und KI-Clients. Der Status je Funktion steht unter [Aktuelle Funktionen](docs/CAPABILITIES.de.md); dort als eingeschränkt oder geplant markierte Einträge sind noch nicht vollständig geprüft oder noch nicht gebaut.
+
+| Alleinstellungsmerkmal | Was das praktisch bedeutet |
+| --- | --- |
+| **Flächen ziehen, kein Konstruktionsbaum** | Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Bohrungen, Verrundungen und Aushöhlungen bleiben exakt. |
+| **Veredelungen, die den Körper formbar lassen** | Oberflächentexturen (zum Beispiel Rändelung), Innenrippen und Lochmuster sind nicht-zerstörende *Veredelungen*: Sie liegen als Liste auf dem exakten Körper, lassen sich ausschalten, entfernen und neu berechnen, und der Körper bleibt mit Rückgängig bearbeitbar. |
+| **Druckvorbereitung eingebaut** | Zero-Support-Optimierung (Tropfenbohrungen und Fasen statt Stützen), Druckpausen für eingedruckte Teile, Toleranz-Prüfkörper für Passungen, Modifier-Zonen für den Slicer im 3MF, Ausrichtungshilfe und eine Bauteil-Vorschau auf der Druckplatte des gewählten Druckers. |
+| **Generatoren für Maker-Aufgaben** | Zweiteilige Gussform mit Trichter und Entlüftung, Kabelkanal- und Schlauch-Router, Platinen-Gehäuse, Kugellager-Sitze und Zahnräder, Bohrschablonen, Foto-zu-Organizer, Print-in-Place-Gelenke und Filmscharniere. |
+| **Projekttyp Bausatz** | Ein Projekt als Bausatz markieren: Carv3D leitet aus den Teilen eine Bauanleitung mit Schrittfolge, Stückliste und Druckhinweisen ab. |
+| **MCP-first** | Jede Funktion ist ein Befehl, Oberfläche und lokaler MCP-Server nutzen dieselben Befehle. Nichts existiert nur als Mausklick. |
+| **Community-Erweiterungen** | Ein Erweiterungs-SDK lässt geprüfte Erweiterungen wie eingebaute Funktionen in Menüs und Befehlssuche erscheinen. Die erste, Mesh Mix-S2C, ist eine Open-Source-Erweiterung (AGPL-3.0-only). |
+| **Lernen eingebaut** | „So geht’s“-Clips im Tooltip (Deutsch und Englisch) und eine geführte Tour. |
+| **Deine Dateien bleiben bei dir** | Carv3D läuft im Browser und arbeitet auf deinem eigenen Gerät. |
+
+Einige Funktionen sind noch eingeschränkt: Slicer-spezifische Metadaten für Druckpausen und Modifier-Zonen sind noch nicht mit Referenzdateien eines Slicers geprüft, und einzelne Hardware-Daten sind als unbestätigt gekennzeichnet. Details stehen unter [Aktuelle Funktionen](docs/CAPABILITIES.de.md) und [Bekannte Einschränkungen](docs/KNOWN_LIMITATIONS.de.md).
 
 ## In Carv3D erstellt
 

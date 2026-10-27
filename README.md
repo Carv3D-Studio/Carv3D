@@ -63,14 +63,21 @@ Carv3D is developed and maintained by **[Carv3D Studio](https://github.com/Carv3
 
 ## What makes Carv3D different
 
-- **Pull faces, no feature tree.** Click a face, drag it, type an exact value in millimetres and go on. Nothing to maintain, nothing that breaks when you change an early step.
-- **Exact solids and sculpted mesh in one workspace.** Holes, fillets and shells stay exact; organic shapes are sculpted next to them.
-- **Hardware that prints.** Real threads, screw holes, nut and magnet pockets and heat-set insert pockets with your printer's tolerances.
-- **Colours per face.** Paint faces and export a multi-colour 3MF with filament numbers.
-- **Print checks built in.** Thin walls, overhangs, bridges and build volume are checked before export; split large parts with alignment pins.
-- **Generators for everyday parts.** A box with a plug-in lid, springs, woven shades and more, as exact bodies you can still edit.
-- **Your files stay with you.** Carv3D runs in the browser and works on your own device.
-- **Scriptable and AI-ready.** The interface and the MCP server use the same commands.
+Carv3D edits true solid bodies directly and adds the generators and print preparation that workshop and 3D-printing projects usually need other programs for. Every function is also a command for scripts and AI clients. Status per function is listed in [Current capabilities](docs/CAPABILITIES.md); entries marked there as limited or planned are not yet fully verified or not yet built.
+
+| Distinctive feature | What it means in practice |
+| --- | --- |
+| **Pull faces, no feature tree** | Click a face, drag it, type an exact value in millimetres and go on. Holes, fillets and shells stay exact. |
+| **Finishes that keep the body editable** | Surface textures (such as knurling), internal ribbing and perforation patterns are non-destructive *finishes*: they sit as a list on the exact body, can be switched off, removed and recalculated, and the body stays editable with undo. |
+| **Print preparation built in** | Zero-support optimization (teardrop holes and chamfers instead of supports), print pauses for embedded hardware, tolerance test bodies for fits, slicer modifier zones in the 3MF, orientation guidance, and a part preview on the selected printer's build plate. |
+| **Generators for maker tasks** | Two-part mould with funnel and vents, cable and hose channel router, electronics enclosure, bearing seats and gears, drill jigs, photo-to-organizer, print-in-place joints and living hinges. |
+| **Kit project type** | Mark a project as a kit and Carv3D derives a build manual with step order, bill of materials and print notes from the parts. |
+| **MCP-first** | Every function is a command, and the interface and the local MCP server use the same commands. Nothing exists only as a mouse click. |
+| **Community extensions** | An extension SDK lets reviewed extensions appear in menus and command search like built-in functions. The first one, Mesh Mix-S2C, is an open-source extension (AGPL-3.0-only). |
+| **Learning built in** | "How-to" clips in the tooltips (German and English) and a guided tour. |
+| **Your files stay with you** | Carv3D runs in the browser and works on your own device. |
+
+Some functions are still limited: slicer-specific metadata for print pauses and modifier zones is not yet checked against slicer reference files, and some hardware data are marked unverified. Details are in [Current capabilities](docs/CAPABILITIES.md) and [Known limitations](docs/KNOWN_LIMITATIONS.md).
 
 ## Made in Carv3D
 
