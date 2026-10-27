@@ -13,6 +13,11 @@ Diese Roadmap beschreibt Schwerpunkte und keine festen Veröffentlichungstermine
 - Farben, Darstellungen, Flächenfarben, Text und mehrfarbiger 3MF-Export
 - Druckerprofile, Druckbarkeitsprüfung, Ausrichtungshilfe, Vorschau und Materialschätzung
 - native Projekte; Arbeitsabläufe für STEP-, STL-, OBJ-, 3MF-, DXF- und SVG-Import; Export als STEP, STL und 3MF
+- nicht-zerstörende Veredelungen (Textur, Innenrippen, Lochmuster) auf exakten Körpern
+- Druckvorbereitung: Zero-Support-Optimierung, Druckpausen, Toleranz-Prüfkörper, Modifier-Zonen für den Slicer, Bauteil-Vorschau auf der Druckplatte des Druckers
+- Maker-Generatoren: zweiteilige Gussform, Kabelkanal-Router, Platinen-Gehäuse, Kugellager-Sitze und Zahnräder, Bohrschablonen, Foto-zu-Organizer, Gelenke und Scharniere
+- Projekttyp Bausatz mit automatischer Bauanleitung
+- Erweiterungs-SDK und die erste geprüfte Erweiterung (Mesh Mix-S2C)
 - lokale MCP-Schnittstelle für Agenten ohne Oberfläche und in der geöffneten Anwendung
 - deutsche und englische Oberfläche, Mausvorlagen und anpassbare Tastenkürzel
 - automatische Projektwiederherstellung und erhaltener Zugriff zum Öffnen, Speichern und Exportieren nach Ablauf einer Beta
@@ -28,6 +33,9 @@ Die ausführliche Übersicht steht unter [Aktuelle Funktionen](docs/CAPABILITIES
 - Installation, Aktualisierungen und Diagnose für eingeladene Tester verbessern
 - Barrierefreiheit, Tastaturbedienung und Nutzung auf großen Tablets ausbauen
 - praktische Rückmeldungen in kleinen Einladungswellen sammeln
+- Slicer-spezifische Metadaten für Druckpausen und Modifier-Zonen schreiben und mit Referenzdateien von Slicern prüfen
+- unbestätigte Hardware-Daten (Lager MR105, Gridfinity-Magnetloch) bestätigen und weitere Platinen im Platinen-Gehäuse-Generator ergänzen
+- Abnahme im Browser für Innenrippen, Print-in-Place-Gelenke und den Kabelkanal entlang eines Pfads abschließen
 
 ## Vor einer breiteren Verfügbarkeit
 

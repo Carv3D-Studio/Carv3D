@@ -13,6 +13,11 @@ This roadmap describes priorities rather than fixed release dates. Order and sco
 - colors, appearances, face colors, text and multi-color 3MF output
 - printer profiles, printability checks, orientation guidance, preview and material estimates
 - native projects; STEP, STL, OBJ, 3MF, DXF and SVG import workflows; STEP, STL and 3MF export
+- non-destructive finishes (texture, internal ribbing, perforation) on exact bodies
+- print preparation: zero-support optimization, print pauses, tolerance test bodies, slicer modifier zones, part preview on the printer's build plate
+- maker generators: two-part mould, cable channel router, electronics enclosure, bearing seats and gears, drill jigs, photo to organizer, joints and hinges
+- kit project type with automatic build instructions
+- extension SDK and the first reviewed extension (Mesh Mix-S2C)
 - local MCP interface for headless and live agent workflows
 - English and German interface, mouse presets and customizable keyboard shortcuts
 - automatic project recovery and preserved open, save and export access after beta expiry
@@ -28,6 +33,9 @@ See [Current capabilities](docs/CAPABILITIES.md) for the detailed overview.
 - improve installation, updates and diagnostics for invited testers
 - expand accessibility, keyboard operation and large-screen tablet support
 - collect practical feedback through small invitation waves
+- write slicer-specific metadata for print pauses and modifier zones and check it against reference files from slicers
+- confirm unverified hardware data (MR105 bearing, Gridfinity magnet hole) and add more circuit boards to the enclosure generator
+- finish browser acceptance of internal ribbing, print-in-place joints and the cable channel along a path
 
 ## Before wider availability
 
