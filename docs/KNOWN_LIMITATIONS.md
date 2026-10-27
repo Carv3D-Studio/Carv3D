@@ -14,6 +14,6 @@ Carv3D is in early beta. The current focus is on direct modeling fundamentals an
 - Some hardware and organizer data are marked unverified (the MR105 bearing size and the Gridfinity magnet hole). The electronics enclosure generator knows only the Raspberry Pi 4 Model B so far.
 - Photo-to-organizer has only been tested on synthetic images. The cable channel router supports paths up to about 45 degrees slope.
 - The printer build-plate label is shown for two Anycubic profiles only; its position and text are an unverified assumption.
-- Internal ribbing, print-in-place joints and the cable channel along a path have not yet been fully accepted in the browser. Some generator error messages still appear in English in the German interface.
+- Internal ribbing, print-in-place joints and the cable channel along a path have not yet been fully accepted in the browser.
 
 Confirmed issues are tracked separately in GitHub Issues.

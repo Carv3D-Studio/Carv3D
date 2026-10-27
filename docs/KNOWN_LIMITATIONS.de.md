@@ -14,6 +14,6 @@ Carv3D befindet sich in einer frühen Beta. Der aktuelle Schwerpunkt liegt auf d
 - Einige Hardware- und Organizer-Daten sind als unbestätigt gekennzeichnet (Maß des Lagers MR105 und das Gridfinity-Magnetloch). Der Platinen-Gehäuse-Generator kennt bisher nur den Raspberry Pi 4 Model B.
 - Foto-zu-Organizer ist bisher nur auf synthetischen Bildern geprüft. Der Kabelkanal-Router unterstützt Wege bis etwa 45 Grad Steigung.
 - Die Beschriftung der Druckplatte wird nur für zwei Anycubic-Profile gezeigt; Lage und Text sind eine ungeprüfte Annahme.
-- Innenrippen, Print-in-Place-Gelenke und der Kabelkanal entlang eines Pfads sind im Browser noch nicht vollständig abgenommen. Einige Fehlermeldungen der Generatoren erscheinen in der deutschen Oberfläche noch auf Englisch.
+- Innenrippen, Print-in-Place-Gelenke und der Kabelkanal entlang eines Pfads sind im Browser noch nicht vollständig abgenommen.
 
 Konkrete bestätigte Fehler werden zusätzlich in GitHub Issues geführt.
