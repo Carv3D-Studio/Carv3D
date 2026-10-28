@@ -4,9 +4,9 @@
 
 Carv3D 0.1 is an early test version. Keep an additional copy of important work in an exchange format such as STEP or 3MF.
 
-## Free 30-day test
+## Test phase
 
-The beta is free for **30 days from your first start**, with the full range of functions including saving and export. Access is issued in small waves after an [application](https://carv3d.de/Beta.html#beta). On request we can extend the period. Personally invited early testers can model through **31 March 2027**.
+The beta runs for **30 days from your first start**, with the full range of functions including saving and export. Access is issued in small waves after an [application](https://carv3d.de/Beta.html#beta). On request we can extend the period. Personally invited early testers can model through **31 March 2027**.
 
 When your test period ends, this build continues to open and save projects and export STEP, STL and 3MF files. Editing continues after an extension, with a current beta or with a later beta. The program shows the remaining days in **Help → About Carv3D …** and warns you in the last seven days.
 

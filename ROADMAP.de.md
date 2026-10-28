@@ -40,7 +40,7 @@ Die ausführliche Übersicht steht unter [Aktuelle Funktionen](docs/CAPABILITIES
 ## Vor einer breiteren Verfügbarkeit
 
 - Sicherheits- und Paketprüfung des Erweiterungssystems abschließen
-- ein geprüftes Verzeichnis für kostenlose Community-Erweiterungen mit einsehbarem Quellcode einrichten
+- ein geprüftes Verzeichnis für Community-Erweiterungen mit einsehbarem Quellcode einrichten
 - stabile Abläufe für Installation, Aktualisierung und Rückkehr zu einer vorherigen Version veröffentlichen
 - unterstützte Plattformen und Offline-Verhalten abschließend festlegen
 - Benutzerdokumentation und Hinweise zur Übernahme bestehender Projekte vervollständigen

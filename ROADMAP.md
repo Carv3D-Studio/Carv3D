@@ -40,7 +40,7 @@ See [Current capabilities](docs/CAPABILITIES.md) for the detailed overview.
 ## Before wider availability
 
 - complete security and package review for the extension system
-- establish a reviewed directory for free, source-visible community extensions
+- establish a reviewed directory for source-visible community extensions
 - publish stable installer, update and rollback procedures
 - finalize supported platforms and offline behavior
 - complete user documentation and migration guidance

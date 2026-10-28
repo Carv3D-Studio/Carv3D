@@ -6,8 +6,7 @@ Carv3D erhält eine kontrollierte Erweiterungsschnittstelle. Der Anwendungskern 
 
 ## Grundsätze
 
-- Offizielle Community-Erweiterungen werden kostenlos angeboten.
-- Ihr Quellcode ist öffentlich einsehbar.
+- Offizielle Community-Erweiterungen haben öffentlich einsehbaren Quellcode.
 - Jede Erweiterung benötigt eine klare Beschreibung ihrer Berechtigungen.
 - Aufnahme und Aktualisierung erfolgen erst nach automatischer und manueller Prüfung.
 - Das veröffentlichte Paket wird aus dem geprüften Quellcode erstellt und von Carv3D freigegeben.

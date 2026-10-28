@@ -6,8 +6,7 @@ Carv3D is preparing a controlled extension interface. The application core remai
 
 ## Principles
 
-- Official community extensions are provided free of charge.
-- Their source code is publicly visible.
+- Official community extensions have publicly visible source code.
 - Every extension declares its permissions clearly.
 - New extensions and updates pass automated and manual review.
 - Published packages are built from the reviewed source and approved by Carv3D.

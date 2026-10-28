@@ -597,7 +597,7 @@ The public repository does not contain the MCP documentation; the beta package d
 
 ## 15. Extensions
 
-Carv3D is preparing a **controlled extension interface**; the application core stays closed. Official community extensions will be free of charge, their source code publicly visible, and every extension declares its permissions. New extensions and updates pass automated and manual review, and published packages are built from the reviewed source.
+Carv3D is preparing a **controlled extension interface**; the application core stays closed. Official community extensions will have publicly visible source code, and every extension declares its permissions. New extensions and updates pass automated and manual review, and published packages are built from the reviewed source.
 
 In this beta the menu **Extensions → Manage extensions …** exists: it shows installed extensions, their commands and permissions (read the document, create and change bodies and sketches, create files) and lets you install, switch off or remove one. **Install only extensions from sources you trust**; every step an extension performs appears in the history and can be undone. **There is no official extension directory yet and public submissions are not accepted yet.** Package validation, signatures, restricted permissions and a safe update path must be ready first. See [Extensions and community contributions](EXTENSIONS.md).
 

@@ -158,4 +158,4 @@ Jede Funktion ist ein Befehl: Oberfläche, Tastenkürzel und MCP-Server nutzen d
 
 ## Verfügbarkeit
 
-Der Build ist kein öffentlicher Download: Ausgewählte Bewerber erhalten Zugang zu einem kostenlosen 30-Tage-Test. [Auf der Carv3D-Webseite bewerben](https://carv3d.de/Beta.html#beta) oder die [Hinweise für Betatests](BETA_TESTING.de.md) lesen.
+Der Build ist kein öffentlicher Download: Ausgewählte Bewerber erhalten Zugang zur Beta. [Auf der Carv3D-Webseite bewerben](https://carv3d.de/Beta.html#beta) oder die [Hinweise für Betatests](BETA_TESTING.de.md) lesen.

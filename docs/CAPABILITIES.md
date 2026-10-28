@@ -158,4 +158,4 @@ Every function is a command: the interface, keyboard shortcuts and the MCP serve
 
 ## Availability
 
-The build is not a public download: selected applicants receive access for a free 30-day test. [Apply on the Carv3D website](https://carv3d.de/Beta.html#beta) or read the [beta testing guide](BETA_TESTING.md).
+The build is not a public download: selected applicants receive access to the beta. [Apply on the Carv3D website](https://carv3d.de/Beta.html#beta) or read the [beta testing guide](BETA_TESTING.md).

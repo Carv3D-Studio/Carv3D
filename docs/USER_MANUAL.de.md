@@ -597,7 +597,7 @@ Das öffentliche Repository enthält die MCP-Dokumentation nicht; das Beta-Paket
 
 ## 15. Erweiterungen
 
-Carv3D erhält eine **kontrollierte Erweiterungsschnittstelle**; der Anwendungskern bleibt geschlossen. Offizielle Community-Erweiterungen werden kostenlos angeboten, ihr Quellcode ist öffentlich einsehbar, und jede Erweiterung nennt ihre Berechtigungen. Aufnahme und Aktualisierung erfolgen erst nach automatischer und manueller Prüfung, und das veröffentlichte Paket wird aus dem geprüften Quellcode erstellt.
+Carv3D erhält eine **kontrollierte Erweiterungsschnittstelle**; der Anwendungskern bleibt geschlossen. Offizielle Community-Erweiterungen haben öffentlich einsehbaren Quellcode, und jede Erweiterung nennt ihre Berechtigungen. Aufnahme und Aktualisierung erfolgen erst nach automatischer und manueller Prüfung, und das veröffentlichte Paket wird aus dem geprüften Quellcode erstellt.
 
 In dieser Beta gibt es das Menü **Erweiterungen → Erweiterungen verwalten …**: Es zeigt installierte Erweiterungen, ihre Befehle und Berechtigungen (das Dokument lesen, Körper und Skizzen anlegen und ändern, Dateien erzeugen) und lässt dich eine installieren, ausschalten oder entfernen. **Installiere nur Erweiterungen aus Quellen, denen du vertraust**; jeder Schritt einer Erweiterung steht im Verlauf und lässt sich rückgängig machen. **Ein offizielles Erweiterungsverzeichnis gibt es noch nicht, und öffentliche Einreichungen werden noch nicht angenommen.** Zuerst müssen Paketprüfung, Signaturen, eingeschränkte Berechtigungen und ein sicherer Aktualisierungsweg fertig sein. Siehe [Erweiterungen und Community-Beiträge](EXTENSIONS.de.md).
 
