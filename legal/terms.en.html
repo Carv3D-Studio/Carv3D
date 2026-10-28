@@ -10,7 +10,7 @@ Jan Gina, trading as Carv3D Studio / Carv3D, c/o Autorenglück #53589, Albert-Ei
 
 ## What the demo is
 
-The Carv3D live demo is a **limited preview** running in your web browser. It is free for evaluation, including evaluation for business purposes. Loading it creates no subscription, payment obligation or beta invitation. Your browser downloads the compiled software and libraries needed to run it. Full beta access requires a separate invitation.
+The Carv3D live demo is a **limited preview** running in your web browser. It is meant for evaluation, including evaluation for business purposes. Loading it creates no beta invitation. Your browser downloads the compiled software and libraries needed to run it. Full beta access requires a separate invitation.
 
 ## What you may do
 
