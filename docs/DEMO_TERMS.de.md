@@ -10,7 +10,7 @@ Jan Gina, handelnd unter Carv3D Studio / Carv3D, c/o Autorenglück #53589, Alber
 
 ## Zweck und erlaubte Nutzung
 
-Die Demo ist eine kostenlose eingeschränkte Vorschau im Browser zum Ausprobieren, auch für geschäftliche Bewertungszwecke. Es entstehen weder Abonnement noch Zahlungspflicht oder Beta-Einladung. Der Browser lädt den übersetzten Programmcode und die benötigten Bibliotheken herunter. Die vollständige Beta setzt eine gesonderte Einladung voraus.
+Die Demo ist eine eingeschränkte Vorschau im Browser zum Ausprobieren, auch für geschäftliche Bewertungszwecke. Das Laden der Demo begründet keine Beta-Einladung. Der Browser lädt den übersetzten Programmcode und die benötigten Bibliotheken herunter. Die vollständige Beta setzt eine gesonderte Einladung voraus.
 
 Du darfst die verfügbaren Funktionen ausprobieren, die Demo verlinken und dein Ausprobieren in Screenshots und Aufnahmen zeigen. Dafür notwendige Downloads und Browser-Kopien sind erlaubt. Deine Rechte an eigenen Modellen bleiben bei dir; du überträgst sie durch die Nutzung nicht an uns. Für mitgelieferte Beispiele und Markenauftritte gelten die jeweiligen Rechte.
 
