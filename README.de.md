@@ -67,13 +67,18 @@ Carv3D bearbeitet echte Volumenkörper direkt und bringt die Generatoren und die
 
 | Alleinstellungsmerkmal | Was das praktisch bedeutet |
 | --- | --- |
+| **Vorhandene STL-Modelle ohne Verzerrung ändern** | Ein importiertes Netz zwischen zwei Ebenen dehnen oder kürzen (Smart Stretch), ohne dass Bohrungen, Fasen und Rundungen außerhalb der Dehnzone ihre Form verlieren. Ein Loch im Netz gegen ein passendes Schraubloch tauschen und einen Bereich bereinigen gibt es vorerst nur über die Befehlsschnittstelle (MCP), nicht als Menüeintrag. |
+| **Hardware mit einem Klick** | Schraublöcher, Gewindeeinsätze, Mutternaschen mit Schlitz, Magnettaschen und Kugellagersitze mit Druckzugaben, gesetzt auf die gewählte Fläche. Einzelne Lager- und Magnetmaße sind noch als unbestätigt gekennzeichnet. |
+| **Zero-Support-Konstruktion** | Tropfenbohrungen, Fasen an den Unterkanten und Opferbrücken in Senkungen, damit Teile ohne Stützmaterial drucken. |
+| **Print-in-Place-Gelenke und Scharniere** | Gelenke und Filmscharniere, die zusammengebaut drucken, und Lochmuster (Waben, Voronoi und weitere), die einen stabilen Rahmen um das Muster lassen. |
+| **Foto zu Organizer** | Aus dem Foto eines Werkzeugs wird eine Aussparung in einem Gridfinity-artigen Behälter (bisher an synthetischen Bildern geprüft). |
+| **Veredelungen, die den Körper formbar lassen** | Oberflächentexturen (zum Beispiel Rändelung), Innenrippen und Lochmuster liegen als Liste auf dem exakten Körper: Sie lassen sich ausschalten, entfernen und neu berechnen, und der Körper bleibt mit Rückgängig bearbeitbar. |
+| **Generatoren für Maker-Aufgaben** | Zweiteilige Gussform mit Trichter und Entlüftung, Kabelkanal- und Schlauch-Router, Platinen-Gehäuse (bisher eine Platine: Raspberry Pi 4 Model B), Zahnräder, Bohrschablonen. |
 | **Flächen ziehen, kein Konstruktionsbaum** | Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Bohrungen, Verrundungen und Aushöhlungen bleiben exakt. |
-| **Veredelungen, die den Körper formbar lassen** | Oberflächentexturen (zum Beispiel Rändelung), Innenrippen und Lochmuster sind nicht-zerstörende *Veredelungen*: Sie liegen als Liste auf dem exakten Körper, lassen sich ausschalten, entfernen und neu berechnen, und der Körper bleibt mit Rückgängig bearbeitbar. |
-| **Druckvorbereitung eingebaut** | Zero-Support-Optimierung (Tropfenbohrungen und Fasen statt Stützen), Druckpausen für eingedruckte Teile, Toleranz-Prüfkörper für Passungen, Modifier-Zonen für den Slicer im 3MF, Ausrichtungshilfe und eine Bauteil-Vorschau auf der Druckplatte des gewählten Druckers. |
-| **Generatoren für Maker-Aufgaben** | Zweiteilige Gussform mit Trichter und Entlüftung, Kabelkanal- und Schlauch-Router, Platinen-Gehäuse, Kugellager-Sitze und Zahnräder, Bohrschablonen, Foto-zu-Organizer, Print-in-Place-Gelenke und Filmscharniere. |
+| **Druckvorbereitung im Modell** | Bauteil-Vorschau auf der Druckplatte des gewählten Druckers, Ausrichtungshilfe, Toleranz-Prüfkörper, Druckpausen und Modifier-Zonen für den Slicer. Einiges davon können auch Slicer; der Unterschied ist, dass es Teil des Modells ist. Die Slicer-Metadaten sind noch nicht mit Referenzdateien eines Slicers geprüft. |
 | **Projekttyp Bausatz** | Ein Projekt als Bausatz markieren: Carv3D leitet aus den Teilen eine Bauanleitung mit Schrittfolge, Stückliste und Druckhinweisen ab. |
-| **MCP-first** | Jede Funktion ist ein Befehl, Oberfläche und lokaler MCP-Server nutzen dieselben Befehle. Nichts existiert nur als Mausklick. |
-| **Community-Erweiterungen** | Ein Erweiterungs-SDK lässt geprüfte Erweiterungen wie eingebaute Funktionen in Menüs und Befehlssuche erscheinen. Die erste, Mesh Mix-S2C, ist eine Open-Source-Erweiterung (AGPL-3.0-only). |
+| **MCP-first** | Jede Funktion ist ein Befehl, Oberfläche und lokaler MCP-Server nutzen dieselben Befehle. Einzelne Funktionen (siehe oben) sind noch nicht über die Menüs erreichbar. |
+| **Community-Erweiterungen** | Ein Erweiterungs-SDK lässt geprüfte Erweiterungen wie eingebaute Funktionen in Menüs und Befehlssuche erscheinen. Die erste, Mesh Mix-S2C, ist eine Open-Source-Erweiterung (AGPL-3.0-only); sie braucht ein separat installiertes Programm und läuft nicht im Browser. |
 | **Lernen eingebaut** | „So geht’s“-Clips im Tooltip (Deutsch und Englisch) und eine geführte Tour. |
 | **Deine Dateien bleiben bei dir** | Carv3D läuft im Browser und arbeitet auf deinem eigenen Gerät. |
 

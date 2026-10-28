@@ -67,13 +67,18 @@ Carv3D edits true solid bodies directly and adds the generators and print prepar
 
 | Distinctive feature | What it means in practice |
 | --- | --- |
+| **Edit existing STL models without distortion** | Stretch or shorten an imported mesh between two planes (Smart Stretch) while holes, chamfers and fillets outside the stretch zone keep their shape. Swapping a mesh hole for a fitting screw hole and cleaning up a region are, for now, available through the command interface (MCP) only, not as menu entries. |
+| **Hardware in one click** | Screw holes, heat-set inserts, nut pockets with slot, magnet pockets and bearing seats with printing allowances, placed on the face you pick. Some bearing and magnet dimensions are still marked unverified. |
+| **Zero-support design** | Teardrop holes, chamfers on the bottom edges and sacrificial bridge layers in counterbores, so parts print without support material. |
+| **Print-in-place joints and hinges** | Joints and living hinges that print assembled, and perforation patterns (hexagons, Voronoi and others) that keep a solid frame around the pattern. |
+| **Photo to organizer** | Turn a photo of a tool into a pocket in a Gridfinity-style container (tested on synthetic images so far). |
+| **Finishes that keep the body editable** | Surface textures (such as knurling), internal ribbing and perforation patterns sit as a list on the exact body: they can be switched off, removed and recalculated, and the body stays editable with undo. |
+| **Generators for maker tasks** | Two-part mould with funnel and vents, cable and hose channel router, electronics enclosure (one board so far: Raspberry Pi 4 Model B), gears, drill jigs. |
 | **Pull faces, no feature tree** | Click a face, drag it, type an exact value in millimetres and go on. Holes, fillets and shells stay exact. |
-| **Finishes that keep the body editable** | Surface textures (such as knurling), internal ribbing and perforation patterns are non-destructive *finishes*: they sit as a list on the exact body, can be switched off, removed and recalculated, and the body stays editable with undo. |
-| **Print preparation built in** | Zero-support optimization (teardrop holes and chamfers instead of supports), print pauses for embedded hardware, tolerance test bodies for fits, slicer modifier zones in the 3MF, orientation guidance, and a part preview on the selected printer's build plate. |
-| **Generators for maker tasks** | Two-part mould with funnel and vents, cable and hose channel router, electronics enclosure, bearing seats and gears, drill jigs, photo-to-organizer, print-in-place joints and living hinges. |
+| **Print preparation in the model** | Part preview on the selected printer's build plate, orientation guidance, tolerance test bodies, print pauses and slicer modifier zones. Several of these overlap with slicer features; the difference is that they are part of the model. Slicer metadata is not yet checked against slicer reference files. |
 | **Kit project type** | Mark a project as a kit and Carv3D derives a build manual with step order, bill of materials and print notes from the parts. |
-| **MCP-first** | Every function is a command, and the interface and the local MCP server use the same commands. Nothing exists only as a mouse click. |
-| **Community extensions** | An extension SDK lets reviewed extensions appear in menus and command search like built-in functions. The first one, Mesh Mix-S2C, is an open-source extension (AGPL-3.0-only). |
+| **MCP-first** | Every function is a command, and the interface and the local MCP server use the same commands. A few functions (see above) are not yet reachable from the menus. |
+| **Community extensions** | An extension SDK lets reviewed extensions appear in menus and command search like built-in functions. The first one, Mesh Mix-S2C, is an open-source extension (AGPL-3.0-only) that needs a separately installed program and does not run in the browser. |
 | **Learning built in** | "How-to" clips in the tooltips (German and English) and a guided tour. |
 | **Your files stay with you** | Carv3D runs in the browser and works on your own device. |
 
