@@ -43,6 +43,7 @@ Diese Seite fasst die Funktionen der aktuellen privaten frühen Beta zusammen. D
 - Symmetrie, Punktbearbeitung, Unterteilung und lokale Verfeinerung
 - berechnete Anzeigenormalen erhalten glatte Flächen und scharfe Kanten
 - automatische Wahl zwischen exakter und netzbasierter Berechnung für dichte Schnitte und komplexe Körper
+- **Vorhandene STL-Modelle ändern:** Smart Stretch dehnt oder kürzt ein Netz zwischen zwei Ebenen, ohne Bohrungen und Fasen außerhalb der Dehnzone zu verzerren (*Verfügbar*); „Bohrung ersetzen“ tauscht ein Loch gegen ein passendes Schraubloch und „Detail entfernen“ glättet ein Logo oder kleines Relief weg, beides über Kontextleiste und Maker-Menü bei Netzkörpern (*Verfügbar*; ohne Live-Vorschau, Bestätigen im Dialog, Rückgängig mit Strg+Z)
 
 ## Maker-Hardware
 

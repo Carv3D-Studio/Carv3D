@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.900 --> 00:00:04.000
+Ein komplettes Gehäuse für den Raspberry Pi 4 Model B, gebaut in Carv3D – die lange Bauphase läuft im Zeitraffer
+
+00:00:04.000 --> 00:00:16.000
+Zuerst „Mein Drucker“: Drucker und Material wählen. Das Druckbett gilt für das ganze Projekt
+
+00:00:16.000 --> 00:00:30.000
+Maker, Generatoren, „Gehäuse für Platine“: Schraubdeckel und Wabenlüftung wählen, ein Klick
+
+00:00:30.000 --> 00:00:35.000
+Unterschale mit Abstandshaltern und Steckeröffnungen, dazu der Deckel mit Lüftung: druckfertig auf dem Bett
+
+00:00:35.000 --> 00:00:44.000
+Zeitraffer: Ein Kabelhalter entsteht. Quader anlegen, Pfad auf der Fläche zeichnen, Kabelkanal schneiden
+
+00:00:44.000 --> 00:00:50.000
+Ergebnis: Rinne für ein Kabel von 4 mm, Ösen für Kabelbinder und ein Klemm-Labyrinth als Zugentlastung
+
+00:00:50.000 --> 00:00:58.800
+Zeitraffer: Rändelung auf die linke Wand, Wabenlochung in die Rückwand, dazu Farben für die Körper
+
+00:00:58.800 --> 00:01:07.800
+Die Flächen tragen die Muster, der Körper bleibt exakt: Rändelung links, Lochung hinten
+
+00:01:07.800 --> 00:01:15.800
+Bauteil-Vorschau: Jedes Teil einzeln auf dem Druckbett des gewählten Druckers prüfen
+
+00:01:15.800 --> 00:01:25.800
+Erst nur die Unterschale, dann nur der Deckel: beide liegen innerhalb des Druckbetts
+
+00:01:25.800 --> 00:01:32.800
+Export als 3MF: Gehäuse, Deckel und Kabelhalter mit Farben, direkt für den Slicer
+
+00:01:32.800 --> 00:01:44.800
+Alles liegt druckfertig auf dem Bett: Gehäuse, Deckel und Kabelhalter
+
+00:01:44.800 --> 00:01:48.500
+Carv3D – lokale 3D-Modellierung für 3D-Druck und Maker · carv3d.de

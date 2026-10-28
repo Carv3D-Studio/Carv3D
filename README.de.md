@@ -4,6 +4,8 @@
 
 # Carv3D
 
+**Entwickelt für den 3D-Druck.** Ein Direktmodellierer für Teile, die funktionieren müssen.
+
 [English](README.md) · **Deutsch**
 
 <p align="center">
@@ -25,19 +27,15 @@ Carv3D verbindet die direkte Bearbeitung echter Volumenkörper mit Werkzeugen f�
 
 ## Der Film
 
-Vom Quader zum druckfertigen Teil, aufgenommen in der echten Anwendung, mit Untertiteln: Schraubenbohrung auf einer schrägen Fläche, Flächenfarben, Kante versetzen, Fläche teilen, Radius per Ziehen, Generator „Box mit Deckel“ und der 3MF-Export.
+Ein Gehäuse für den Raspberry Pi 4 Model B in etwa zwei Minuten, teilweise im Zeitraffer, aufgenommen in der echten Anwendung mit Untertiteln: der Gehäuse-Generator mit Lüftung, ein Kabelkanal mit Zugentlastung, Rändelung und eine gelochte Wand, die Bauteil-Vorschau auf der Druckplatte des gewählten Druckers und der 3MF-Export.
 
-**Deutsch**
+[![Carv3D-Film: ein Raspberry-Pi-Gehäuse vom leeren Druckbett zu druckfertigen Teilen](docs/media/carv3d-pi-case-poster.de.png)](docs/media/carv3d-pi-case.de.webm)
 
-https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
-
-**English**
-
-https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
+[Film auf Deutsch ansehen](docs/media/carv3d-pi-case.de.webm) · [englische Fassung](docs/media/carv3d-pi-case.en.webm)
 
 **Selbst ausprobieren:** Die eingeschränkte [Live-Demo](https://carv3d-studio.github.io/Carv3D/) läuft im Browser, ohne Download und ohne Konto. Speichern, Öffnen, Importieren und Exportieren sind dort gesperrt, und nichts wird gespeichert; siehe die [Bedingungen](docs/DEMO_TERMS.de.md) und den [Datenschutzhinweis](docs/DEMO_PRIVACY.de.md).
 
-Download: [Deutsch (MP4)](docs/media/carv3d-showcase.de.mp4) · [englische Fassung (MP4)](docs/media/carv3d-showcase.en.mp4) · [Untertitel (WebVTT)](docs/media/carv3d-showcase.de.vtt) · [Beispielmodell mit Flächenfarben (3MF)](docs/media/carv3d-showcase-example.3mf)
+Download: [Deutsch (WebM)](docs/media/carv3d-pi-case.de.webm) · [Englisch (WebM)](docs/media/carv3d-pi-case.en.webm) · [Untertitel (WebVTT)](docs/media/carv3d-pi-case.de.vtt) · [Beispielmodell (3MF)](docs/media/carv3d-pi-case-example.3mf)
 
 <p align="center">
   <img src="docs/assets/carv3d-workspace.webp" alt="Carv3D-Arbeitsumgebung mit Maker Fox, Maßen und Schnittansicht" width="960" />
@@ -67,7 +65,7 @@ Carv3D bearbeitet echte Volumenkörper direkt und bringt die Generatoren und die
 
 | Alleinstellungsmerkmal | Was das praktisch bedeutet |
 | --- | --- |
-| **Vorhandene STL-Modelle ohne Verzerrung ändern** | Ein importiertes Netz zwischen zwei Ebenen dehnen oder kürzen (Smart Stretch), ohne dass Bohrungen, Fasen und Rundungen außerhalb der Dehnzone ihre Form verlieren. Ein Loch im Netz gegen ein passendes Schraubloch tauschen und einen Bereich bereinigen gibt es vorerst nur über die Befehlsschnittstelle (MCP), nicht als Menüeintrag. |
+| **Vorhandene STL-Modelle ohne Verzerrung ändern** | Ein importiertes Netz zwischen zwei Ebenen dehnen oder kürzen (Smart Stretch), ohne dass Bohrungen, Fasen und Rundungen außerhalb der Dehnzone ihre Form verlieren. Ein Loch im Netz gegen ein passendes Schraubloch tauschen und kleine Details entfernen geht über die Kontextleiste und das Maker-Menü. |
 | **Hardware mit einem Klick** | Schraublöcher, Gewindeeinsätze, Mutternaschen mit Schlitz, Magnettaschen und Kugellagersitze mit Druckzugaben, gesetzt auf die gewählte Fläche. Einzelne Lager- und Magnetmaße sind noch als unbestätigt gekennzeichnet. |
 | **Zero-Support-Konstruktion** | Tropfenbohrungen, Fasen an den Unterkanten und Opferbrücken in Senkungen, damit Teile ohne Stützmaterial drucken. |
 | **Print-in-Place-Gelenke und Scharniere** | Gelenke und Filmscharniere, die zusammengebaut drucken, und Lochmuster (Waben, Voronoi und weitere), die einen stabilen Rahmen um das Muster lassen. |
@@ -77,7 +75,7 @@ Carv3D bearbeitet echte Volumenkörper direkt und bringt die Generatoren und die
 | **Flächen ziehen, kein Konstruktionsbaum** | Fläche anklicken, ziehen, ein genaues Maß in Millimetern eintippen und weitermachen. Bohrungen, Verrundungen und Aushöhlungen bleiben exakt. |
 | **Druckvorbereitung im Modell** | Bauteil-Vorschau auf der Druckplatte des gewählten Druckers, Ausrichtungshilfe, Toleranz-Prüfkörper, Druckpausen und Modifier-Zonen für den Slicer. Einiges davon können auch Slicer; der Unterschied ist, dass es Teil des Modells ist. Die Slicer-Metadaten sind noch nicht mit Referenzdateien eines Slicers geprüft. |
 | **Projekttyp Bausatz** | Ein Projekt als Bausatz markieren: Carv3D leitet aus den Teilen eine Bauanleitung mit Schrittfolge, Stückliste und Druckhinweisen ab. |
-| **MCP-first** | Jede Funktion ist ein Befehl, Oberfläche und lokaler MCP-Server nutzen dieselben Befehle. Einzelne Funktionen (siehe oben) sind noch nicht über die Menüs erreichbar. |
+| **MCP-first** | Jede Funktion ist ein Befehl, Oberfläche und lokaler MCP-Server nutzen dieselben Befehle. |
 | **Community-Erweiterungen** | Ein Erweiterungs-SDK lässt geprüfte Erweiterungen wie eingebaute Funktionen in Menüs und Befehlssuche erscheinen. Die erste, Mesh Mix-S2C, ist eine Open-Source-Erweiterung (AGPL-3.0-only); sie braucht ein separat installiertes Programm und läuft nicht im Browser. |
 | **Lernen eingebaut** | „So geht’s“-Clips im Tooltip (Deutsch und Englisch) und eine geführte Tour. |
 | **Deine Dateien bleiben bei dir** | Carv3D läuft im Browser und arbeitet auf deinem eigenen Gerät. |

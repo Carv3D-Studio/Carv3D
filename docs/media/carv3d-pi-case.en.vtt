@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.900 --> 00:00:03.900
+A complete case for the Raspberry Pi 4 Model B, built in Carv3D – the long build phase runs as a time-lapse
+
+00:00:03.900 --> 00:00:15.900
+First "My printer": choose printer and material. The print bed applies to the whole project
+
+00:00:15.900 --> 00:00:29.900
+Maker, Generators, "Case for a circuit board": choose screw lid and honeycomb vents, one click
+
+00:00:29.900 --> 00:00:34.900
+Bottom shell with standoffs and port openings, plus the lid with vents: ready to print on the bed
+
+00:00:34.900 --> 00:00:41.300
+Time-lapse: a cable holder takes shape. Add a box, draw a path on the face, cut the cable channel
+
+00:00:41.300 --> 00:00:47.200
+Result: a groove for a 4 mm cable, loops for cable ties and a squeeze labyrinth as strain relief
+
+00:00:47.200 --> 00:00:56.000
+Time-lapse: knurling on the left wall, honeycomb holes in the back wall, plus colors for the bodies
+
+00:00:56.000 --> 00:01:04.400
+The faces carry the patterns, the body stays exact: knurling on the left, holes at the back
+
+00:01:04.400 --> 00:01:12.400
+Part preview: check each part on the print bed of the chosen printer
+
+00:01:12.400 --> 00:01:22.400
+First only the bottom shell, then only the lid: both lie inside the print bed
+
+00:01:22.400 --> 00:01:29.400
+Export as 3MF: case, lid and cable holder with colors, straight for the slicer
+
+00:01:29.400 --> 00:01:41.400
+Everything lies ready to print on the bed: case, lid and cable holder
+
+00:01:41.400 --> 00:01:45.200
+Carv3D – local 3D modelling for 3D printing and makers · carv3d.de

@@ -4,6 +4,8 @@
 
 # Carv3D
 
+**Developed for 3D printing.** A direct modeler for parts that have to work.
+
 **English** · [Deutsch](README.de.md)
 
 <p align="center">
@@ -25,19 +27,15 @@ Carv3D combines direct editing of true solid bodies with tools aimed at real wor
 
 ## Watch the film
 
-From a box to a printable part, recorded in the real application, with subtitles: a screw hole on a slanted face, face colours, offset edge, split face, dragging a radius, the box-with-lid generator and the 3MF export.
+A Raspberry Pi 4 Model B case in about two minutes, partly in time-lapse, recorded in the real application with subtitles: the case generator with vents, a cable channel with strain relief, knurling and a perforated wall, the part preview on the selected printer's build plate and the 3MF export.
 
-**English**
+[![Carv3D film: a Raspberry Pi case from an empty build plate to print-ready parts](docs/media/carv3d-pi-case-poster.en.png)](docs/media/carv3d-pi-case.en.webm)
 
-https://github.com/user-attachments/assets/90efad65-387d-4dd9-abd9-4e7d067f6782
-
-**Deutsch**
-
-https://github.com/user-attachments/assets/ac18db1a-4e18-47b0-b93e-7630236aeb3d
+[Watch the English film](docs/media/carv3d-pi-case.en.webm) · [German version](docs/media/carv3d-pi-case.de.webm)
 
 **Try it yourself:** the restricted [live demo](https://carv3d-studio.github.io/Carv3D/) runs in your browser, with no download and no account. Saving, opening, importing and exporting are disabled there, and nothing is stored; see the [demo terms](docs/DEMO_TERMS.md) and the [privacy notice](docs/DEMO_PRIVACY.md).
 
-Download: [English (MP4)](docs/media/carv3d-showcase.en.mp4) · [German version (MP4)](docs/media/carv3d-showcase.de.mp4) · [Subtitles (WebVTT)](docs/media/carv3d-showcase.en.vtt) · [Example model with face colours (3MF)](docs/media/carv3d-showcase-example.3mf)
+Download: [English (WebM)](docs/media/carv3d-pi-case.en.webm) · [German (WebM)](docs/media/carv3d-pi-case.de.webm) · [Subtitles (WebVTT)](docs/media/carv3d-pi-case.en.vtt) · [Example model (3MF)](docs/media/carv3d-pi-case-example.3mf)
 
 <p align="center">
   <img src="docs/assets/carv3d-workspace.webp" alt="Carv3D workspace showing the Maker Fox, dimensions and a section view" width="960" />
@@ -67,7 +65,7 @@ Carv3D edits true solid bodies directly and adds the generators and print prepar
 
 | Distinctive feature | What it means in practice |
 | --- | --- |
-| **Edit existing STL models without distortion** | Stretch or shorten an imported mesh between two planes (Smart Stretch) while holes, chamfers and fillets outside the stretch zone keep their shape. Swapping a mesh hole for a fitting screw hole and cleaning up a region are, for now, available through the command interface (MCP) only, not as menu entries. |
+| **Edit existing STL models without distortion** | Stretch or shorten an imported mesh between two planes (Smart Stretch) while holes, chamfers and fillets outside the stretch zone keep their shape. Swapping a mesh hole for a fitting screw hole and removing small details work from the context bar and the Maker menu. |
 | **Hardware in one click** | Screw holes, heat-set inserts, nut pockets with slot, magnet pockets and bearing seats with printing allowances, placed on the face you pick. Some bearing and magnet dimensions are still marked unverified. |
 | **Zero-support design** | Teardrop holes, chamfers on the bottom edges and sacrificial bridge layers in counterbores, so parts print without support material. |
 | **Print-in-place joints and hinges** | Joints and living hinges that print assembled, and perforation patterns (hexagons, Voronoi and others) that keep a solid frame around the pattern. |
@@ -77,7 +75,7 @@ Carv3D edits true solid bodies directly and adds the generators and print prepar
 | **Pull faces, no feature tree** | Click a face, drag it, type an exact value in millimetres and go on. Holes, fillets and shells stay exact. |
 | **Print preparation in the model** | Part preview on the selected printer's build plate, orientation guidance, tolerance test bodies, print pauses and slicer modifier zones. Several of these overlap with slicer features; the difference is that they are part of the model. Slicer metadata is not yet checked against slicer reference files. |
 | **Kit project type** | Mark a project as a kit and Carv3D derives a build manual with step order, bill of materials and print notes from the parts. |
-| **MCP-first** | Every function is a command, and the interface and the local MCP server use the same commands. A few functions (see above) are not yet reachable from the menus. |
+| **MCP-first** | Every function is a command, and the interface and the local MCP server use the same commands. |
 | **Community extensions** | An extension SDK lets reviewed extensions appear in menus and command search like built-in functions. The first one, Mesh Mix-S2C, is an open-source extension (AGPL-3.0-only) that needs a separately installed program and does not run in the browser. |
 | **Learning built in** | "How-to" clips in the tooltips (German and English) and a guided tour. |
 | **Your files stay with you** | Carv3D runs in the browser and works on your own device. |

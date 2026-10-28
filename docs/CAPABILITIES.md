@@ -43,6 +43,7 @@ This page summarizes the functions available in the current private early-beta b
 - symmetry, point editing, subdivision and local refinement
 - automatic display normals preserve smooth surfaces and sharp edges
 - automatic exact or mesh calculation paths for dense cuts and complex bodies
+- **Edit existing STL models:** Smart Stretch lengthens or shortens a mesh between two planes without distorting holes and chamfers outside the stretch zone (*Available*); "Replace hole" swaps a hole for a fitting screw hole and "Remove detail" smooths away a logo or small relief, both from the context bar and the Maker menu on mesh bodies (*Available*; no live preview, confirm in a dialog, undo with Ctrl+Z)
 
 ## Maker hardware
 
