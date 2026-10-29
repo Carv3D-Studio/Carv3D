@@ -1,4 +1,4 @@
-import{n as e,r as t,t as n}from"./index-BczwKOW2.js";var r=`/Carv3D/assets/start-BCkMKHa6.carv`,i=`demo-banner`,a=`
+import{n as e,r as t,t as n}from"./index-Dh0JwGUl.js";var r=`/Carv3D/assets/start-BCkMKHa6.carv`,i=`demo-banner`,a=`
 #${i} { flex: none; display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;
   min-height: 28px; padding: 3px 12px; background: #2b2212; border-bottom: 1px solid #6e5521; color: #f3d98f; font-size: 12px; z-index: 50; }
 #${i} strong { color: #ffe9aa; letter-spacing: 0.01em; }
