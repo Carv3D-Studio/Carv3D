@@ -1,5 +1,5 @@
 Carv3D live demo (restricted preview)
-Source commit: 300039f
+Source commit: 7869cb5
 Base path: /Carv3D/
 Node: v24.12.0
 Third-party licences: THIRD_PARTY_NOTICES.md
